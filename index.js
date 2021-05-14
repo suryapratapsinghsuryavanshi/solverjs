@@ -4,7 +4,10 @@ let info = () => {
         "Find GCD": 'getGcd(arg1, arg2)',
         // "Find LCM": 'getLcm(arg1, arg2)',
         "Find Fibonnaci": 'getFib(arg_n)',
-        "Print Fibonacci": 'printFib(n)'
+        "Print Fibonacci": 'printFib(n)',
+        "Sum Of All Digit": 'sumAllDigit(n)',
+        "Reverse Number": 'reverseNumber',
+        "Check Armstrong number": 'isArmstrong(n)'
     });
 }
 
@@ -35,9 +38,28 @@ let printFib = (n) => {
     return("Fibonacci Series : "+st);
 }
 
+let sumAllDigit = (n) => {
+    let sum = 0;
+    n.toString().split('').map(x => sum+=parseInt(x))
+    return(sum)
+}
+
+let reverseNumber = (n) => {
+    return parseInt(n.toString().split('').reverse().join(''))
+}
+
+let isArmstrong = (n) => {
+    let sum = 0;
+    n.toString().split('').map(x => sum += parseInt(x) * parseInt(x) * parseInt(x))
+    return n === sum
+}
+
 module.exports = {
     info,
     getFib,
     getGcd,
-    printFib
+    printFib,
+    sumAllDigit,
+    reverseNumber,
+    isArmstrong
 }
