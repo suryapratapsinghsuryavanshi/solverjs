@@ -2,7 +2,7 @@
 This package is a combination of many useful functions.
 
 ## Installation
-    `npm install solverjs`
+    npm install solverjs
 
 ## Usage
     var solverjs = require('solverjs');
