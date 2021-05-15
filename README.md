@@ -2,11 +2,10 @@
 This package is a combination of many useful functions.
 
 ## Installation
-Using npm:
-    ```shell
-    $ npm i -g npm
-    $ npm i lodash
-    ```
+### Using npm:
+    npm i solverjs
+    npm i -g solverjs
+    npm i --save solverjs
 
 ## Usage In NodeJs
     // Load teh full solverjs.
