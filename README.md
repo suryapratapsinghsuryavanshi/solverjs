@@ -3,8 +3,11 @@ This package is a combination of many useful functions.
 
 ## Installation
 Using npm:
-    $ npm i solverjs
-    $ npm i --save solverjs
+    ```shell
+$ npm i -g solverjs
+$ npm i solverjs
+$ npm i --save solverjs
+```
 
 ## Usage In NodeJs
     // Load teh full solverjs.
