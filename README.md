@@ -1,4 +1,4 @@
-# solverjs v1.1.2
+# solverjs v1.1.3
 This package is a combination of many useful functions.
 
 ## Installation
