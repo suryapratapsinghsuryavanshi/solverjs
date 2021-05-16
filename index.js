@@ -7,7 +7,13 @@ let info = () => {
         "Print Fibonacci": 'printFib(n)',
         "Sum Of All Digit": 'sumAllDigit(n)',
         "Reverse Number": 'reverseNumber',
-        "Check Armstrong number": 'isArmstrong(n)'
+        "Check Armstrong number": 'isArmstrong(n)',
+        "Sum of n numbers": 'sumOfN(n)',
+        "Factorial": 'fac(n)',
+        "Power x^y": 'pow(x, y)',
+        "Lenght of string or numbers": 'len(str/number)',
+        "Check given number prime or not": 'isPrime(n)',
+        "Check the both number co-prime or not.": 'isCoPrime(x, y)'
     });
 }
 
@@ -54,6 +60,35 @@ let isArmstrong = (n) => {
     return n === sum
 }
 
+let sumOfN = (n) => {
+    return n == 1 ? n : n + sumOfN(n-1);
+}
+
+let fac = (n) => {
+    return n == 1 ? n : n * fac(n-1);
+}
+
+let pow = (x, y) => {
+    return y == 0 ? 1 : x * pow(x, y-1);
+}
+
+let len = (x) => {
+    return x.toString().length;
+}
+
+let isPrime = (x) => {
+    if(x == 1) return false;
+    for(let i=x-1; i>=2; i--)
+        if(x % i == 0)
+            return false;
+    return true;
+
+}
+
+let isCoPrime = (x, y) => {
+    return getGcd(x, y) == 1;
+}
+
 module.exports = {
     info,
     getFib,
@@ -61,5 +96,11 @@ module.exports = {
     printFib,
     sumAllDigit,
     reverseNumber,
-    isArmstrong
+    isArmstrong,
+    sumOfN,
+    fac,
+    pow,
+    len,
+    isPrime,
+    isCoPrime
 }
