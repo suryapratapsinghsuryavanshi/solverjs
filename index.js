@@ -16,7 +16,10 @@ let info = () => {
         "Check the both number co-prime or not.": 'isCoPrime(x, y)',
         "Convert the Hexadecimal to Decimal number system.": 'hexToDec(hex)',
         "Convert the Hexadecimal to Octal number system.": 'hexToOct(hex)',
-        "Convert the Hexadecimal to Binary number system.": 'hexToBin(hex)'
+        "Convert the Hexadecimal to Binary number system.": 'hexToBin(hex)',
+        "Convert the Decimal to Hexadecimal number system.": 'decToHex(hex)',
+        "Convert the Decimal to Octal number system.": 'decToOct(hex)',
+        "Convert the Decimal to Binary number system.": 'decToBin(hex)'
     });
 }
 
@@ -116,6 +119,10 @@ let hexToDec = (hax) => Base(hax, 16);
 let hexToOct = (hex) => DecToBase(Base(hex, 16), 8);
 let hexToBin = (hex) => DecToBase(Base(hex, 16), 2);
 
+let decToHex = (dec) => DecToBase(dec, 16);
+let decToOct = (dec) => DecToBase(dec, 8);
+let decToBin = (dec) => DecToBase(dec, 2);
+
 module.exports = {
     info,
     getFib,
@@ -132,5 +139,8 @@ module.exports = {
     isCoPrime,
     hexToDec,
     hexToOct,
-    hexToBin
+    hexToBin,
+    decToHex,
+    decToOct,
+    decToBin
 }

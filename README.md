@@ -113,3 +113,18 @@ We all know we have very frequently is number system conversion in programming, 
     // The hexToBin function are take a hexadecimal value and return binary value.
     console.log(solverjs.hexToBin(18));
     // The output is : 11000
+
+#### Decimal to Hexadecimal
+    // The decToHex function are take a decimal value and return hexadecimal value.
+    console.log(solverjs.decToHex(18));
+    // The output is : 12
+
+#### Decimal to Octal
+    // The decToOct function are take a decimal value and return octal value.
+    console.log(solverjs.decToOct(18));
+    // The output is : 22
+
+#### Decimal to Binary
+    // The decToBin function are take a decimal value and return binary value.
+    console.log(solverjs.decToBin(18));
+    // The output is : 10010
