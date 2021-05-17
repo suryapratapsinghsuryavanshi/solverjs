@@ -15,7 +15,7 @@ This package is a combination of many useful functions.
     // The 8'th fibonacci number is 8.
     // Output should be : 21
 
-## All Functions
+## All Commonly used Functions
 ### info
     // The info function are give the information about the solverjs.
     solverjs.info();
@@ -86,3 +86,30 @@ This package is a combination of many useful functions.
     // acording the both number are co-prime or not.
     console.log(solverjs.isCoPrime(13, 34));
     // The output is : true
+
+
+## Number System Conversion
+We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
+
+### Number system are four types
+- Hexadecimal Number System   [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F ]
+- Decimal Number System       [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
+- Octal Number System         [ 0, 1, 2, 3, 4, 5, 6, 7 ]
+- Binary Number System        [ 0, 1 ] 
+
+### Number system Conversion Methods
+
+#### Hexadecimal to Decimal
+    // The hexToDec function are take a decimal value and return hexadecimal value.
+    console.log(solverjs.hexToDec(18));
+    // The output is : 24
+
+#### Hexadecimal to Octal
+    // The hexToOct function are take a decimal value and return octal value.
+    console.log(solverjs.hexToOct(18));
+    // The output is : 30
+
+#### Hexadecimal to Binary
+    // The hexToBin function are take a decimal value and return binary value.
+    console.log(solverjs.hexToBin(18));
+    // The output is : 11000

@@ -13,7 +13,10 @@ let info = () => {
         "Power x^y": 'pow(x, y)',
         "Lenght of string or numbers": 'len(str/number)',
         "Check given number prime or not": 'isPrime(n)',
-        "Check the both number co-prime or not.": 'isCoPrime(x, y)'
+        "Check the both number co-prime or not.": 'isCoPrime(x, y)',
+        "Convert the Hexadecimal to Decimal number system.": 'hexToDec(hex)',
+        "Convert the Hexadecimal to Octal number system.": 'hexToOct(hex)',
+        "Convert the Hexadecimal to Binary number system.": 'hexToBin(hex)'
     });
 }
 
@@ -89,6 +92,30 @@ let isCoPrime = (x, y) => {
     return getGcd(x, y) == 1;
 }
 
+let Base = (number, base) => {
+    value = 0
+    p = len(number) - 1;
+    for(let i=0;i<len(number);i++){
+        value += parseInt(number.toString()[i]) * pow(base, p);
+        p--;
+    }
+    return value;
+}
+
+let DecToBase = (number, base) => {
+    value = ''
+    while(number >= base){
+        value += number % base;
+        number = Math.floor(number / base)
+    }
+    value += number;
+    return parseInt(reverseNumber(value));
+}
+
+let hexToDec = (hax) => Base(hax, 16);
+let hexToOct = (hex) => DecToBase(Base(hex, 16), 8);
+let hexToBin = (hex) => DecToBase(Base(hex, 16), 2);
+
 module.exports = {
     info,
     getFib,
@@ -102,5 +129,8 @@ module.exports = {
     pow,
     len,
     isPrime,
-    isCoPrime
+    isCoPrime,
+    hexToDec,
+    hexToOct,
+    hexToBin
 }
