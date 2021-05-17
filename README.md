@@ -100,16 +100,16 @@ We all know we have very frequently is number system conversion in programming, 
 ### Number system Conversion Methods
 
 #### Hexadecimal to Decimal
-    // The hexToDec function are take a decimal value and return hexadecimal value.
+    // The hexToDec function are take a hexadecimal value and return decimal value.
     console.log(solverjs.hexToDec(18));
     // The output is : 24
 
 #### Hexadecimal to Octal
-    // The hexToOct function are take a decimal value and return octal value.
+    // The hexToOct function are take a hexadecimal value and return octal value.
     console.log(solverjs.hexToOct(18));
     // The output is : 30
 
 #### Hexadecimal to Binary
-    // The hexToBin function are take a decimal value and return binary value.
+    // The hexToBin function are take a hexadecimal value and return binary value.
     console.log(solverjs.hexToBin(18));
     // The output is : 11000
