@@ -128,3 +128,33 @@ We all know we have very frequently is number system conversion in programming, 
     // The decToBin function are take a decimal value and return binary value.
     console.log(solverjs.decToBin(18));
     // The output is : 10010
+
+#### Octal to Hexadecimal
+    // The octToHex function are take a octal value and return hexadecimal value.
+    console.log(solverjs.octToHex(11236));
+    // The output is : 129E
+
+#### Octal to Decimal
+    // The octToDec function are take a octal value and return decimal value.
+    console.log(solverjs.octToDec(11236));
+    // The output is : 4766
+
+#### Octal to Binary
+    // The octToBin function are take a octal value and return binary value.
+    console.log(solverjs.octToBin(11236));
+    // The output is : 1001010011110
+
+#### Binary to Hexadecimal
+    // The binToHex function are take a binary value and return hexadecimal value.
+    console.log(solverjs.binToHex('010110101'));
+    // The output is : B5
+
+#### Binary to Decimal
+    // The binToDec function are take a binary value and return decimal value.
+    console.log(solverjs.binToDec('010110101'));
+    // The output is : 181
+
+#### Binary to Octal
+    // The binToOct function are take a binary value and return octal value.
+    console.log(solverjs.binToOct('010110101'));
+    // The output is : 265

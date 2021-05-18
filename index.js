@@ -19,7 +19,13 @@ let info = () => {
         "Convert the Hexadecimal to Binary number system.": 'hexToBin(hex)',
         "Convert the Decimal to Hexadecimal number system.": 'decToHex(hex)',
         "Convert the Decimal to Octal number system.": 'decToOct(hex)',
-        "Convert the Decimal to Binary number system.": 'decToBin(hex)'
+        "Convert the Decimal to Binary number system.": 'decToBin(hex)',
+        "Convert the Octal to Hexadecimal number system.": 'octToHex(oct)',
+        "Convert the Octal to Decimal number system.": 'octToDec(oct)',
+        "Convert the Octal to Binary number system.": 'octToBin(oct)',
+        "Convert the Binary to Hexadecimal number system.": 'binToHex(bin)',
+        "Convert the Binary to Decimal number system.": 'binToDec(bin)',
+        "Convert the Binary to Octal number system.": 'binToOct(bin)',
     });
 }
 
@@ -95,33 +101,21 @@ let isCoPrime = (x, y) => {
     return getGcd(x, y) == 1;
 }
 
-let Base = (number, base) => {
-    value = 0
-    p = len(number) - 1;
-    for(let i=0;i<len(number);i++){
-        value += parseInt(number.toString()[i]) * pow(base, p);
-        p--;
-    }
-    return value;
-}
+let hexToDec = (hax) => parseInt(hax, 16)
+let hexToOct = (hex) => parseInt(hex, 16).toString(8).toUpperCase();
+let hexToBin = (hex) => parseInt(hex, 16).toString(2).toUpperCase();
 
-let DecToBase = (number, base) => {
-    value = ''
-    while(number >= base){
-        value += number % base;
-        number = Math.floor(number / base)
-    }
-    value += number;
-    return parseInt(reverseNumber(value));
-}
+let decToHex = (dec) => dec.toString(16);
+let decToOct = (dec) => dec.toString(8);
+let decToBin = (dec) => dec.toString(2);
 
-let hexToDec = (hax) => Base(hax, 16);
-let hexToOct = (hex) => DecToBase(Base(hex, 16), 8);
-let hexToBin = (hex) => DecToBase(Base(hex, 16), 2);
+let octToHex = (oct) => parseInt(oct, 8).toString(16).toUpperCase();
+let octToDec = (oct) => parseInt(oct, 8);
+let octToBin = (oct) => parseInt(oct, 8).toString(2).toUpperCase();
 
-let decToHex = (dec) => DecToBase(dec, 16);
-let decToOct = (dec) => DecToBase(dec, 8);
-let decToBin = (dec) => DecToBase(dec, 2);
+let binToHex = (bin) => parseInt(bin, 2).toString(16).toUpperCase();
+let binToDec = (bin) => parseInt(bin, 2);
+let binToOct = (bin) => parseInt(bin, 2).toString(8).toUpperCase();
 
 module.exports = {
     info,
@@ -142,5 +136,11 @@ module.exports = {
     hexToBin,
     decToHex,
     decToOct,
-    decToBin
+    decToBin,
+    octToHex,
+    octToDec,
+    octToBin,
+    binToHex,
+    binToDec,
+    binToOct
 }
