@@ -61,6 +61,18 @@ const {
     binToOct
 } = require('./src/number/number');
 
+// length conversion
+const {
+    kmToMe,
+    kmToCm,
+    kmToMm,
+    kmToUm,
+    kmToNm,
+    kmToYd,
+    kmToFt,
+    kmToIn
+} = require('./src/units/length/length');
+
 
 // exports the all functions.
 module.exports = {
@@ -90,5 +102,14 @@ module.exports = {
     octToBin,
     binToHex,
     binToDec,
-    binToOct
+    binToOct,
+    // length conversion
+    kmToMe,
+    kmToCm,
+    kmToMm,
+    kmToUm,
+    kmToNm,
+    kmToYd,
+    kmToFt,
+    kmToIn
 }
