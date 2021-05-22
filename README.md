@@ -179,12 +179,12 @@ The length has many types but in this time we see only some very frequently used
 ### Length Conversion Methods
 
 #### Kilometer to Meter => kmToMe(km)
-// the kmToMe() function are take kilometer value and return there meter value.
+// the kmToMe() function are take kilometer value and return there meter value. 
 console.log(solverjs.kmToMe(1));
 // The output is : 1000
 
 #### Kilometer to Centimeter => kmToCm(km)
-// the kmToCm() function are take kilometer value and return there centimeter value.
+// the kmToCm() function are take kilometer value and return there centimeter value. 
 console.log(solverjs.kmToCm(1));
 // The output is : 100000
 
