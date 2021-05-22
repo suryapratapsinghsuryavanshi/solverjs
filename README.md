@@ -1,5 +1,6 @@
-# solverjs v1.1.4
-This package is a combination of many useful functions.
+# solverjs v1.1.5
+With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
+SolversJS are a combination of many common mathematical and some very used logic solutions.
 
 ## Installation
 ### Using npm:
@@ -158,3 +159,4 @@ We all know we have very frequently is number system conversion in programming, 
     // The binToOct function are take a binary value and return octal value.
     console.log(solverjs.binToOct('010110101'));
     // The output is : 265
+
