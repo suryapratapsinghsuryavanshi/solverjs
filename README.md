@@ -1,4 +1,4 @@
-# solverjs v1.2.5
+# SolverJs v1.2.6
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolversJS are a combination of many common mathematical and some very used logic solutions.
 
