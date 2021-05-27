@@ -6,8 +6,19 @@
   [![Linux Build][travis-image]][travis-url]
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
+  
+[npm-image]: https://img.shields.io/badge/npm-v1.2.6-blue
+[npm-url]: https://www.npmjs.com/package/solverjs
+[downloads-image]: https://img.shields.io/badge/downloads-500%2FWeeks-green
+[downloads-url]: https://www.npmjs.com/package/solverjs
+[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
+[travis-url]: https://www.npmjs.com/package/solverjs
+[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows
+[appveyor-url]: https://www.npmjs.com/package/solverjs
+[coveralls-image]: https://img.shields.io/badge/coverage-2%25-yellow
+[coveralls-url]: https://www.npmjs.com/package/solverjs
+#
 
-# SolverJs v1.2.6
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolversJS are a combination of many common mathematical and some very used logic solutions.
 
