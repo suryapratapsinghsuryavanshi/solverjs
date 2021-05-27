@@ -198,4 +198,24 @@ The length has many types but in this time we see only some very frequently used
     console.log(solverjs.kmToUm(1));
     // The output is : 1000000000
 
+#### Kilometer to Nanometer => kmToNm(km)
+    // the kmToNm() function are take kilometer value and return there nanometer value.
+    console.log(solverjs.kmToNm(1));
+    // The output is : 1000000000000
+
+#### Kilometer to Yard => kmToYd(km)
+    // the kmToYd() function are take kilometer value and return there Yard value.
+    console.log(solverjs.kmToYd(1));
+    // The output is : 1094
+
+#### Kilometer to Foot => kmToFt(km)
+    // the kmToFt() function are take kilometer value and return there Foot value.
+    console.log(solverjs.kmToFt(1));
+    // The output is : 3281
+
+#### Kilometer to Inch => kmToIn(km)
+    // the kmToIn() function are take kilometer value and return there Inch value.
+    console.log(solverjs.kmToIn(1));
+    // The output is : 39370
+
 
