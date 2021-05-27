@@ -1,3 +1,12 @@
+[![Express Logo](https://localshares.herokuapp.com/files/download/31359a19-d85d-48f1-beec-db95c3de6508)](https://www.npmjs.com/package/solverjs/)
+
+
+  [![NPM Version][npm-image]][npm-url]
+  [![NPM Downloads][downloads-image]][downloads-url]
+  [![Linux Build][travis-image]][travis-url]
+  [![Windows Build][appveyor-image]][appveyor-url]
+  [![Test Coverage][coveralls-image]][coveralls-url]
+
 # SolverJs v1.2.6
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolversJS are a combination of many common mathematical and some very used logic solutions.
