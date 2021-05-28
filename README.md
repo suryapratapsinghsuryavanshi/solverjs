@@ -7,7 +7,7 @@
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
   
-[npm-image]: https://img.shields.io/badge/npm-v1.2.6-blue
+[npm-image]: https://img.shields.io/badge/npm-v1.2.7-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-500%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -24,10 +24,24 @@ With web application all the time we face many problems to implement some logic,
 SolversJS are a combination of many common mathematical and some very used logic solutions.
 
 ## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/).
+
+Before installing, [download and install Node.js](https://nodejs.org/en/download/).
+Node.js 4.2.4 or higher is required.
+
+If this is a brand new project, make sure to create a `package.json` first with
+the [`npm init` command](https://docs.npmjs.com/creating-a-package-json-file).
+
+Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
 ### Using npm:
     npm i solverjs
-    npm i -g solverjs
-    npm i --save solverjs
+
+### Using yarn:
+    yarn add solverjs
 
 ## Usage In NodeJs
     // Load teh full solverjs.
@@ -199,6 +213,8 @@ The length has many types but in this time we see only some very frequently used
 
 ### Length Conversion Methods
 
+### Kilometer to All
+
 #### Kilometer to Meter => kmToMe(km)
     // the kmToMe() function are take kilometer value and return there meter value. 
     console.log(solverjs.kmToMe(1));
@@ -239,4 +255,44 @@ The length has many types but in this time we see only some very frequently used
     console.log(solverjs.kmToIn(1));
     // The output is : 39370
 
+## Meter to All
 
+### Meter to Kilometer => meToKm(me)
+    // the meToKm() function are take meter value and return there kilometer value.
+    console.log(solverjs.meToKm(1));
+    // The output is : 0.001
+
+### Meter to Centimeter => meToCm(me)
+    // the meToCm() function are take meter value and return there centimeter value.
+    console.log(solverjs.meToCm(1));
+    // The output is : 100
+
+### Meter to Millimetre => meToMm(me)
+    // the meToMm() function are take meter value and return there millimeter value.
+    console.log(solverjs.meToCm(1));
+    // The output is : 1000
+
+### Meter to Micrometre => meToUm(me)
+    // the meToUm() function are take meter value and return there micrometres value.
+    console.log(solverjs.meToUm(1));
+    // The output is : 1000000
+
+### Meter to Nanometre => meToNm(me)
+    // the meToNm() function are take meter value and return there nanometre value.
+    console.log(solverjs.meToNm(1));
+    // The output is : 1000000000
+
+### Meter to Yard => meToYd(me)
+    // the meToYd() function are take meter value and return there yard value.
+    console.log(solverjs.meToYd(1));
+    // The output is : 1.094
+
+### Meter to Foot => meToFt(me)
+    // the meToFt() function are take meter value and return there foot value.
+    console.log(solverjs.meToFt(1));
+    // The output is : 3.281
+
+### Meter to Inch => meToIn(me)
+    // the meToIn() function are take meter value and return there inch value.
+    console.log(solverjs.meToIn(1));
+    // The output is : 39.37

@@ -26,6 +26,24 @@ let info = () => {
         "Convert the Binary to Hexadecimal number system.": 'binToHex(bin)',
         "Convert the Binary to Decimal number system.": 'binToDec(bin)',
         "Convert the Binary to Octal number system.": 'binToOct(bin)',
+        // kilometer
+        "The kmToMe function convert kilometer to meter.": 'kmToMe(km)',
+        "The kmToCm function convert kilometer to centimeter.": 'kmToCm(km)',
+        "The kmToMm function convert kilometer to millimeter.": 'kmToMm(km)',
+        "The kmToUm function convert kilometer to micrometer.": 'kmToUm(km)',
+        "The kmToNm function convert kilometer to nanometer.": 'kmToNm(km)',
+        "The kmToYd function convert kilometer to yard.": 'kmToYd(km)',
+        "The kmToFt function convert kilometer to foot.": 'kmToFt(km)',
+        "The kmToIn function convert kilometer to inch.": 'kmToIn(km)',
+        // meter
+        "The meToKm function convert meter to kilometer.": 'meToKm(me)',
+        "The meToCm function convert meter to centimeter.": 'meToCm(me)',
+        "The meToMm function convert meter to millimeter.": 'meToMm(me)',
+        "The meToUm function convert meter to micrometer.": 'meToUm(me)',
+        "The meToNm function convert meter to nanometer.": 'meToNm(me)',
+        "The meToYd function convert meter to yard.": 'meToYd(me)',
+        "The meToFt function convert meter to foot.": 'meToFt(me)',
+        "The meToIn function convert meter to inch.": 'meToIn(me)',
     });
 }
 
@@ -63,6 +81,7 @@ const {
 
 // length conversion
 const {
+    // km
     kmToMe,
     kmToCm,
     kmToMm,
@@ -70,7 +89,16 @@ const {
     kmToNm,
     kmToYd,
     kmToFt,
-    kmToIn
+    kmToIn,
+    // me
+    meToKm,
+    meToCm,
+    meToMm,
+    meToUm,
+    meToNm,
+    meToYd,
+    meToFt,
+    meToIn
 } = require('./src/units/length/length');
 
 
@@ -104,6 +132,7 @@ module.exports = {
     binToDec,
     binToOct,
     // length conversion
+    // km
     kmToMe,
     kmToCm,
     kmToMm,
@@ -111,5 +140,14 @@ module.exports = {
     kmToNm,
     kmToYd,
     kmToFt,
-    kmToIn
+    kmToIn,
+    // me
+    meToKm,
+    meToCm,
+    meToMm,
+    meToUm,
+    meToNm,
+    meToYd,
+    meToFt,
+    meToIn
 }
