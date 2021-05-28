@@ -1,4 +1,4 @@
-[![Express Logo](https://localshares.herokuapp.com/files/download/31359a19-d85d-48f1-beec-db95c3de6508)](https://www.npmjs.com/package/solverjs/)
+[![Express Logo](https://localprofiler.ml/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
 
 
   [![NPM Version][npm-image]][npm-url]
