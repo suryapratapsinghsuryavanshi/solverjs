@@ -44,6 +44,24 @@ let info = () => {
         "The meToYd function convert meter to yard.": 'meToYd(me)',
         "The meToFt function convert meter to foot.": 'meToFt(me)',
         "The meToIn function convert meter to inch.": 'meToIn(me)',
+        // centimetre
+        "The cmToKm function convert centimeter to kilometer.": 'cmToKm(cm)',
+        "The cmToMe function convert centimeter to meter.": 'cmToMe(cm)',
+        "The cmToMm function convert centimeter to millimeter.": 'cmToMm(cm)',
+        "The cmToUm function convert centimeter to micrometer.": 'cmToUm(cm)',
+        "The cmToNm function convert centimeter to nanometer.": 'cmToNm(cm)',
+        "The cmToYd function convert centimeter to yard.": 'cmToYd(cm)',
+        "The cmToFt function convert centimeter to foot.": 'cmToFt(cm)',
+        "The cmToIn function convert centimeter to inch.": 'cmToIn(cm)',
+        // centimetre
+        "The mmToKm function convert millimeter to kilometer.": 'mmToKm(mm)',
+        "The mmToMe function convert millimeter to meter.": 'mmToMe(mm)',
+        "The mmToCm function convert millimeter to centimeter.": 'mmToCm(mm)',
+        "The mmToUm function convert millimeter to micrometer.": 'mmToUm(mm)',
+        "The mmToNm function convert millimeter to nanometer.": 'mmToNm(mm)',
+        "The mmToYd function convert millimeter to yard.": 'mmToYd(mm)',
+        "The mmToFt function convert millimeter to foot.": 'mmToFt(mm)',
+        "The mmToIn function convert millimeter to inch.": 'mmToIn(mm)',
     });
 }
 
@@ -98,7 +116,25 @@ const {
     meToNm,
     meToYd,
     meToFt,
-    meToIn
+    meToIn,
+    // cm to all
+    cmToKm,
+    cmToMe,
+    cmToMm,
+    cmToUm,
+    cmToNm,
+    cmToYd,
+    cmToFt,
+    cmToIn,
+    // mm to all
+    mmToKm,
+    mmToMe,
+    mmToCm,
+    mmToUm,
+    mmToNm,
+    mmToYd,
+    mmToFt,
+    mmToIn
 } = require('./src/units/length/length');
 
 
@@ -149,5 +185,23 @@ module.exports = {
     meToNm,
     meToYd,
     meToFt,
-    meToIn
+    meToIn,
+    // cm
+    cmToKm,
+    cmToMe,
+    cmToMm,
+    cmToUm,
+    cmToNm,
+    cmToYd,
+    cmToFt,
+    cmToIn,
+    // mm
+    mmToKm,
+    mmToMe,
+    mmToCm,
+    mmToUm,
+    mmToNm,
+    mmToYd,
+    mmToFt,
+    mmToIn
 }
