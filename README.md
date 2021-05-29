@@ -136,62 +136,74 @@ We all know we have very frequently is number system conversion in programming, 
 ### Number system Conversion Methods
 
 #### Hexadecimal to Decimal
-    // The hexToDec function are take a hexadecimal value and return decimal value.
+    // The hexToDec function are take a hexadecimal value and return
+    // decimal value.
     console.log(solverjs.hexToDec(18));
     // The output is : 24
 
 #### Hexadecimal to Octal
-    // The hexToOct function are take a hexadecimal value and return octal value.
+    // The hexToOct function are take a hexadecimal value and return
+    // octal value.
     console.log(solverjs.hexToOct(18));
     // The output is : 30
 
 #### Hexadecimal to Binary
-    // The hexToBin function are take a hexadecimal value and return binary value.
+    // The hexToBin function are take a hexadecimal value and return
+    // binary value.
     console.log(solverjs.hexToBin(18));
     // The output is : 11000
 
 #### Decimal to Hexadecimal
-    // The decToHex function are take a decimal value and return hexadecimal value.
+    // The decToHex function are take a decimal value and return
+    // hexadecimal value.
     console.log(solverjs.decToHex(18));
     // The output is : 12
 
 #### Decimal to Octal
-    // The decToOct function are take a decimal value and return octal value.
+    // The decToOct function are take a decimal value and return
+    // octal value.
     console.log(solverjs.decToOct(18));
     // The output is : 22
 
 #### Decimal to Binary
-    // The decToBin function are take a decimal value and return binary value.
+    // The decToBin function are take a decimal value and return
+    // binary value.
     console.log(solverjs.decToBin(18));
     // The output is : 10010
 
 #### Octal to Hexadecimal
-    // The octToHex function are take a octal value and return hexadecimal value.
+    // The octToHex function are take a octal value and return
+    // hexadecimal value.
     console.log(solverjs.octToHex(11236));
     // The output is : 129E
 
 #### Octal to Decimal
-    // The octToDec function are take a octal value and return decimal value.
+    // The octToDec function are take a octal value and return
+    // decimal value.
     console.log(solverjs.octToDec(11236));
     // The output is : 4766
 
 #### Octal to Binary
-    // The octToBin function are take a octal value and return binary value.
+    // The octToBin function are take a octal value and return
+    // binary value.
     console.log(solverjs.octToBin(11236));
     // The output is : 1001010011110
 
 #### Binary to Hexadecimal
-    // The binToHex function are take a binary value and return hexadecimal value.
+    // The binToHex function are take a binary value and return
+    // hexadecimal value.
     console.log(solverjs.binToHex('010110101'));
     // The output is : B5
 
 #### Binary to Decimal
-    // The binToDec function are take a binary value and return decimal value.
+    // The binToDec function are take a binary value and return
+    // decimal value.
     console.log(solverjs.binToDec('010110101'));
     // The output is : 181
 
 #### Binary to Octal
-    // The binToOct function are take a binary value and return octal value.
+    // The binToOct function are take a binary value and return
+    // octal value.
     console.log(solverjs.binToOct('010110101'));
     // The output is : 265
 
@@ -216,83 +228,199 @@ The length has many types but in this time we see only some very frequently used
 ### Kilometer to All
 
 #### Kilometer to Meter => kmToMe(km)
-    // the kmToMe() function are take kilometer value and return there meter value. 
+    // the kmToMe() function are take kilometer value and return there
+    // meter value. 
     console.log(solverjs.kmToMe(1));
     // The output is : 1000
 
 #### Kilometer to Centimeter => kmToCm(km)
-    // the kmToCm() function are take kilometer value and return there centimeter value. 
+    // the kmToCm() function are take kilometer value and return there
+    // centimeter value. 
     console.log(solverjs.kmToCm(1));
     // The output is : 100000
 
 #### Kilometer to Millimeter => kmToMm(km)
-    // the kmToMm() function are take kilometer value and return there millimeter value.
+    // the kmToMm() function are take kilometer value and return there
+    // millimeter value.
     console.log(solverjs.kmToMm(1));
     // The output is : 1000000
 
 #### Kilometer to Micrometer => kmToUm(km)
-    // the kmToUm() function are take kilometer value and return there micrometer value.
+    // the kmToUm() function are take kilometer value and return there
+    // micrometer value.
     console.log(solverjs.kmToUm(1));
     // The output is : 1000000000
 
 #### Kilometer to Nanometer => kmToNm(km)
-    // the kmToNm() function are take kilometer value and return there nanometer value.
+    // the kmToNm() function are take kilometer value and return there
+    // nanometer value.
     console.log(solverjs.kmToNm(1));
     // The output is : 1000000000000
 
 #### Kilometer to Yard => kmToYd(km)
-    // the kmToYd() function are take kilometer value and return there Yard value.
+    // the kmToYd() function are take kilometer value and return there
+    // Yard value.
     console.log(solverjs.kmToYd(1));
     // The output is : 1094
 
 #### Kilometer to Foot => kmToFt(km)
-    // the kmToFt() function are take kilometer value and return there Foot value.
+    // the kmToFt() function are take kilometer value and return there
+    // Foot value.
     console.log(solverjs.kmToFt(1));
     // The output is : 3281
 
 #### Kilometer to Inch => kmToIn(km)
-    // the kmToIn() function are take kilometer value and return there Inch value.
+    // the kmToIn() function are take kilometer value and return there
+    // Inch value.
     console.log(solverjs.kmToIn(1));
     // The output is : 39370
 
 ## Meter to All
 
 ### Meter to Kilometer => meToKm(me)
-    // the meToKm() function are take meter value and return there kilometer value.
+    // the meToKm() function are take meter value and return there
+    // kilometer value.
     console.log(solverjs.meToKm(1));
     // The output is : 0.001
 
 ### Meter to Centimeter => meToCm(me)
-    // the meToCm() function are take meter value and return there centimeter value.
+    // the meToCm() function are take meter value and return there
+    // centimeter value.
     console.log(solverjs.meToCm(1));
     // The output is : 100
 
 ### Meter to Millimetre => meToMm(me)
-    // the meToMm() function are take meter value and return there millimeter value.
-    console.log(solverjs.meToCm(1));
+    // the meToMm() function are take meter value and return there
+    // millimeter value.
+    console.log(solverjs.meToMm(1));
     // The output is : 1000
 
 ### Meter to Micrometre => meToUm(me)
-    // the meToUm() function are take meter value and return there micrometres value.
+    // the meToUm() function are take meter value and return there
+    // micrometres value.
     console.log(solverjs.meToUm(1));
     // The output is : 1000000
 
 ### Meter to Nanometre => meToNm(me)
-    // the meToNm() function are take meter value and return there nanometre value.
+    // the meToNm() function are take meter value and return there
+    // nanometre value.
     console.log(solverjs.meToNm(1));
     // The output is : 1000000000
 
 ### Meter to Yard => meToYd(me)
-    // the meToYd() function are take meter value and return there yard value.
+    // the meToYd() function are take meter value and return there
+    // yard value.
     console.log(solverjs.meToYd(1));
     // The output is : 1.094
 
 ### Meter to Foot => meToFt(me)
-    // the meToFt() function are take meter value and return there foot value.
+    // the meToFt() function are take meter value and return there
+    // foot value.
     console.log(solverjs.meToFt(1));
     // The output is : 3.281
 
 ### Meter to Inch => meToIn(me)
-    // the meToIn() function are take meter value and return there inch value.
+    // the meToIn() function are take meter value and return there
+    // inch value.
     console.log(solverjs.meToIn(1));
     // The output is : 39.37
+
+## Centimetre to All
+
+### Centimetre to Kilometer => cmToKm(cm)
+    // the cmToKm() function are take centimeter value and return there
+    // kilometer value.
+    console.log(solverjs.cmToKm(1));
+    // The output is : 0.00001
+
+### Centimetre to Meter => cmToMe(cm)
+    // the cmToMe() function are take centimeter value and return there
+    // meter value.
+    console.log(solverjs.cmToMe(1));
+    // The output is : 0.01
+
+### Centimetre to Millimetre => cmToMm(cm)
+    // the cmToMm() function are take centimeter value and return there
+    // millimeter value.
+    console.log(solverjs.cmToMm(1));
+    // The output is : 10
+
+### Centimetre to Micrometre => cmToUm(cm)
+    // the cmToUm() function are take centimeter value and return there
+    // micrometres value.
+    console.log(solverjs.cmToUm(1));
+    // The output is : 10000
+
+### Centimetre to Nanometre => cmToNm(cm)
+    // the cmToNm() function are take centimeter value and return there
+    // nanometre value.
+    console.log(solverjs.cmToNm(1));
+    // The output is : 10000000
+
+### Centimetre to Yard => cmToYd(cm)
+    // the cmToYd() function are take centimeter value and return there
+    // yard value.
+    console.log(solverjs.cmToYd(1));
+    // The output is : 0.010936132983377079
+
+### Centimetre to Foot => cmToFt(cm)
+    // the cmToFt() function are take centimeter value and return there
+    // foot value.
+    console.log(solverjs.cmToFt(1));
+    // The output is : 0.03280839895013123
+
+### Centimetre to Inch => cmToIn(cm)
+    // the cmToIn() function are take centimeter value and return there
+    // inch value.
+    console.log(solverjs.cmToIn(1));
+    // The output is : 0.39370078740157477
+
+## Millimetre to All
+
+### Millimeter to Kilometer => mmToKm(mm)
+    // the mmToKm() function are take centimeter value and return there
+    // kilometer value.
+    console.log(solverjs.mmToKm(1));
+    // The output is : 0.000001
+
+### Millimeter to Meter => mmToMe(mm)
+    // the mmToMe() function are take centimeter value and return there
+    // meter value.
+    console.log(solverjs.mmToMe(1));
+    // The output is : 0.001
+
+### Millimeter to Centimeter => mmToCm(mm)
+    // the mmToMm() function are take centimeter value and return there
+    // centimeter value.
+    console.log(solverjs.mmToCm(1));
+    // The output is : 0.1
+
+### Millimeter to Micrometre => mmToUm(mm)
+    // the mmToUm() function are take centimeter value and return there
+    // micrometres value.
+    console.log(solverjs.mmToUm(1));
+    // The output is : 1000
+
+### Millimeter to Nanometre => mmToNm(mm)
+    // the mmToNm() function are take centimeter value and return there
+    // nanometre value.
+    console.log(solverjs.mmToNm(1));
+    // The output is : 1000000
+
+### Millimeter to Yard => mmToYd(mm)
+    // the mmToYd() function are take centimeter value and return there
+    // yard value.
+    console.log(solverjs.mmToYd(1));
+    // The output is : 0.0010940919037199124
+
+### Millimeter to Foot => mmToFt(mm)
+    // the mmToFt() function are take centimeter value and return there
+    // foot value.
+    console.log(solverjs.mmToFt(1));
+    // The output is : 0.003278688524590164
+
+### Millimeter to Inch => mmToIn(mm)
+    // the mmToIn() function are take centimeter value and return there
+    // inch value.
+    console.log(solverjs.mmToIn(1));
+    // The output is : 0.03937007874015748
