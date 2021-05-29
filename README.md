@@ -7,7 +7,7 @@
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
   
-[npm-image]: https://img.shields.io/badge/npm-v1.2.7-blue
+[npm-image]: https://img.shields.io/badge/npm-v1.2.8-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-500%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
