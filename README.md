@@ -378,49 +378,149 @@ The length has many types but in this time we see only some very frequently used
 ## Millimetre to All
 
 ### Millimeter to Kilometer => mmToKm(mm)
-    // the mmToKm() function are take centimeter value and return there
+    // the mmToKm() function are take millimetre value and return there
     // kilometer value.
     console.log(solverjs.mmToKm(1));
     // The output is : 0.000001
 
 ### Millimeter to Meter => mmToMe(mm)
-    // the mmToMe() function are take centimeter value and return there
+    // the mmToMe() function are take millimetre value and return there
     // meter value.
     console.log(solverjs.mmToMe(1));
     // The output is : 0.001
 
 ### Millimeter to Centimeter => mmToCm(mm)
-    // the mmToMm() function are take centimeter value and return there
+    // the mmToMm() function are take millimetre value and return there
     // centimeter value.
     console.log(solverjs.mmToCm(1));
     // The output is : 0.1
 
 ### Millimeter to Micrometre => mmToUm(mm)
-    // the mmToUm() function are take centimeter value and return there
+    // the mmToUm() function are take millimetre value and return there
     // micrometres value.
     console.log(solverjs.mmToUm(1));
     // The output is : 1000
 
 ### Millimeter to Nanometre => mmToNm(mm)
-    // the mmToNm() function are take centimeter value and return there
+    // the mmToNm() function are take millimetre value and return there
     // nanometre value.
     console.log(solverjs.mmToNm(1));
     // The output is : 1000000
 
 ### Millimeter to Yard => mmToYd(mm)
-    // the mmToYd() function are take centimeter value and return there
+    // the mmToYd() function are take millimetre value and return there
     // yard value.
     console.log(solverjs.mmToYd(1));
     // The output is : 0.0010940919037199124
 
 ### Millimeter to Foot => mmToFt(mm)
-    // the mmToFt() function are take centimeter value and return there
+    // the mmToFt() function are take millimetre value and return there
     // foot value.
     console.log(solverjs.mmToFt(1));
     // The output is : 0.003278688524590164
 
 ### Millimeter to Inch => mmToIn(mm)
-    // the mmToIn() function are take centimeter value and return there
+    // the mmToIn() function are take millimetre value and return there
     // inch value.
     console.log(solverjs.mmToIn(1));
     // The output is : 0.03937007874015748
+
+## Micrometre to All
+
+### Micrometre to Kilometer => umToKm(um)
+    // the umToKm() function are take micrometre value and return there
+    // kilometer value.
+    console.log(solverjs.umToKm(1));
+    // The output is : 0.000000001
+
+### Micrometre to Meter => umToMe(um)
+    // the umToMe() function are take micrometre value and return there
+    // meter value.
+    console.log(solverjs.umToMe(1));
+    // The output is : 0.000001
+
+### Micrometre to Centimeter => umToCm(um)
+    // the umToMm() function are take micrometre value and return there
+    // centimeter value.
+    console.log(solverjs.umToCm(1));
+    // The output is : 0.0001
+
+### Micrometre to Millimetre => umToMm(um)
+    // the umToMm() function are take micrometre value and return there
+    // millimetre value.
+    console.log(solverjs.umToMm(1));
+    // The output is : 0.001
+
+### Micrometre to Nanometre => umToNm(um)
+    // the umToNm() function are take micrometre value and return there
+    // nanometre value.
+    console.log(solverjs.umToNm(1));
+    // The output is : 1000
+
+### Micrometre to Yard => umToYd(um)
+    // the umToYd() function are take micrometre value and return there
+    // yard value.
+    console.log(solverjs.umToYd(1));
+    // The output is : 0.0000010936132983377078
+
+### Micrometre to Foot => umToFt(um)
+    // the umToFt() function are take micrometre value and return there
+    // foot value.
+    console.log(solverjs.umToFt(1));
+    // The output is : 0.0000032808398950131235
+
+### Micrometre to Inch => umToIn(um)
+    // the umToIn() function are take micrometre value and return there
+    // inch value.
+    console.log(solverjs.umToIn(1));
+    // The output is : 0.00003937007874015748
+
+## Nanometer to All
+
+### Nanometer to Kilometer => nmToKm(nm)
+    // the nmToKm() function are take nanometer value and return there
+    // kilometer value.
+    console.log(solverjs.nmToKm(1));
+    // The output is : 0.000000000001
+
+### Nanometer to Meter => nmToMe(nm)
+    // the nmToMe() function are take nanometer value and return there
+    // meter value.
+    console.log(solverjs.nmToMe(1));
+    // The output is : 0.000000001
+
+### Nanometer to Centimeter => nmToCm(nm)
+    // the nmToMm() function are take nanometer value and return there
+    // centimeter value.
+    console.log(solverjs.nmToCm(1));
+    // The output is : 0.0000001
+
+### Nanometer to Millimetre => nmToMm(nm)
+    // the nmToMm() function are take nanometer value and return there
+    // millimetre value.
+    console.log(solverjs.nmToMm(1));
+    // The output is : 0.000001
+
+### Nanometer to Micrometre => nmToUm(nm)
+    // the nmToNm() function are take nanometer value and return there
+    // micrometre value.
+    console.log(solverjs.nmToUm(1));
+    // The output is : 0.001
+
+### Nanometer to Yard => nmToYd(nm)
+    // the nmToYd() function are take nanometer value and return there
+    // yard value.
+    console.log(solverjs.nmToYd(1));
+    // The output is : 1.0936132983377077e-9
+
+### Nanometer to Foot => nmToFt(nm)
+    // the nmToFt() function are take nanometer value and return there
+    // foot value.
+    console.log(solverjs.nmToFt(1));
+    // The output is : 3.2808398950131233e-9
+
+### Nanometer to Inch => nmToIn(nm)
+    // the nmToIn() function are take nanometer value and return there
+    // inch value.
+    console.log(solverjs.nmToIn(1));
+    // The output is : 3.937007874015748e-8

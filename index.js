@@ -53,7 +53,7 @@ let info = () => {
         "The cmToYd function convert centimeter to yard.": 'cmToYd(cm)',
         "The cmToFt function convert centimeter to foot.": 'cmToFt(cm)',
         "The cmToIn function convert centimeter to inch.": 'cmToIn(cm)',
-        // centimetre
+        // millimeter
         "The mmToKm function convert millimeter to kilometer.": 'mmToKm(mm)',
         "The mmToMe function convert millimeter to meter.": 'mmToMe(mm)',
         "The mmToCm function convert millimeter to centimeter.": 'mmToCm(mm)',
@@ -62,6 +62,51 @@ let info = () => {
         "The mmToYd function convert millimeter to yard.": 'mmToYd(mm)',
         "The mmToFt function convert millimeter to foot.": 'mmToFt(mm)',
         "The mmToIn function convert millimeter to inch.": 'mmToIn(mm)',
+        // micrometer
+        "The umToKm function convert micrometer to kilometer.": 'umToKm(um)',
+        "The umToMe function convert micrometer to meter.": 'umToMe(um)',
+        "The umToCm function convert micrometer to centimeter.": 'umToCm(um)',
+        "The umToMm function convert micrometer to millimeter.": 'umToMm(um)',
+        "The umToNm function convert micrometer to nanometer.": 'mmToNm(mm)',
+        "The umToYd function convert micrometer to yard.": 'umToYd(um)',
+        "The umToFt function convert micrometer to foot.": 'umToFt(um)',
+        "The umToIn function convert micrometer to inch.": 'umToIn(um)',
+        // nanometer
+        "The nmToKm function convert nanometer to kilometer.": 'nmToKm(nm)',
+        "The nmToMe function convert nanometer to meter.": 'nmToMe(nm)',
+        "The nmToCm function convert nanometer to centimeter.": 'nmToCm(nm)',
+        "The nmToMm function convert nanometer to millimeter.": 'nmToMm(nm)',
+        "The nmToUm function convert nanometer to micrometer.": 'nmToUm(nm)',
+        "The nmToYd function convert nanometer to yard.": 'nmToYd(nm)',
+        "The nmToFt function convert nanometer to foot.": 'nmToFt(nm)',
+        "The nmToIn function convert nanometer to inch.": 'nmToIn(nm)',
+        // yard
+        "The ydToKm function convert yard to kilometer.": 'ydToKm(yd)',
+        "The ydToMe function convert yard to meter.": 'ydToMe(yd)',
+        "The ydToCm function convert yard to centimeter.": 'ydToCm(yd)',
+        "The ydToMm function convert yard to millimeter.": 'ydToMm(yd)',
+        "The ydToUm function convert yard to micrometer.": 'ydToUm(yd)',
+        "The ydToNm function convert yard to nanometer.": 'ydToNm(yd)',
+        "The ydToFt function convert yard to foot.": 'ydToFt(yd)',
+        "The ydToIn function convert yard to inch.": 'ydToIn(yd)',
+        // foot
+        "The ftToKm function convert foot to kilometer.": 'ftToKm(ft)',
+        "The ftToMe function convert foot to meter.": 'ftToMe(ft)',
+        "The ftToCm function convert foot to centimeter.": 'ftToCm(ft)',
+        "The ftToMm function convert foot to millimeter.": 'ftToMm(ft)',
+        "The ftToUm function convert foot to micrometer.": 'ftToUm(ft)',
+        "The ftToNm function convert foot to nanometer.": 'ftToNm(ft)',
+        "The ftToYd function convert foot to yard.": 'ftToYd(ft)',
+        "The ftToIn function convert foot to inch.": 'ftToIn(ft)',
+        // inch
+        "The inToKm function convert inch to kilometer.": 'inToKm(in)',
+        "The inToMe function convert inch to meter.": 'inToMe(in)',
+        "The inToCm function convert inch to centimeter.": 'inToCm(in)',
+        "The inToMm function convert inch to millimeter.": 'inToMm(in)',
+        "The inToUm function convert inch to micrometer.": 'inToUm(in)',
+        "The inToNm function convert inch to nanometer.": 'inToNm(in)',
+        "The inToYd function convert inch to yard.": 'inToYd(in)',
+        "The inToFt function convert inch to foot.": 'inToFt(in)',
     });
 }
 
@@ -162,7 +207,7 @@ const {
     ydToNm,
     ydToFt,
     ydToIn,
-    // foot
+    // foot to all
     ftToKm,
     ftToMe,
     ftToCm,
@@ -171,7 +216,7 @@ const {
     ftToNm,
     ftToYd,
     ftToIn,
-    // inch
+    // inch to all
     inToKm,
     inToMe,
     inToCm,
