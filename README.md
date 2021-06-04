@@ -6,7 +6,7 @@
   [![Linux Build][travis-image]][travis-url]
   [![Windows Build][appveyor-image]][appveyor-url]
   [![Test Coverage][coveralls-image]][coveralls-url]
-  [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)]()
+  [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
 [npm-image]: https://img.shields.io/badge/npm-v1.2.9-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
