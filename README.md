@@ -524,3 +524,153 @@ The length has many types but in this time we see only some very frequently used
     // inch value.
     console.log(solverjs.nmToIn(1));
     // The output is : 3.937007874015748e-8
+
+## Yard to All
+
+### Yard to Kilometer => ydToKm(yd)
+    // the ydToKm() function are take Yard value and return there
+    // kilometer value.
+    console.log(solverjs.ydToKm(1));
+    // The output is : 0.0009140767824497258
+
+### Yard to Meter => ydToMe(yd)
+    // the ydToMe() function are take Yard value and return there
+    // meter value.
+    console.log(solverjs.ydToMe(1));
+    // The output is : 0.9140767824497257
+
+### Yard to Centimeter => ydToCm(yd)
+    // the ydToCm() function are take Yard value and return there
+    // centimeter value.
+    console.log(solverjs.ydToCm(1));
+    // The output is : 91.44
+
+### Yard to Millimetre => ydToMm(yd)
+    // the ydToMm() function are take Yard value and return there
+    // millimetre value.
+    console.log(solverjs.ydToMm(1));
+    // The output is : 914
+
+### Yard to Micrometre => ydToUm(yd)
+    // the ydToUm() function are take Yard value and return there
+    // micrometre value.
+    console.log(solverjs.ydToUm(1));
+    // The output is : 914400
+
+### Yard to Nanometre => ydToNm(yd)
+    // the ydToNm() function are take Yard value and return there
+    // nanometre value.
+    console.log(solverjs.ydToNm(1));
+    // The output is : 914400000
+
+### Yard to Foot => ydToFt(yd)
+    // the ydToFt() function are take Yard value and return there
+    // foot value.
+    console.log(solverjs.ydToFt(1));
+    // The output is : 3
+
+### Yard to Inch => ydToIn(yd)
+    // the ydToIn() function are take Yard value and return there
+    // inch value.
+    console.log(solverjs.ydToIn(1));
+    // The output is : 36
+
+## Foot to All
+
+### Foot to Kilometer => ftToKm(ft)
+    // the ftToKm() function are take foot value and return there
+    // kilometer value.
+    console.log(solverjs.ftToKm(1));
+    // The output is : 0.00030478512648582747
+
+### Foot to Meter => ftToMe(ft)
+    // the ftToMe() function are take foot value and return there
+    // meter value.
+    console.log(solverjs.ftToMe(1));
+    // The output is : 0.30478512648582745
+
+### Foot to Centimeter => ftToCm(ft)
+    // the ftToCm() function are take foot value and return there
+    // centimeter value.
+    console.log(solverjs.ftToCm(1));
+    // The output is : 30.48
+
+### Foot to Millimetre => ftToMm(ft)
+    // the ftToMm() function are take foot value and return there
+    // millimetre value.
+    console.log(solverjs.ftToMm(1));
+    // The output is : 305
+
+### Foot to Micrometre => ftToUm(ft)
+    // the ftToUm() function are take foot value and return there
+    // micrometre value.
+    console.log(solverjs.ftToUm(1));
+    // The output is : 304800
+
+### Foot to Nanometre => ftToNm(ft)
+    // the ftToNm() function are take foot value and return there
+    // nanometre value.
+    console.log(solverjs.ftToNm(1));
+    // The output is : 304800000
+
+### Foot to Yard => ftToYd(ft)
+    // the ftToYd() function are take foot value and return there
+    // yard value.
+    console.log(solverjs.ftToYd(1));
+    // The output is : 0.3333333333333333
+
+### Foot to Inch => ftToIn(ft)
+    // the ftToIn() function are take foot value and return there
+    // inch value.
+    console.log(solverjs.ftToIn(1));
+    // The output is : 12
+
+## Inch to All
+
+### Inch to Kilometer => inToKm(in)
+    // the inToKm() function are take foot value and return there
+    // kilometer value.
+    console.log(solverjs.inToKm(1));
+    // The output is : 0.0000254000508001016
+
+### Inch to Meter => inToMe(in)
+    // the inToMe() function are take foot value and return there
+    // meter value.
+    console.log(solverjs.inToMe(1));
+    // The output is : 0.025400050800101603
+
+### Inch to Centimeter => inToCm(in)
+    // the inToCm() function are take foot value and return there
+    // centimeter value.
+    console.log(solverjs.inToCm(1));
+    // The output is : 2.54
+
+### Inch to Millimetre => inToMm(in)
+    // the inToMm() function are take foot value and return there
+    // millimetre value.
+    console.log(solverjs.inToMm(1));
+    // The output is : 25.4
+
+### Inch to Micrometre => inToUm(in)
+    // the inToUm() function are take foot value and return there
+    // micrometre value.
+    console.log(solverjs.inToUm(1));
+    // The output is : 25400
+
+### Inch to Nanometre => inToNm(in)
+    // the inToNm() function are take foot value and return there
+    // nanometre value.
+    console.log(solverjs.inToNm(1));
+    // The output is : 25400000
+
+### Inch to Yard => inToYd(in)
+    // the inToYd() function are take foot value and return there
+    // yard value.
+    console.log(solverjs.inToYd(1));
+    // The output is : 0.027777777777777776
+
+### Inch to Foot => inToft(in)
+    // the inToFt() function are take foot value and return there
+    // foot value.
+    console.log(solverjs.inToFt(1));
+    // The output is : 0.08333333333333333
