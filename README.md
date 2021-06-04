@@ -628,49 +628,49 @@ The length has many types but in this time we see only some very frequently used
 ## Inch to All
 
 ### Inch to Kilometer => inToKm(in)
-    // the inToKm() function are take foot value and return there
+    // the inToKm() function are take inch value and return there
     // kilometer value.
     console.log(solverjs.inToKm(1));
     // The output is : 0.0000254000508001016
 
 ### Inch to Meter => inToMe(in)
-    // the inToMe() function are take foot value and return there
+    // the inToMe() function are take inch value and return there
     // meter value.
     console.log(solverjs.inToMe(1));
     // The output is : 0.025400050800101603
 
 ### Inch to Centimeter => inToCm(in)
-    // the inToCm() function are take foot value and return there
+    // the inToCm() function are take inch value and return there
     // centimeter value.
     console.log(solverjs.inToCm(1));
     // The output is : 2.54
 
 ### Inch to Millimetre => inToMm(in)
-    // the inToMm() function are take foot value and return there
+    // the inToMm() function are take inch value and return there
     // millimetre value.
     console.log(solverjs.inToMm(1));
     // The output is : 25.4
 
 ### Inch to Micrometre => inToUm(in)
-    // the inToUm() function are take foot value and return there
+    // the inToUm() function are take inch value and return there
     // micrometre value.
     console.log(solverjs.inToUm(1));
     // The output is : 25400
 
 ### Inch to Nanometre => inToNm(in)
-    // the inToNm() function are take foot value and return there
+    // the inToNm() function are take inch value and return there
     // nanometre value.
     console.log(solverjs.inToNm(1));
     // The output is : 25400000
 
 ### Inch to Yard => inToYd(in)
-    // the inToYd() function are take foot value and return there
+    // the inToYd() function are take inch value and return there
     // yard value.
     console.log(solverjs.inToYd(1));
     // The output is : 0.027777777777777776
 
 ### Inch to Foot => inToft(in)
-    // the inToFt() function are take foot value and return there
+    // the inToFt() function are take inch value and return there
     // foot value.
     console.log(solverjs.inToFt(1));
     // The output is : 0.08333333333333333
