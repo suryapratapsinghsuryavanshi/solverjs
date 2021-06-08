@@ -107,6 +107,16 @@ let info = () => {
         "The inToNm function convert inch to nanometer.": 'inToNm(in)',
         "The inToYd function convert inch to yard.": 'inToYd(in)',
         "The inToFt function convert inch to foot.": 'inToFt(in)',
+        // Temperature methods.
+        // Celsius to fahrenheit and kelvin
+        "The celToFah function convert celsius to fahrenheit.": 'calToFah(c)',
+        "The celToKel function convert celsius to kelvin.": 'calToKel(c)',
+        // fahrenheit to Celsius and kelvin
+        "The fahToCel function convert fahrenheit to celsius.": 'fahToCel(f)',
+        "The fahToKel function convert fahrenheit to kelvin.": 'fahToKel(f)',
+        // kelvin to Celsius and fahrenheit
+        "The kelToCel function convert kelvin to Celsius.": 'kelToCel(k)',
+        "The kelToFah function convert kelvin to fahrenheit.": 'kelToFah(k)'
     });
 }
 
