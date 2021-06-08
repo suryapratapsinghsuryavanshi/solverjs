@@ -228,6 +228,17 @@ const {
 } = require('./src/units/length/length');
 
 
+// temperature conversion 
+const {
+    celToFah,
+    celToKel,
+    fahToCel,
+    fahToKel,
+    kelToCel,
+    kelToFah
+} = require('./src/units/temperature/temperature');
+
+
 // exports the all functions.
 module.exports = {
     info,
@@ -338,5 +349,12 @@ module.exports = {
     inToUm,
     inToNm,
     inToYd,
-    inToFt
+    inToFt,
+    // temperatures conversion
+    celToFah,
+    celToKel,
+    fahToCel,
+    fahToKel,
+    kelToCel,
+    kelToFah
 }

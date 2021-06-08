@@ -675,3 +675,53 @@ The length has many types but in this time we see only some very frequently used
     // foot value.
     console.log(solverjs.inToFt(1));
     // The output is : 0.08333333333333333
+
+
+## Temperature Conversion
+Temperature conversion is one of the most used methods for weather report casting the temperature conversion method gives you all the popular temperature standard conversion methods.
+
+## Temperature Conversion Types
+All popular types.
+- Celsius
+- Fahrenheit
+- Kelvin
+
+## Temperature Conversion Methods
+
+### Celsius To Fahrenheit, Kelvin
+
+#### Celsius to Fahrenheit => celToFah(c)
+    // the celToFah() function are take the temperature value
+    // in celsius and convert to the temperature value in fahrenheit.
+    console.log(solverjs.celToFah(0));
+    // The output is : 32
+
+#### Celsius to Kelvin => celToKel(c)
+    // the celToKel() function are take the temperature value
+    // in celsius and convert to the temperature value in kelvin.
+    console.log(solverjs.celToKel(0));
+    // The output is : 273.15
+
+#### Fahrenheit to Celsius => fahToCel(f)
+    // the fahToCel() function are take the temperature value
+    // in fahrenheit and convert to the temperature value in celsius.
+    console.log(solverjs.fahToCel(0));
+    // The output is : -17.77777777777778
+
+#### Fahrenheit to Kelvin => fahToKel(f)
+    // the fahToKel() function are take the temperature value
+    // in fahrenheit and convert to the temperature value in kelvin.
+    console.log(solverjs.fahToKel(0));
+    // The output is : 255.3722222222222
+
+#### Kelvin to Celsius => kelToCel(k)
+    // the kelToCel() function are take the temperature value
+    // in kelvin and convert to the temperature value in celsius.
+    console.log(solverjs.kelToCel(0));
+    // The output is : -273.15
+
+#### Kelvin to Fahrenheit => kelToFah(k)
+    // the kelToFah() function are take the temperature value
+    // in kelvin and convert to the temperature value in fahrenheit.
+    console.log(solverjs.kelToFah(0));
+    // The output is : -459.66999999999996
