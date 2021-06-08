@@ -45,7 +45,7 @@ Installation is done using the
     yarn add solverjs
 
 ## Usage In NodeJs
-    // Load teh full solverjs.
+    // Load the full solverjs.
     var solverjs = require('solverjs');
     // The getFib return the n'th fibonacci number.
     var ans = solverjs.getFib(8);
