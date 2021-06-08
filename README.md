@@ -8,9 +8,9 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v1.2.9-blue
+[npm-image]: https://img.shields.io/badge/npm-v1.3.9-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
-[downloads-image]: https://img.shields.io/badge/downloads-500%2FWeeks-green
+[downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
 [travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
 [travis-url]: https://www.npmjs.com/package/solverjs
