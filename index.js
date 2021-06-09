@@ -249,6 +249,61 @@ const {
 } = require('./src/units/temperature/temperature');
 
 
+// area conversion
+
+const {
+    // square kilometer to all
+    sqKmToSqMe,
+    sqKmToSqYd,
+    sqKmToSqFt,
+    sqKmToSqIn,
+    sqKmToHect,
+    sqKmToAcre,
+    // square meter to all
+    sqMeToSqKm,
+    sqMeToSqYd,
+    sqMeToSqFt,
+    sqMeToSqIn,
+    sqMeToHect,
+    sqMeToAcre,
+    // square yard to all
+    sqYdToSqKm,
+    sqYdToSqMe,
+    sqYdToSqFt,
+    sqYdToSqIn,
+    sqYdToHect,
+    sqYdToAcre,
+    // square foot to all
+    sqFtToSqKm,
+    sqFtToSqMe,
+    sqFtToSqYd,
+    sqFtToSqIn,
+    sqFtToHect,
+    sqFtToAcre,
+    // square inch to all
+    sqInToSqKm,
+    sqInToSqMe,
+    sqInToSqYd,
+    sqInToSqFt,
+    sqInToHect,
+    sqInToAcre,
+    // square hectare to all
+    hectToSqKm,
+    hectToSqMe,
+    hectToSqYd,
+    hectToSqFt,
+    hectToSqIn,
+    hectToAcre,
+    // square acre to all
+    acreToSqKm,
+    acreToSqMe,
+    acreToSqYd,
+    acreToSqFt,
+    acreToSqIn,
+    acreToHect,
+} = require('./src/units/area/area');
+
+
 // exports the all functions.
 module.exports = {
     info,
@@ -366,5 +421,54 @@ module.exports = {
     fahToCel,
     fahToKel,
     kelToCel,
-    kelToFah
+    kelToFah,
+    // square kilometer to all
+    sqKmToSqMe,
+    sqKmToSqYd,
+    sqKmToSqFt,
+    sqKmToSqIn,
+    sqKmToHect,
+    sqKmToAcre,
+    // square meter to all
+    sqMeToSqKm,
+    sqMeToSqYd,
+    sqMeToSqFt,
+    sqMeToSqIn,
+    sqMeToHect,
+    sqMeToAcre,
+    // square yard to all
+    sqYdToSqKm,
+    sqYdToSqMe,
+    sqYdToSqFt,
+    sqYdToSqIn,
+    sqYdToHect,
+    sqYdToAcre,
+    // square foot to all
+    sqFtToSqKm,
+    sqFtToSqMe,
+    sqFtToSqYd,
+    sqFtToSqIn,
+    sqFtToHect,
+    sqFtToAcre,
+    // square inch to all
+    sqInToSqKm,
+    sqInToSqMe,
+    sqInToSqYd,
+    sqInToSqFt,
+    sqInToHect,
+    sqInToAcre,
+    // square hectare to all
+    hectToSqKm,
+    hectToSqMe,
+    hectToSqYd,
+    hectToSqFt,
+    hectToSqIn,
+    hectToAcre,
+    // square acre to all
+    acreToSqKm,
+    acreToSqMe,
+    acreToSqYd,
+    acreToSqFt,
+    acreToSqIn,
+    acreToHect
 }
