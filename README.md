@@ -725,3 +725,23 @@ All popular types.
     // in kelvin and convert to the temperature value in fahrenheit.
     console.log(solverjs.kelToFah(0));
     // The output is : -459.66999999999996
+
+## Area Conversion
+Area conversion is more used if you create a site to manage land and area. If you want to make your work easier then we have written some tools that you can use
+
+## Types Of Areas
+All popular types.
+- Square kilometer
+- Square meter
+- Square yard
+- Square foot
+- Square inch
+- Hectare
+- Acre
+
+## Area Conversion Methods
+
+### Square Kilometer to square meter, yard, foot, inch, Hectare, Acre
+
+#### Square Kilometer to Square Meter => sqKmToSqMe(sqkm)
+
