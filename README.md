@@ -744,4 +744,266 @@ All popular types.
 ### Square Kilometer to square meter, yard, foot, inch, Hectare, Acre
 
 #### Square Kilometer to Square Meter => sqKmToSqMe(sqkm)
+    // the sqKmToSqMe() function are take the square kilometer value
+    // and convert to the square meter value.
+    console.log(solverjs.sqKmToSqMe(1))
+    // The output is : 1000000
+
+#### Square Kilometer to Square Yard => sqKmToSqYd(sqkm)
+    // the sqKmToSqYd() function are take the square kilometer value
+    // and convert to the square yard value.
+    console.log(solverjs.sqKmToSqYd(1))
+    // The output is : 1196000
+
+#### Square Kilometer to Square Foot => sqKmToSqFt(sqkm)
+    // the sqKmToSqFt() function are take the square kilometer value
+    // and convert to the square foot value.
+    console.log(solverjs.sqKmToSqFt(1))
+    // The output is : 10760000
+
+#### Square Kilometer to Square Inch => sqKmToSqIn(sqkm)
+    // the sqKmToSqIn() function are take the square kilometer value
+    // and convert to the square inch value.
+    console.log(solverjs.sqKmToSqIn(1))
+    // The output is : 1550000000
+
+#### Square Kilometer to Hectare => sqKmToHect(sqkm)
+    // the sqKmToHect() function are take the square kilometer value
+    // and convert to the hectare value.
+    console.log(solverjs.sqKmToHect(1))
+    // The output is : 100
+
+#### Square Kilometer to Acre => sqKmToAcre(sqkm)
+    // the sqKmToAcre() function are take the square kilometer value
+    // and convert to the acre value.
+    console.log(solverjs.sqKmToAcre(1))
+    // The output is : 247
+
+### Square Meter to square Kilometer, yard, foot, inch, Hectare, Acre
+
+#### Square Meter to Square Kilometer => sqMeToSqMe(sqme)
+    // the sqMeToSqMe() function are take the square meter value
+    // and convert to the square meter value.
+    console.log(solverjs.sqMeToSqKm(1))
+    // The output is : 0.000001
+
+#### Square Meter to Square Yard => sqMeToSqYd(sqme)
+    // the sqMeToSqYd() function are take the square meter value
+    // and convert to the square yard value.
+    console.log(solverjs.sqMeToSqYd(1))
+    // The output is : 1.196
+
+#### Square Meter to Square Foot => sqMeToSqFt(sqme)
+    // the sqMeToSqFt() function are take the square meter value
+    // and convert to the square foot value.
+    console.log(solverjs.sqMeToSqFt(1))
+    // The output is : 10.764
+
+#### Square Meter to Square Inch => sqMeToSqIn(sqme)
+    // the sqMeToSqIn() function are take the square meter value
+    // and convert to the square inch value.
+    console.log(solverjs.sqMeToSqIn(1))
+    // The output is : 1550
+
+#### Square Meter to Hectare => sqMeToHect(sqme)
+    // the sqMeToHect() function are take the square meter value
+    // and convert to the hectare value.
+    console.log(solverjs.sqMeToHect(1))
+    // The output is : 0.0001
+
+#### Square Meter to Acre => sqMeToAcre(sqme)
+    // the sqMeToAcre() function are take the square meter value
+    // and convert to the acre value.
+    console.log(solverjs.sqMeToAcre(1))
+    // The output is : 0.00024709661477637757
+
+### Square Yard to square Kilometer, meter, foot, inch, Hectare, Acre
+
+#### Square Yard to Square Kilometer => sqYdToSqKm(sqyd)
+    // the sqYdToSqKm() function are take the square yard value
+    // and convert to the square meter value.
+    console.log(solverjs.sqYdToSqKm(1))
+    // The output is : 8.361204013377926e-7
+
+#### Square Yard to Square Meter => sqYdToSqMe(sqyd)
+    // the sqYdToSqMe() function are take the square yard value
+    // and convert to the square meter value.
+    console.log(solverjs.sqYdToSqMe(1))
+    // The output is : 0.8361204013377926
+
+#### Square Yard to Square Foot => sqYdToSqFt(sqyd)
+    // the sqYdToSqFt() function are take the square yard value
+    // and convert to the square foot value.
+    console.log(solverjs.sqYdToSqFt(1))
+    // The output is : 9
+
+#### Square Yard to Square Inch => sqYdToSqIn(sqyd)
+    // the sqYdToSqIn() function are take the square yard value
+    // and convert to the square inch value.
+    console.log(solverjs.sqYdToSqIn(1))
+    // The output is : 1296
+
+#### Square Yard to Hectare => sqYdToHect(sqyd)
+    // the sqYdToHect() function are take the square yard value
+    // and convert to the hectare value.
+    console.log(solverjs.sqYdToHect(1))
+    // The output is : 0.00008361204013377926
+
+#### Square Yard to Acre => sqYdToAcre(sqyd)
+    // the sqYdToAcre() function are take the square yard value
+    // and convert to the acre value.
+    console.log(solverjs.sqYdToAcre(1))
+    // The output is : 0.00020661157024793388
+
+### Square Foot to square Kilometer, meter, yard, inch, Hectare, Acre
+
+#### Square Foot to Square Kilometer => sqFtToSqKm(sqyd)
+    // the sqFtToSqKm() function are take the square foot value
+    // and convert to the square kilometer value.
+    console.log(solverjs.sqFtToSqKm(1))
+    // The output is : 9.29368029739777e-8
+
+#### Square Foot to Square Meter => sqFtToSqMe(sqyd)
+    // the sqFtToSqMe() function are take the square foot value
+    // and convert to the square meter value.
+    console.log(solverjs.sqFtToSqMe(1))
+    // The output is : 0.0929022668153103
+
+#### Square Foot to Square Yard => sqFtToSqYd(sqyd)
+    // the sqFtToSqYd() function are take the square foot value
+    // and convert to the square yard value.
+    console.log(solverjs.sqFtToSqYd(1))
+    // The output is : 0.1111111111111111
+
+#### Square Foot to Square Inch => sqFtToSqIn(sqyd)
+    // the sqFtToSqIn() function are take the square foot value
+    // and convert to the square inch value.
+    console.log(solverjs.sqFtToSqIn(1))
+    // The output is : 144
+
+#### Square Foot to Hectare => sqFtToHect(sqyd)
+    // the sqFtToHect() function are take the square foot value
+    // and convert to the hectare value.
+    console.log(solverjs.sqFtToHect(1))
+    // The output is : 0.000009290312990644655
+
+#### Square Foot to Acre => sqFtToAcre(sqyd)
+    // the sqFtToAcre() function are take the square foot value
+    // and convert to the acre value.
+    console.log(solverjs.sqFtToAcre(1))
+    // The output is : 0.00002295684113865932
+
+### Square Inch to square Kilometer, meter, yard, foot, Hectare, Acre
+
+#### Square Inch to Square Kilometer => sqInToSqKm(sqyd)
+    // the sqInToSqKm() function are take the square inch value
+    // and convert to the square kilometer value.
+    console.log(solverjs.sqInToSqKm(1))
+    // The output is : 6.451612903225806e-10
+
+#### Square Inch to Square Meter => sqInToSqMe(sqyd)
+    // the sqInToSqMe() function are take the square inch value
+    // and convert to the square meter value.
+    console.log(solverjs.sqInToSqMe(1))
+    // The output is : 0.0006451612903225806
+
+#### Square Inch to Square Yard => sqInToSqYd(sqyd)
+    // the sqInToSqYd() function are take the square inch value
+    // and convert to the square yard value.
+    console.log(solverjs.sqInToSqYd(1))
+    // The output is : 0.0007716049382716049
+
+#### Square Inch to Square Foot => sqInToSqFt(sqyd)
+    // the sqInToSqFt() function are take the square inch value
+    // and convert to the square foot value.
+    console.log(solverjs.sqInToSqFt(1))
+    // The output is : 0.006944444444444444
+
+#### Square Inch to Hectare => sqInToHect(sqyd)
+    // the sqInToHect() function are take the square inch value
+    // and convert to the hectare value.
+    console.log(solverjs.sqInToHect(1))
+    // The output is : 6.451612903225807e-8
+
+#### Square Inch to Acre => sqInToAcre(sqyd)
+    // the sqInToAcre() function are take the square inch value
+    // and convert to the acre value.
+    console.log(solverjs.sqInToAcre(1))
+    // The output is : 1.5941335883947074e-7
+
+### Hectare to square Kilometer, meter, yard, foot, inch, Acre
+
+#### Hectare to Square Kilometer => hectToSqKm(hect)
+    // the hectToSqKm() function are take the hectare value
+    // and convert to the square kilometer value.
+    console.log(solverjs.hectToSqKm(1))
+    // The output is : 0.01
+
+#### Hectare to Square Meter => hectToSqMe(hect)
+    // the hectToSqMe() function are take the hectare value
+    // and convert to the square meter value.
+    console.log(solverjs.hectToSqMe(1))
+    // The output is : 10000
+
+#### Hectare to Square Yard => hectToSqYd(hect)
+    // the hectToSqYd() function are take the hectare value
+    // and convert to the square yard value.
+    console.log(solverjs.hectToSqYd(1))
+    // The output is : 11960
+
+#### Hectare to Square Foot => hectToSqFt(hect)
+    // the hectToSqFt() function are take the hectare value
+    // and convert to the square foot value.
+    console.log(solverjs.hectToSqFt(1))
+    // The output is : 107639
+
+#### Hectare to Square Inch => hectToSqIn(hect)
+    // the hectToSqIn() function are take the hectare value
+    // and convert to the square inch value.
+    console.log(solverjs.hectToSqIn(1))
+    // The output is : 15500000
+
+#### Hectare to Acre => hectToAcre(hect)
+    // the hectToAcre() function are take the hectare value
+    // and convert to the acre value.
+    console.log(solverjs.hectToAcre(1))
+    // The output is : 2.471
+
+### Acre to square Kilometer, meter, yard, foot, inch, hectare
+
+#### Acre to Square Kilometer => acreToSqKm(acre)
+    // the acreToSqKm() function are take the acre value
+    // and convert to the square kilometer value.
+    console.log(solverjs.acreToSqKm(1))
+    // The output is : 0.004048582995951417
+
+#### Acre to Square Meter => acreToSqMe(acre)
+    // the acreToSqMe() function are take the acre value
+    // and convert to the square meter value.
+    console.log(solverjs.acreToSqMe(1))
+    // The output is : 4047
+
+#### Acre to Square Yard => acreToSqYd(acre)
+    // the acreToSqYd() function are take the acre value
+    // and convert to the square yard value.
+    console.log(solverjs.acreToSqYd(1))
+    // The output is : 4840
+
+#### Acre to Square Foot => acreToSqFt(acre)
+    // the acreToSqFt() function are take the acre value
+    // and convert to the square foot value.
+    console.log(solverjs.acreToSqFt(1))
+    // The output is : 43560
+
+#### Acre to Square Inch => acreToSqIn(acre)
+    // the acreToSqIn() function are take the acre value
+    // and convert to the square inch value.
+    console.log(solverjs.acreToSqIn(1))
+    // The output is : 6273000
+
+#### Acre to Hectare => acreToHect(acre)
+    // the acreToHect() function are take the acre value
+    // and convert to the hectare value.
+    console.log(solverjs.acreToHect(1))
+    // The output is : 0.4046944556859571
 
