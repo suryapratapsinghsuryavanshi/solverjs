@@ -124,6 +124,58 @@ Installation is done using the
     console.log(solverjs.isCoPrime(13, 34));
     // The output is : true
 
+## isKishnamurthyNumber
+    // The Krshna Murthy Number is a number sum of all factorial digit
+    // is equal to the given number.
+    console.log(solverjs.isKishnamurthyNumber(145));
+    // The output is : true
+
+## avg
+    // Average - is a term mid of the all given data point.
+    console.log(solverjs.avg([5, 6, 8, 9, 3]));
+    // The output is : 6.2
+
+## mod 
+    // mod is define the absulute value whout sign.
+    console.log(solverjs.mod(-145));
+    // The output is : 145
+
+## wordCount
+    // Word Counter is count he word of the given stirng.
+    // provide seperator.
+    console.log(solverjs.wordCount('alsdjf lasjfd lsjf', ' '));
+    // The output is : 3
+## isLeap
+    // The isLeap year check the given year is leap or not.
+    console.log(solverjs.isLeap(2021));
+    // The output is : false
+## lcm
+    // Find the lcm of two numbers.
+    console.log(solverjs.lcm(12, 3));
+    // The output is : 12
+## hcf
+    // Find the hcf of two numbers.
+    console.log(solverjs.hcf(72, 23));
+    // The output is : 1
+## ascii
+    // Find the ascii value of the given charector.
+    console.log(solverjs.ascii('A'));
+    // The output is : 65
+## reverse
+    // The method reverse the given stirn g.
+    console.log(solverjs.reverse('abcde'));
+    // The output is : edcba
+
+## isPalindrome
+    // The isPalindrome check the given stirn is
+    // palindrome or not.
+    console.log(solverjs.isPalindrome('abcba'));
+    // The output is : true
+
+## permutation
+    // The permutation return the all combination of a string.
+    console.log(solverjs.permutation('abc'));
+    // The output is : [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
 
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
