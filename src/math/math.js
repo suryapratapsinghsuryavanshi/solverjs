@@ -125,7 +125,41 @@ let hcf = (a, b) => getGcd(a, b);
 // ASCII Code of the charector.
 let ascii = (ch) => String(ch).charCodeAt();
 
-// 
+// Reverse - read backword
+let reverse = (str) => {
+    str.toString().split('').reverse().join('')
+}
+
+// Palindrome - A palindrome is a word, number, phrase, or other sequence 
+//of characters which reads the same backward as forward
+// check string or numebr is palindrome or not.
+let isPalindrome = (str) => {
+    return str == reverse(str);
+}
+
+// Word count
+let wordCount = (str, separetor) => {
+    return str.split(separetor).length
+}
+
+// permutation - get all the permutation of a given string.
+let permutation = (str) => {
+    str = str.split('');
+    let result = [];
+    const permute = (arr, m = []) => {
+        if (arr.length === 0) {
+            result.push(m.join(''))
+            } else {
+            for (let i = 0; i < arr.length; i++) {
+                let curr = arr.slice();
+                let next = curr.splice(i, 1);
+                permute(curr.slice(), m.concat(next))
+            }
+        }
+    }
+    permute(str)
+    return result;
+}
 
 // export maths methods.
 module.exports = {
