@@ -124,60 +124,60 @@ Installation is done using the
     console.log(solverjs.isCoPrime(13, 34));
     // The output is : true
 
-## isKishnamurthyNumber
+### isKishnamurthyNumber
     // The Krshna Murthy Number is a number sum of all factorial digit
     // is equal to the given number.
     console.log(solverjs.isKishnamurthyNumber(145));
     // The output is : true
 
-## avg
+### avg
     // Average - is a term mid of the all given data point.
     console.log(solverjs.avg([5, 6, 8, 9, 3]));
     // The output is : 6.2
 
-## mod 
+### mod 
     // mod is define the absulute value whout sign.
     console.log(solverjs.mod(-145));
     // The output is : 145
 
-## wordCount
+### wordCount
     // Word Counter is count he word of the given stirng.
     // provide seperator.
     console.log(solverjs.wordCount('alsdjf lasjfd lsjf', ' '));
     // The output is : 3
 
-## isLeap
+### isLeap
     // The isLeap year check the given year is leap or not.
     console.log(solverjs.isLeap(2021));
     // The output is : false
 
-## lcm
+### lcm
     // Find the lcm of two numbers.
     console.log(solverjs.lcm(12, 3));
     // The output is : 12
 
-## hcf
+### hcf
     // Find the hcf of two numbers.
     console.log(solverjs.hcf(72, 23));
     // The output is : 1
 
-## ascii
+### ascii
     // Find the ascii value of the given charector.
     console.log(solverjs.ascii('A'));
     // The output is : 65
-    
-## reverse
+
+### reverse
     // The method reverse the given stirn g.
     console.log(solverjs.reverse('abcde'));
     // The output is : edcba
 
-## isPalindrome
+### isPalindrome
     // The isPalindrome check the given stirn is
     // palindrome or not.
     console.log(solverjs.isPalindrome('abcba'));
     // The output is : true
 
-## permutation
+### permutation
     // The permutation return the all combination of a string.
     console.log(solverjs.permutation('abc'));
     // The output is : [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
