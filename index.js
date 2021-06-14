@@ -133,7 +133,8 @@ const {
     pow,
     len,
     isPrime,
-    isCoPrime
+    isCoPrime,
+    isKishnamurthyNumber
 } = require('./src/math/math');
 
 // numbers systems.
@@ -320,6 +321,7 @@ module.exports = {
     len,
     isPrime,
     isCoPrime,
+    isKishnamurthyNumber,
     // numbers system.
     hexToDec,
     hexToOct,

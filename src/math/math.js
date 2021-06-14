@@ -82,6 +82,51 @@ let isCoPrime = (x, y) => {
     return getGcd(x, y) == 1;
 }
 
+// krishnamurthy number is a number the sum of the all fectorial all the dight is equal to the number.
+// 145 => 1! + 4! + 5! = 1  + 24 + 120 = 145
+let isKishnamurthyNumber = (n) => {
+    let sm = 0;
+    String(n).split('').map(x => sm+=fac(Number(x)));
+    return sm == n;
+}
+
+// Average is a terms is define summetion of all the given point and divide by thers numbers of count.
+// [1, 2, 3, 4, 5] => 15 / 5 = 3
+let avg = (arr) => {
+    let sm = 0;
+    arr.map(x => sm+=x);
+    return sm / arr.length;
+}
+
+// mod is define as the absulute value , without the signe.
+// 0 <= mod (all the real numbers.)
+let mod = (n) => {
+    return Math.abs(n);
+}
+
+// A leap year is a calendar year that contains an additional day
+// check the given year leap year or not.
+let isLeap = (year) => {
+    if(year % 400 == 0) return true;
+    else if(year % 100 == 0) return false;
+    else if(year % 4 == 0) return true;
+    else return false;
+}
+
+// LCM - Least Comman multiple.
+// least common multiple of integers a and b
+let lcm = (a, b) => {
+    return (mod(a)/getGcd(a, b)) * mod(b);
+}
+
+// HCF - Highest Common Factor
+let hcf = (a, b) => getGcd(a, b);
+
+// ASCII Code of the charector.
+let ascii = (ch) => String(ch).charCodeAt();
+
+// 
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -95,5 +140,6 @@ module.exports = {
     pow,
     len,
     isPrime,
-    isCoPrime
+    isCoPrime,
+    isKishnamurthyNumber
 }
