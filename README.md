@@ -145,22 +145,27 @@ Installation is done using the
     // provide seperator.
     console.log(solverjs.wordCount('alsdjf lasjfd lsjf', ' '));
     // The output is : 3
+
 ## isLeap
     // The isLeap year check the given year is leap or not.
     console.log(solverjs.isLeap(2021));
     // The output is : false
+
 ## lcm
     // Find the lcm of two numbers.
     console.log(solverjs.lcm(12, 3));
     // The output is : 12
+
 ## hcf
     // Find the hcf of two numbers.
     console.log(solverjs.hcf(72, 23));
     // The output is : 1
+
 ## ascii
     // Find the ascii value of the given charector.
     console.log(solverjs.ascii('A'));
     // The output is : 65
+    
 ## reverse
     // The method reverse the given stirn g.
     console.log(solverjs.reverse('abcde'));
