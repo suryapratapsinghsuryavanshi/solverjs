@@ -134,7 +134,17 @@ const {
     len,
     isPrime,
     isCoPrime,
-    isKishnamurthyNumber
+    isKishnamurthyNumber,
+    avg, 
+    mod, 
+    wordCount,
+    isLeap, 
+    lcm, 
+    hcf, 
+    ascii, 
+    reverse, 
+    isPalindrome, 
+    permutation
 } = require('./src/math/math');
 
 // numbers systems.
@@ -322,6 +332,16 @@ module.exports = {
     isPrime,
     isCoPrime,
     isKishnamurthyNumber,
+    avg, 
+    mod, 
+    wordCount,
+    isLeap, 
+    lcm, 
+    hcf, 
+    ascii, 
+    reverse, 
+    isPalindrome, 
+    permutation,
     // numbers system.
     hexToDec,
     hexToOct,

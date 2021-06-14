@@ -127,7 +127,7 @@ let ascii = (ch) => String(ch).charCodeAt();
 
 // Reverse - read backword
 let reverse = (str) => {
-    str.toString().split('').reverse().join('')
+    return str.toString().split('').reverse().join('')
 }
 
 // Palindrome - A palindrome is a word, number, phrase, or other sequence 
@@ -175,5 +175,15 @@ module.exports = {
     len,
     isPrime,
     isCoPrime,
-    isKishnamurthyNumber
+    isKishnamurthyNumber,
+    avg, 
+    mod, 
+    wordCount,
+    isLeap, 
+    lcm, 
+    hcf, 
+    ascii, 
+    reverse, 
+    isPalindrome, 
+    permutation
 }
