@@ -116,10 +116,21 @@ let info = () => {
         "The fahToKel function convert fahrenheit to kelvin.": 'fahToKel(f)',
         // kelvin to Celsius and fahrenheit
         "The kelToCel function convert kelvin to Celsius.": 'kelToCel(k)',
-        "The kelToFah function convert kelvin to fahrenheit.": 'kelToFah(k)'
+        "The kelToFah function convert kelvin to fahrenheit.": 'kelToFah(k)',
+        // new meth's methods
+        "The isKishnamurthyNumber method are return true false acording to number. ": 'isKishnamurthyNumber(n)',
+        "The avg method are return the avarage of the given array ": 'avg([n1, n2, n3])',
+        "The mod method are return the mod value of the number. ": 'mod(+-n)',
+        "The wordCount method are return the word count of a string. ": 'wordCount(`this is word count.`, ` `)',
+        "The isLeap method are return ture false according to the year. ": 'isLeap(year)',
+        "The lcm method are return two numbers lcm. ": 'lcm(n1, n2)',
+        "The hcf method are return two numbers hcf/gcd. ": 'hcf(n1, n2)',
+        "The ascii method are return ascii value of a charector. ": 'ascii(`a`)',
+        "The reverse method are return reverse stirng. ": 'reverse(`abc`)',
+        "The isPalindrome is try to check the string isPalindrome or not ": 'isPalindrome(`aba`)',
+        "The permutation give all permutation array. ": 'permutation(`abc`)',
     });
 }
-
 // maths methods.
 const {
     getFib,
