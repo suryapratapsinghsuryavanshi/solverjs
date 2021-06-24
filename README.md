@@ -182,6 +182,22 @@ Installation is done using the
     console.log(solverjs.permutation('abc'));
     // The output is : [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
 
+### alternativeStringArrange 
+    // The alternativeStringArrange return alternetive marge string.
+    console.log(solverjs.alternativeStringArrange('abcde', 'xyz'));
+    // The output is : axbyczde
+    // Time Complexity O(n)
+
+### phoneValidator 
+    // The phoneValidator check the numebr is a valid or not.
+    console.log(solverjs.phoneValidator('+910011223344'));
+    // The output is : true
+
+### phoneExtractor
+    // The phoneExtractor find the phone number in stirng.
+    console.log(solverjs.phoneExtractor('this is no. +910011223344'));
+    // The output is : +910011223344
+
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
 
