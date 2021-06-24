@@ -178,6 +178,17 @@ let alternativeStringArrange = (st1, st2) => {
     return ar.join('')
 }
 
+// indian phone number Validator.
+let phoneValidator = (str) => {
+    const re = /^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/;
+    return re.test(str);
+}
+
+// indian phone number extractor.
+let phoneExtractor = (str) => {
+    return str.match(/(\+)+([91])+(\d{10})/)[0];
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -203,5 +214,7 @@ module.exports = {
     reverse, 
     isPalindrome, 
     permutation,
-    alternativeStringArrange
+    alternativeStringArrange,
+    phoneValidator,
+    phoneExtractor
 }

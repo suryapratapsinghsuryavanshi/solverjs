@@ -156,7 +156,9 @@ const {
     reverse, 
     isPalindrome, 
     permutation,
-    alternativeStringArrange
+    alternativeStringArrange,
+    phoneValidator,
+    phoneExtractor
 } = require('./src/math/math');
 
 // numbers systems.
@@ -355,6 +357,8 @@ module.exports = {
     isPalindrome, 
     permutation,
     alternativeStringArrange,
+    phoneValidator,
+    phoneExtractor,
     // numbers system.
     hexToDec,
     hexToOct,
