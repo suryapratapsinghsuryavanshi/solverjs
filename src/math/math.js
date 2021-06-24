@@ -161,6 +161,23 @@ let permutation = (str) => {
     return result;
 }
 
+// alternative string arrangement.
+let alternativeStringArrange = (st1, st2) => {
+    st1Length = st1.length
+    st2Length = st2.length
+    let len = st1Length > st2Length ? st1Length : st2Length
+    let ar = []
+    for(let i = 0;i<len;i++){
+        if(i < st1Length){
+            ar.push(st1[i]);
+        }
+        if(i < st2Length){
+            ar.push(st2[i]);
+        }
+    }
+    return ar.join('')
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -185,5 +202,6 @@ module.exports = {
     ascii, 
     reverse, 
     isPalindrome, 
-    permutation
+    permutation,
+    alternativeStringArrange
 }

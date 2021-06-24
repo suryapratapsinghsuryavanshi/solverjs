@@ -155,7 +155,8 @@ const {
     ascii, 
     reverse, 
     isPalindrome, 
-    permutation
+    permutation,
+    alternativeStringArrange
 } = require('./src/math/math');
 
 // numbers systems.
@@ -353,6 +354,7 @@ module.exports = {
     reverse, 
     isPalindrome, 
     permutation,
+    alternativeStringArrange,
     // numbers system.
     hexToDec,
     hexToOct,

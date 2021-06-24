@@ -1,4 +1,4 @@
-[![Express Logo](https://localprofiler.ml/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
+[![SolverJs Logo](https://localprofiler.ml/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
 
 
   [![NPM Version][npm-image]][npm-url]
