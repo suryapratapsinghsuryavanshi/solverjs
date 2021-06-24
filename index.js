@@ -129,6 +129,9 @@ let info = () => {
         "The reverse method are return reverse stirng. ": 'reverse(`abc`)',
         "The isPalindrome is try to check the string isPalindrome or not ": 'isPalindrome(`aba`)',
         "The permutation give all permutation array. ": 'permutation(`abc`)',
+        "The alternativeStringArrange method marge both stirng alternetive order.": 'alternativeStringArrange(`abc`)',
+        "The phoneValidator method check the number area valid or not. ": 'phoneValidator(`+910011223344`)',
+        "The phoneExtractor extarct number form string. ": 'phoneExtractor(`this is number +910011223344`)',
     });
 }
 // maths methods.
