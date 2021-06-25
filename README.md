@@ -1080,3 +1080,22 @@ All popular types.
     console.log(solverjs.acreToHect(1))
     // The output is : 0.4046944556859571
 
+## Util's Methods
+    // The utility methods are very helpful in many small projects.
+
+### All Util's Methods
+Defined method.
+- dateToDay
+- dobToAge
+
+#### Date to Week-day => dateToDay('dd/mm/yyyy')
+    // The dateToDay method takes a string date and returns the 
+    // specific week-day.
+    console.log(solverjs.dateToAge('01/01/2000'));
+    // The output is : Saturday
+
+#### Date of birth to Age => dobToAge('dd/mm/yyyy');
+    // The dobToAge() method takes a string date and returns 
+    // data delta along with the current date in a string.
+    console.log(solverjs.dobToAge('01/01/2000'));
+    // The output is : 21 years 5 months and 29 days
