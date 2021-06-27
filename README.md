@@ -52,6 +52,10 @@ Installation is done using the
     // The 8'th fibonacci number is 8.
     // Output should be : 21
 
+## Contributing
+
+[Contributing Guide](Contributing.md)
+
 ## All Commonly used Functions
 ### info
     // The info function are give the information about the solverjs.
