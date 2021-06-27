@@ -1096,7 +1096,7 @@ Defined method.
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
     // specific week-day.
-    console.log(solverjs.dateToAge('01/01/2000'));
+    console.log(solverjs.dateToDay('01/01/2000'));
     // The output is : Saturday
 
 #### Date of birth to Age => dobToAge('dd/mm/yyyy')
