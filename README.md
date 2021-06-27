@@ -44,6 +44,10 @@ Installation is done using the
 ### Using yarn:
     yarn add solverjs
 
+## Contributing
+
+[Contributing Guide](Contributing.md)
+
 ## Usage In NodeJs
     // Load the full solverjs.
     var solverjs = require('solverjs');
@@ -51,10 +55,6 @@ Installation is done using the
     var ans = solverjs.getFib(8);
     // The 8'th fibonacci number is 8.
     // Output should be : 21
-
-## Contributing
-
-[Contributing Guide](Contributing.md)
 
 ## All Commonly used Functions
 ### info
