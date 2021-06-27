@@ -199,7 +199,8 @@
     "acreToHect",
     "utils",
     "dateToDay",
-    "dobToAge"
+    "dobToAge",
+    "keywordExtractor"
   ],
   "author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
   "license": "MIT",

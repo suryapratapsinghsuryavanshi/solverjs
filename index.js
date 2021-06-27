@@ -133,14 +133,16 @@ let info = () => {
         "The phoneValidator method check the number area valid or not. ": 'phoneValidator(`+910011223344`)',
         "The phoneExtractor extarct number form string. ": 'phoneExtractor(`this is number +910011223344`)',
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
-        "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)'
+        "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
+        "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)'
     });
 }
 
 // utils
 const {
     dateToDay,
-    dobToAge
+    dobToAge,
+    keywordExtractor
 } = require('./src/utils/utils');
 
 // maths methods.
@@ -524,5 +526,6 @@ module.exports = {
     acreToHect,
     // utils
     dateToDay,
-    dobToAge
+    dobToAge,
+    keywordExtractor
 }

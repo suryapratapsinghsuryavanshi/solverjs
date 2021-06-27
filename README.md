@@ -1087,6 +1087,7 @@ All popular types.
 Defined method.
 - dateToDay
 - dobToAge
+- keywordExtractor
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1094,8 +1095,14 @@ Defined method.
     console.log(solverjs.dateToAge('01/01/2000'));
     // The output is : Saturday
 
-#### Date of birth to Age => dobToAge('dd/mm/yyyy');
+#### Date of birth to Age => dobToAge('dd/mm/yyyy')
     // The dobToAge() method takes a string date and returns 
     // data delta along with the current date in a string.
     console.log(solverjs.dobToAge('01/01/2000'));
     // The output is : 21 years 5 months and 29 days
+
+#### String To keyword => keywordExtractor(str)
+    // The keywordExtractor() method is take stirng and
+    // return the keyword array.
+    console.log(solverjs.keywordExtractor('This is a special stirng with 5news char.'));
+    // The output is : [ 'special', 'stirng' ]
