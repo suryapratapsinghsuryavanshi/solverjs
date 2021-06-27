@@ -85,7 +85,39 @@ const dobToAge = (date) => {
     return `${constructYear} years ${constructMonth} months and ${constructDay} days`
 }
 
+// find the word are contain numaric charector or not.
+const containNumber = (word) => {
+    let pat = /(\d+)/;
+    return pat.test(word);
+}
+
+// find the word are contain Special charector.
+const contatinSpecial = (word) => {
+    let pat = /([!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+)/;
+    return pat.test(word);
+}
+
+// keyword extractor.
+const keywordExtractor = (str) => {
+    // firstly extract all the word from the string.
+    // using split methdo and ' ' as a separator.
+    let words = str.split(' ');
+    // if the word contatin some spacil charectors so reduce it.
+    // if the length of the word is less then 4 is not valid keyword.
+    let reduceWords = words.filter((word) =>  {
+        // if the word length aee less then 5 or 
+        // the word contain any numaric charector the return flase. 
+        // and the property of reduce if the return false the not
+        // consider as a valid word.
+        // last check the containe special charector or not.
+        return((word.length >= 5) && (!containNumber(word)) && (!contatinSpecial(word)));
+    });
+    // all the number and special char contain word are eluminate so return it.
+    return reduceWords;
+}
+
 module.exports = {
     dateToDay,
-    dobToAge
+    dobToAge,
+    keywordExtractor
 }
