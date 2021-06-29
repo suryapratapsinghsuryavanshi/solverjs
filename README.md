@@ -214,6 +214,12 @@ Installation is done using the
     console.log(solverjs.isAlpha('55'));
     // The output is : false
 
+### numToAscii
+    // The numToAscii method are return
+    // number to correspond char value.
+    console.log(solverjs.numToAscii(97));
+    // The output is : a
+
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
 

@@ -134,6 +134,7 @@ let info = () => {
         "The phoneExtractor extarct number form string. ": 'phoneExtractor(`this is number +910011223344`)',
         "The isAlNum method check the stirn are alphanumeric or not. ": 'isAlNum(`55x`)',
         "The isAlpha method check the stirn are alpha or not. ": 'isAlNum(`abc`)',
+        "The numToAscii method are return number to ASCII value. ": 'numToAscii(97)',
         // utils
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
         "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
