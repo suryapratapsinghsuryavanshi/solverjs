@@ -125,6 +125,9 @@ let hcf = (a, b) => getGcd(a, b);
 // ASCII Code of the charector.
 let ascii = (ch) => String(ch).charCodeAt();
 
+// Number To ASCII code.
+let numToAscii = (num) => String.fromCharCode(num);
+
 // Reverse - read backword
 let reverse = (str) => {
     return str.toString().split('').reverse().join('')
@@ -232,4 +235,5 @@ module.exports = {
     phoneExtractor,
     isAlNum,
     isAlpha,
+    numToAscii
 }

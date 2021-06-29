@@ -177,7 +177,8 @@ const {
     phoneValidator,
     phoneExtractor,
     isAlNum,
-    isAlpha
+    isAlpha,
+    numToAscii
 } = require('./src/math/math');
 
 // numbers systems.
@@ -380,6 +381,7 @@ module.exports = {
     phoneExtractor,
     isAlNum,
     isAlpha,
+    numToAscii,
     // numbers system.
     hexToDec,
     hexToOct,
