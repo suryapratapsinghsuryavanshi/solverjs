@@ -189,6 +189,19 @@ let phoneExtractor = (str) => {
     return str.match(/(\+)+([91])+(\d{10})/)[0];
 }
 
+// use for check the given string are alphanumeric or not.
+const { contatinSpecial } = require('../utils/utils');
+const isAlNum = (str) => {
+    const pat = /([a-zA-Z]+[0-9]+)|([0-9]+[a-zA-Z]+)/;
+    return(!contatinSpecial(str) && pat.test(str));
+}
+
+// use for check the given stirn is alpha or not.
+const isAlpha = (str) => {
+    const pat = /^[a-zA-Z_]*$/;
+    return pat.test(str);
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -216,5 +229,7 @@ module.exports = {
     permutation,
     alternativeStringArrange,
     phoneValidator,
-    phoneExtractor
+    phoneExtractor,
+    isAlNum,
+    isAlpha,
 }

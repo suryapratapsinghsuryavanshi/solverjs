@@ -132,6 +132,9 @@ let info = () => {
         "The alternativeStringArrange method marge both stirng alternetive order.": 'alternativeStringArrange(`abc`)',
         "The phoneValidator method check the number area valid or not. ": 'phoneValidator(`+910011223344`)',
         "The phoneExtractor extarct number form string. ": 'phoneExtractor(`this is number +910011223344`)',
+        "The isAlNum method check the stirn are alphanumeric or not. ": 'isAlNum(`55x`)',
+        "The isAlpha method check the stirn are alpha or not. ": 'isAlNum(`abc`)',
+        // utils
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
         "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
         "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)'
@@ -172,7 +175,9 @@ const {
     permutation,
     alternativeStringArrange,
     phoneValidator,
-    phoneExtractor
+    phoneExtractor,
+    isAlNum,
+    isAlpha
 } = require('./src/math/math');
 
 // numbers systems.
@@ -373,6 +378,8 @@ module.exports = {
     alternativeStringArrange,
     phoneValidator,
     phoneExtractor,
+    isAlNum,
+    isAlpha,
     // numbers system.
     hexToDec,
     hexToOct,

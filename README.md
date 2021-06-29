@@ -8,7 +8,7 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v1.7.12-blue
+[npm-image]: https://img.shields.io/badge/npm-v1.8.12-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -201,6 +201,18 @@ Installation is done using the
     // The phoneExtractor find the phone number in stirng.
     console.log(solverjs.phoneExtractor('this is no. +910011223344'));
     // The output is : +910011223344
+
+### isAlNum
+    // The isAlNum method check the given string
+    // alphanumeric or not return boolean value.
+    console.log(solverjs.isAlNum('55x'));
+    // The output is : true
+
+### isAlpha
+    // The isAlpha method check the givne string
+    // alpha or not return boolean value.
+    console.log(solverjs.isAlpha('55'));
+    // The output is : false
 
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.

@@ -119,5 +119,6 @@ const keywordExtractor = (str) => {
 module.exports = {
     dateToDay,
     dobToAge,
-    keywordExtractor
+    keywordExtractor,
+    contatinSpecial
 }
