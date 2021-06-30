@@ -205,6 +205,24 @@ const isAlpha = (str) => {
     return pat.test(str);
 }
 
+// this function check the givent string is all decimal charectors or not.
+const isDecimal = (str) => {
+    const pat = /^(\d+)$/;
+    return(!isAlNum(str) && pat.test(str));
+}
+
+// this method check the givne string in lower case or not.
+const isLower = (str) => str.toLowerCase() == str;
+
+// this method check the given string in upper case or not.
+const isUpper = (str) => str.toUpperCase() == str;
+
+// this method is used for the given string is only contain spaces.
+const isSpace = (str) => /^(\s+)$/.test(str);
+
+// this method is used for the given string is in title form or not.
+const isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -235,5 +253,10 @@ module.exports = {
     phoneExtractor,
     isAlNum,
     isAlpha,
-    numToAscii
+    numToAscii,
+    isDecimal,
+    isLower,
+    isUpper,
+    isSpace,
+    isTitle
 }
