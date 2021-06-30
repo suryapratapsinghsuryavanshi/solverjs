@@ -220,6 +220,36 @@ Installation is done using the
     console.log(solverjs.numToAscii(97));
     // The output is : a
 
+### isDecimal
+    // The method are check the given string are decimal
+    // or return corspond boolean value.
+    console.log(solverjs.isDecimal('55'));
+    // The output is : true
+
+### isLower 
+    // The isLower method are used for check the all
+    // charector in lower case form or not.
+    console.log(solverjs.isLower('lower'));
+    // The output is : true
+
+### isUpper
+    // The isUpper method are used for check the all
+    // charector in upper case form or not.
+    console.log(solverjs.isUpper('UPPER'));
+    // The output is : true
+
+### isTitle 
+    // The isTitle method are used for check the
+    // given strin in title form or not.
+    console.log(solverjs.isTitle('Title'));
+    // The output is : true
+
+### isSpace 
+    // The isSpace method are used for check the given 
+    // string is all charector in space or not.
+    console.log(solverjs.isSpace('  '));
+    // The output is : true
+
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
 

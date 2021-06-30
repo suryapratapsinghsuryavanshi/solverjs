@@ -135,6 +135,11 @@ let info = () => {
         "The isAlNum method check the stirn are alphanumeric or not. ": 'isAlNum(`55x`)',
         "The isAlpha method check the stirn are alpha or not. ": 'isAlNum(`abc`)',
         "The numToAscii method are return number to ASCII value. ": 'numToAscii(97)',
+        "The isDecimal method are check the the string is a valid decimal or not. ": 'isDecimal(`55`)',
+        "The isLower method are check the all charector in lower case or not. ": 'isLower(`lower`)',
+        "The isUpper methor are used to check the string is in upper case or not. ": 'isUpper(`upper`)',
+        "The isSpace method are used for check the string all charector are space or not. ": 'isSpace(` `)',
+        "The isTitle method are used for check the string is in title form or not. ": 'isTitle(`Title`)',
         // utils
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
         "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
@@ -179,7 +184,12 @@ const {
     phoneExtractor,
     isAlNum,
     isAlpha,
-    numToAscii
+    numToAscii,
+    isDecimal,
+    isLower,
+    isUpper,
+    isSpace,
+    isTitle
 } = require('./src/math/math');
 
 // numbers systems.
@@ -383,6 +393,11 @@ module.exports = {
     isAlNum,
     isAlpha,
     numToAscii,
+    isDecimal,
+    isLower,
+    isUpper,
+    isSpace,
+    isTitle,
     // numbers system.
     hexToDec,
     hexToOct,
