@@ -212,10 +212,10 @@ const isDecimal = (str) => {
 }
 
 // this method check the givne string in lower case or not.
-const isLower = (str) => str.toLowerCase() == str;
+const isLower = (str) => str.toLowerCase() == str && !isAlNum(str);
 
 // this method check the given string in upper case or not.
-const isUpper = (str) => str.toUpperCase() == str;
+const isUpper = (str) => str.toUpperCase() == str && !isAlNum(str);
 
 // this method is used for the given string is only contain spaces.
 const isSpace = (str) => /^(\s+)$/.test(str);
