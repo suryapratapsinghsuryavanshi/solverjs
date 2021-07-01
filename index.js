@@ -143,7 +143,10 @@ let info = () => {
         // utils
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
         "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
-        "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)'
+        "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)',
+        // matrix 
+        "The matAdd method are do addition of two same dimention matrix.": 'matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])',
+        "The matSub method are do subtraction of two same dimention matrix.": 'matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])'
     });
 }
 
@@ -153,6 +156,12 @@ const {
     dobToAge,
     keywordExtractor
 } = require('./src/utils/utils');
+
+// matrix 
+const {
+    matAdd,
+    matSub
+} = require('./src/matrix/matrix');
 
 // maths methods.
 const {
@@ -552,5 +561,8 @@ module.exports = {
     // utils
     dateToDay,
     dobToAge,
-    keywordExtractor
+    keywordExtractor,
+    // matrix
+    matAdd,
+    matSub
 }

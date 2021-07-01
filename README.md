@@ -1158,3 +1158,24 @@ Defined method.
     // return the keyword array.
     console.log(solverjs.keywordExtractor('This is a special stirng with 5news char.'));
     // The output is : [ 'special', 'stirng' ]
+
+
+## Matrix Operations
+    // The matrix mathod are highly optimized.
+
+### All Matrix Methods
+Defined method.
+- matAdd
+- matSub
+
+#### Addition of the matrix => matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+    // The matAdd() method are take two matrix and perform
+    // addition operation.
+    console.log(solverjs.matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]]))
+    // The output is : [ [ 7, 9 ], [ 12, 14 ] ]
+
+#### Subtraction of the matrix => matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+    // The matSub method are take two matrix and perform
+    // subtraction operation.
+    console.log(solverjs.matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]]))
+    // The output is : [ [ -5, -5 ], [ -4, -4 ] ]
