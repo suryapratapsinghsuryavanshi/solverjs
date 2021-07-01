@@ -1,6 +1,6 @@
 {
   "name": "solverjs",
-  "version": "1.9.12",
+  "version": "1.10.12",
   "description": "This package is a combination of many useful functions.",
   "main": "index.js",
   "scripts": {
@@ -200,7 +200,9 @@
     "utils",
     "dateToDay",
     "dobToAge",
-    "keywordExtractor"
+    "keywordExtractor",
+    "matAdd",
+    "matSub"
   ],
   "author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
   "license": "MIT",
