@@ -30,8 +30,48 @@ const matAdd = (mat1, mat2) => matUtil(mat1, mat2, '+');
 // Subtraction => if the matrix are same dimention it posible to subtract them.
 const matSub = (mat1, mat2) => matUtil(mat1, mat2, '-');
 
+// spiral print.
+const matSpiralPrint = (mat1) => {
+    let T = 0;
+    let B = mat1.length - 1;
+    let L = 0;
+    let R = mat1[0].length - 1;
+    let dir = 0;
+    let str = new Array();
+
+    while(T <= B && L <= R){
+        if(dir == 0){
+            for(let i=L; i<=R;i++){
+                str.push(mat1[T][i]);
+            }
+            T++;
+        }
+        else if(dir == 1){
+            for(let i=T;i<=B;i++){
+                str.push(mat1[i][R]);
+            }
+            R--;
+        }
+        else if(dir == 2){
+            for(let i=R;i>=L;i--){
+                str.push(mat1[B][i]);
+            }
+            B--;
+        }
+        else if(dir == 3){
+            for(let i=B;i>=T;i--){
+                str.push(mat1[i][L]);
+            }
+            L++;
+        }
+        dir = (dir + 1) % 4;
+    }
+
+    return str;
+}
 
 module.exports = {
     matAdd,
-    matSub
+    matSub,
+    matSpiralPrint
 }

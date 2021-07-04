@@ -160,7 +160,8 @@ const {
 // matrix 
 const {
     matAdd,
-    matSub
+    matSub,
+    matSpiralPrint
 } = require('./src/matrix/matrix');
 
 // maths methods.
@@ -564,5 +565,6 @@ module.exports = {
     keywordExtractor,
     // matrix
     matAdd,
-    matSub
+    matSub,
+    matSpiralPrint
 }
