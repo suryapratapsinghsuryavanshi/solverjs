@@ -1179,3 +1179,8 @@ Defined method.
     // subtraction operation.
     console.log(solverjs.matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]]))
     // The output is : [ [ -5, -5 ], [ -4, -4 ] ]
+
+#### Spiral print of a matrix => matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+    // The matSpiralPrint print the matrix in spiral form.
+    console.log(solverjs.matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
+    // The output is : [1, 2, 3, 6, 9, 8, 7, 4, 5]
