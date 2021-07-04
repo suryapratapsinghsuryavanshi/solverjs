@@ -146,7 +146,8 @@ let info = () => {
         "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)',
         // matrix 
         "The matAdd method are do addition of two same dimention matrix.": 'matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])',
-        "The matSub method are do subtraction of two same dimention matrix.": 'matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])'
+        "The matSub method are do subtraction of two same dimention matrix.": 'matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])',
+        "The matSpiralPrint print the matrix in spiral form.": 'matSpiralPrint([[1, 2, 3], [4, 5, 6]], [[7, 8, 9]])'
     });
 }
 
