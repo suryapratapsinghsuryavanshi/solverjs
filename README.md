@@ -1160,6 +1160,10 @@ Defined method.
     // The output is : [ 'special', 'stirng' ]
 
 #### Keyword Finder => isKeywordExists(str, keyword)
+    // The isKeywordExists() method is take two string 
+    // argument find second to first string.
+    console.log(solverjs.isKeywordExists('This is a string', 'is');
+    // The output is : true
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
