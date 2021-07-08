@@ -155,7 +155,8 @@ let info = () => {
 const {
     dateToDay,
     dobToAge,
-    keywordExtractor
+    keywordExtractor,
+    isKeywordExists
 } = require('./src/utils/utils');
 
 // matrix 
@@ -564,6 +565,7 @@ module.exports = {
     dateToDay,
     dobToAge,
     keywordExtractor,
+    isKeywordExists,
     // matrix
     matAdd,
     matSub,

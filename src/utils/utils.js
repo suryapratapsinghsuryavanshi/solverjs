@@ -123,5 +123,6 @@ module.exports = {
     dateToDay,
     dobToAge,
     keywordExtractor,
-    contatinSpecial
+    contatinSpecial,
+    isKeywordExists
 }
