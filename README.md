@@ -1159,6 +1159,7 @@ Defined method.
     console.log(solverjs.keywordExtractor('This is a special stirng with 5news char.'));
     // The output is : [ 'special', 'stirng' ]
 
+#### Keyword Finder => isKeywordExists(str, keyword)
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.

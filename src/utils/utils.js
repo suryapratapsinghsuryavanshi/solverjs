@@ -116,6 +116,9 @@ const keywordExtractor = (str) => {
     return reduceWords;
 }
 
+// keyword finder.
+const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
+
 module.exports = {
     dateToDay,
     dobToAge,
