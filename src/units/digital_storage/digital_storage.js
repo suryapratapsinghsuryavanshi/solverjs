@@ -24,3 +24,35 @@ let kbToMb = (kilobyte) => kilobyte / 1000;
 let kbToGb = (kilobyte) => kilobyte / 1e+6;
 let kbToTb = (kilobyte) => kilobyte / 1e+9;
 let kbToPb = (kilobyte) => kilobyte / 1e+12;
+
+// megabyte to all importent digital stroage units.
+let mbToBit = (mb) => mb * 8e+6;
+let mbToByte = (mb) => mb * 1e+6;
+let mbToKb = (mb) => mb * 1000;
+let mbToGb = (mb) => mb / 1000;
+let mbToTb = (mb) => mb / 1e+6;
+let mbToPb = (mb) => mb / 1e+9;
+
+// gigabyte to all importent digital storage units.
+let gbToBit = (gb) => gb * 8e+9;
+let gbToByte = (gb) => gb * 1e+9;
+let gbToKb = (gb) => gb * 1e+6;
+let gbToMb = (gb) => gb * 1000;
+let gbToTb = (gb) => gb / 1000;
+let gbToPb = (gb) => gb / 1e+6;
+
+// terabyte to all importent digital storage units.
+let tbToBit = (tb) => tb * 8e+12;
+let tbToByte = (tb) => tb * 1e+12;
+let tbToKb = (tb) => tb * 1e+9;
+let tbToMb = (tb) => tb * 1e+6;
+let tbToGb = (tb) => tb * 1000;
+let tbToPb = (tb) => tb / 1000;
+
+// petabyte to all importent digital storage units.
+let pbToBit = (pb) => pb * 8e+15;
+let pbToByte = (pb) => pb * 1e+15;
+let pbToKb = (pb) => pb * 1e+12;
+let pbToMb = (pb) => pb * 1e+9;
+let pbToGb = (pb) => pb * 1e+6;
+let pbToTb = (pb) => pb * 1000;
