@@ -371,6 +371,58 @@ const {
     acreToHect,
 } = require('./src/units/area/area');
 
+// digital storage methods import.
+const {
+    // bit to all
+    bitToByte,
+    bitToKb,
+    bitToMb,
+    bitToGb,
+    bitToTb,
+    bitToPb,
+    // byte to all
+    byteToBit,
+    byteToKb,
+    byteToMb,
+    byteToGb,
+    byteToTb,
+    byteToPb,
+    // kilobyte to all
+    kbToBit,
+    kbToByte,
+    kbToMb,
+    kbToGb,
+    kbToTb,
+    kbToPb,
+    // megabyte to all
+    mbToBit,
+    mbToByte,
+    mbToKb,
+    mbToGb,
+    mbToTb,
+    mbToPb,
+    // gigabyte to all
+    gbToBit,
+    gbToByte,
+    gbToKb,
+    gbToMb,
+    gbToTb,
+    gbToPb,
+    // terabyte to all
+    tbToBit,
+    tbToByte,
+    tbToKb,
+    tbToMb,
+    tbToGb,
+    tbToPb,
+    // petabyte to all
+    pbToBit,
+    pbToByte,
+    pbToKb,
+    pbToMb,
+    pbToGb,
+    pbToTb,
+} = require('./src/units/digital_storage/digital_storage');
 
 // exports the all functions.
 module.exports = {
@@ -569,5 +621,55 @@ module.exports = {
     // matrix
     matAdd,
     matSub,
-    matSpiralPrint
+    matSpiralPrint,
+    // digital storage methdos.
+    // bit to all
+    bitToByte,
+    bitToKb,
+    bitToMb,
+    bitToGb,
+    bitToTb,
+    bitToPb,
+    // byte to all
+    byteToBit,
+    byteToKb,
+    byteToMb,
+    byteToGb,
+    byteToTb,
+    byteToPb,
+    // kilobyte to all
+    kbToBit,
+    kbToByte,
+    kbToMb,
+    kbToGb,
+    kbToTb,
+    kbToPb,
+    // megabyte to all
+    mbToBit,
+    mbToByte,
+    mbToKb,
+    mbToGb,
+    mbToTb,
+    mbToPb,
+    // gigabyte to all
+    gbToBit,
+    gbToByte,
+    gbToKb,
+    gbToMb,
+    gbToTb,
+    gbToPb,
+    // terabyte to all
+    tbToBit,
+    tbToByte,
+    tbToKb,
+    tbToMb,
+    tbToGb,
+    tbToPb,
+    // petabyte to all
+    pbToBit,
+    pbToByte,
+    pbToKb,
+    pbToMb,
+    pbToGb,
+    pbToTb,
 }

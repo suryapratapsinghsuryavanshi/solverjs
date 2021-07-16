@@ -56,3 +56,56 @@ let pbToKb = (pb) => pb * 1e+12;
 let pbToMb = (pb) => pb * 1e+9;
 let pbToGb = (pb) => pb * 1e+6;
 let pbToTb = (pb) => pb * 1000;
+
+
+module.exports = {
+    // bit to all
+    bitToByte,
+    bitToKb,
+    bitToMb,
+    bitToGb,
+    bitToTb,
+    bitToPb,
+    // byte to all
+    byteToBit,
+    byteToKb,
+    byteToMb,
+    byteToGb,
+    byteToTb,
+    byteToPb,
+    // kilobyte to all
+    kbToBit,
+    kbToByte,
+    kbToMb,
+    kbToGb,
+    kbToTb,
+    kbToPb,
+    // megabyte to all
+    mbToBit,
+    mbToByte,
+    mbToKb,
+    mbToGb,
+    mbToTb,
+    mbToPb,
+    // gigabyte to all
+    gbToBit,
+    gbToByte,
+    gbToKb,
+    gbToMb,
+    gbToTb,
+    gbToPb,
+    // terabyte to all
+    tbToBit,
+    tbToByte,
+    tbToKb,
+    tbToMb,
+    tbToGb,
+    tbToPb,
+    // petabyte to all
+    pbToBit,
+    pbToByte,
+    pbToKb,
+    pbToMb,
+    pbToGb,
+    pbToTb,
+}
