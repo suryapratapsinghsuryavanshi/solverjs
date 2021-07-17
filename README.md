@@ -1312,3 +1312,147 @@ The Digital Storage has many types but in this time we see only some very freque
     // correspond to the digital storage parameters.
     console.log(solverjs.kbToPb(1))
     // The output is : 1e-12
+
+#### Megabyte To Bit => mbToBit(kb)
+    // The mbToBit method are take Megabyte value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToBit(1))
+    // The output is : 8000000
+
+#### Megabyte to Byte => mbToByte(kb)
+    // The mbToByte method are take Megabyte value and return the Byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToByte(1))
+    // The output is : 1000000
+
+#### Megabyte to Kilobyte => mbToKb(kb)
+    // The mbToKb method are take Megabyte value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToKb(1))
+    // The output is : 1000
+
+#### Megabyte to Gigabyte => mbToGb(kb)
+    // The mbToGb method are take Megabyte value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToGb(1))
+    // The output is : 0.001
+
+#### Megabyte to Terabyte => mbToTb(kb)
+    // The mbToTb method are take Megabyte value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToTb(1))
+    // The output is : 0.000001
+
+#### Megabyte to Petabyte => mbToPb(kb)
+    // The mbToPb method are take Megabyte value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.mbToPb(1))
+    // The output is : 1e-9
+
+#### Gigabyte To Bit => gbToBit(kb)
+    // The gbToBit method are take Gigabyte value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToBit(1))
+    // The output is : 8000000000
+
+#### Gigabyte to Byte => gbToByte(kb)
+    // The gbToByte method are take Gigabyte value and return the Byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToByte(1))
+    // The output is : 1000000000
+
+#### Gigabyte to Kilobyte => gbToKb(kb)
+    // The gbToKb method are take Gigabyte value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToKb(1))
+    // The output is : 1000000
+
+#### Gigabyte to Megabyte => gbToMb(kb)
+    // The gbToMb method are take Gigabyte value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToMb(1))
+    // The output is : 1000
+
+#### Gigabyte to Terabyte => gbToTb(kb)
+    // The gbToTb method are take Gigabyte value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToTb(1))
+    // The output is :0.001
+
+#### Gigabyte to Petabyte => gbToPb(kb)
+    // The gbToPb method are take Gigabyte value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.gbToPb(1))
+    // The output is : 0.000001
+
+#### Terabyte To Bit => tbToBit(kb)
+    // The tbToBit method are take Terabyte value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToBit(1))
+    // The output is : 8000000000000
+
+#### Terabyte to Byte => tbToByte(kb)
+    // The tbToByte method are take Terabyte value and return the Byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToByte(1))
+    // The output is : 1000000000000
+
+#### Terabyte to Kilobyte => tbToKb(kb)
+    // The tbToKb method are take Terabyte value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToKb(1))
+    // The output is : 1000000000
+
+#### Terabyte to Megabyte => tbToMb(kb)
+    // The tbToMb method are take Terabyte value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToMb(1))
+    // The output is : 1000000
+
+#### Terabyte to Gigabyte => tbToTb(kb)
+    // The tbToTb method are take Terabyte value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToTb(1))
+    // The output is : 1000
+
+#### Terabyte to Petabyte => tbToPb(kb)
+    // The tbToPb method are take Terabyte value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.tbToPb(1))
+    // The output is : 0.001Petabyte To Bit => tbToBit(kb)
+
+#### Petabyte to Bit => pbToBit(kb)
+    // The pbToBit method are take Petabyte value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToBit(1))
+    // The output is : 8000000000000000
+
+#### Petabyte to Byte => pbToByte(kb)
+    // The pbToByte method are take Petabyte value and return the Byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToByte(1))
+    // The output is : 1000000000000000
+
+#### Petabyte to Kilobyte => pbToKb(kb)
+    // The pbToKb method are take Petabyte value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToKb(1))
+    // The output is : 1000000000000
+
+#### Petabyte to Megabyte => pbToMb(kb)
+    // The pbToMb method are take Petabyte value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToMb(1))
+    // The output is : 1000000000
+
+#### Petabyte to Gigabyte => pbToTb(kb)
+    // The pbToTb method are take Petabyte value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToTb(1))
+    // The output is : 1000000
+
+#### Petabyte to Terabyte => pbToTb(kb)
+    // The pbToTb method are take Petabyte value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.pbToTb(1))
+    // The output is : 1000
