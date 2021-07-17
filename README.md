@@ -1189,3 +1189,126 @@ Defined method.
     // The matSpiralPrint print the matrix in spiral form.
     console.log(solverjs.matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
     // The output is : [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+## Digital Storage Conversion
+Digital storage conversion is very useful if you are working with some internal architecture tool or system configuration tools that provide lots of flexibility to work with memory size.
+
+### Digital Storage Types
+The Digital Storage has many types but in this time we see only some very frequently used.
+- Bit(bit)
+- Byte(byte)
+- KiloByte(kb)
+- MegaByte(mb)
+- Gigabyte(gb)
+- TeraByte(tb)
+- PetaByte(pb)
+
+### Digital Storage Conversion Methods
+
+#### Bit To Byte => bitToByte(bit)
+    // The bitToByte method are take bit value and return the byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToByte(1))
+    // The output is : 0.125
+
+#### Bit to Kilobyte => bitToKb(bit)
+    // The bitToKb method are take bit value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToKb(1))
+    // The output is : 0.000125
+
+#### Bit to Megabyte => bitToMb(bit)
+    // The bitToMb method are take bit value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToMb(1))
+    // The output is : 1.25e-7
+
+#### Bit to Gigabyte => bitToGb(bit)
+    // The bitToGb method are take bit value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToGb(1))
+    // The output is : 1.25e-10
+
+#### Bit to Terabyte => bitToTb(bit)
+    // The bitToTb method are take bit value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToTb(1))
+    // The output is : 1.25e-13
+
+#### Bit to Petabyte => bitToPb(bit)
+    // The bitToPb method are take bit value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.bitToPb(1))
+    // The output is : 1.25e-16
+
+#### Byte To Bit => byteToBit(byte)
+    // The byteToBit method are take bit value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToBit(1))
+    // The output is : 8
+
+#### Byte to Kilobyte => byteToKb(byte)
+    // The byteToKb method are take bit value and return the Kilobyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToKb(1))
+    // The output is : 0.001
+
+#### Byte to Megabyte => byteToMb(byte)
+    // The byteToMb method are take bit value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToMb(1))
+    // The output is : 0.000001
+
+#### Byte to Gigabyte => byteToGb(byte)
+    // The byteToGb method are take bit value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToGb(1))
+    // The output is : 1e-9
+
+#### Byte to Terabyte => byteToTb(byte)
+    // The byteToTb method are take bit value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToTb(1))
+    // The output is : 1e-12
+
+#### Byte to Petabyte => byteToPb(byte)
+    // The byteToPb method are take bit value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.byteToPb(1))
+    // The output is : 1e-15
+
+#### Kilobyte To Bit => kbToBit(kb)
+    // The kbToBit method are take bit value and return the Bit value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToBit(1))
+    // The output is : 8000
+
+#### Kilobyte to Byte => kbToByte(kb)
+    // The kbToByte method are take bit value and return the Byte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToByte(1))
+    // The output is : 1000
+
+#### Kilobyte to Megabyte => kbToMb(kb)
+    // The kbToMb method are take bit value and return the Megabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToMb(1))
+    // The output is : 0.001
+
+#### Kilobyte to Gigabyte => kbToGb(kb)
+    // The kbToGb method are take bit value and return the Gigabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToGb(1))
+    // The output is : 0.000001
+
+#### Kilobyte to Terabyte => kbToTb(kb)
+    // The kbToTb method are take bit value and return the Terabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToTb(1))
+    // The output is : 1e-9
+
+#### Kilobyte to Petabyte => kbToPb(kb)
+    // The kbToPb method are take bit value and return the Petabyte value
+    // correspond to the digital storage parameters.
+    console.log(solverjs.kbToPb(1))
+    // The output is : 1e-12
