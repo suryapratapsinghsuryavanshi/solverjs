@@ -424,6 +424,19 @@ const {
     pbToTb,
 } = require('./src/units/digital_storage/digital_storage');
 
+
+const {
+    nsToUs,
+    nsToMs,
+    nsToSc,
+    nsToMi,
+    nsToHr,
+    nsToDd,
+    nsToWk,
+    nsToMm,
+    nsToYy
+} = require('./src/time/time');
+
 // exports the all functions.
 module.exports = {
     info,
@@ -672,4 +685,14 @@ module.exports = {
     pbToMb,
     pbToGb,
     pbToTb,
+    // time conversion methods
+    nsToUs,
+    nsToMs,
+    nsToSc,
+    nsToMi,
+    nsToHr,
+    nsToDd,
+    nsToWk,
+    nsToMm,
+    nsToYy
 }

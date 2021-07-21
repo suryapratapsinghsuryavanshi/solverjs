@@ -1456,3 +1456,67 @@ The Digital Storage has many types but in this time we see only some very freque
     // correspond to the digital storage parameters.
     console.log(solverjs.pbToTb(1))
     // The output is : 1000
+
+
+## Time Conversion
+Sometimes we work with time conversion, at that time we are very confused in calculating the time so we have created a very efficient way to do it.
+
+### Times Units
+The Time units has many types but in this we see only some very frequently used.
+- Nanosecond(ns)
+
+### Time Conversion Methods
+
+#### Nanosecond to Microsecond => nsToUs(ns)
+    // The nsToUs method are take nanosecond value and return
+    // corrospond microsecond value.
+    console.log(solverjs.nsToUs(1))
+    // The output is : 0.001
+
+#### Nanosecond to Milisecond => nsToMs(ns)
+    // The nsToMs method are take nanosecond value and return
+    // corrospond milisecond value.
+    console.log(solverjs.nsToMs(1))
+    // The output is : 0.000001
+
+#### Nanosecond to Second => nsToSc(ns)
+    // The nsToSc method are take nanosecond value and return
+    // corrospond second value.
+    console.log(solverjs.nsToSc(1))
+    // The output is : 1e-9
+
+#### Nanosecond to Minute => nsToMi(ns)
+    // The nsToMi method are take nanosecond value and return
+    // corrospond minute value.
+    console.log(solverjs.nsToMi(1))
+    // The output is : 1.6666666666666667e-11
+
+#### Nanosecond to Hour => nsToHr(ns)
+    // The nsToHr method are take nanosecond value and return
+    // corrospond hour value.
+    console.log(solverjs.nsToHr(1))
+    // The output is : 2.777777777777778e-13
+
+#### Nanosecond to Day => nsToDd(ns)
+    // The nsToDd method are take nanosecond value and return
+    // corrospond day value.
+    console.log(solverjs.nsToDd(1))
+    // The output is : 1.1574074074074074e-14
+
+#### Nanosecond to Week => nsToWk(ns)
+    // The nsToWk method are take nanosecond value and return
+    // corrospond week value.
+    console.log(solverjs.nsToWk(1))
+    // The output is : 1.6534391534391534e-15
+
+#### Nanosecond to Month => nsToMm(ns)
+    // The nsToMm method are take nanosecond value and return
+    // corrospond month value.
+    console.log(solverjs.nsToMm(1))
+    // The output is : 3.8051750380517503e-16
+
+#### Nanosecond to Year => nsToYy(ns)
+    // The nsToYy method are take nanosecond value and return
+    // corrospond year value.
+    console.log(solverjs.nsToYy(1))
+    // The output is : 3.170577045022194e-17

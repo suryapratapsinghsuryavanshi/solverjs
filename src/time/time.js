@@ -18,3 +18,16 @@ let nsToWk = (ns) => ns / 6.048e+14;
 let nsToMm = (ns) => ns / 2.628e+15;
 // nanosecond to year.
 let nsToYy = (ns) => ns / 3.154e+16;
+
+
+module.exports = {
+    nsToUs,
+    nsToMs,
+    nsToSc,
+    nsToMi,
+    nsToHr,
+    nsToDd,
+    nsToWk,
+    nsToMm,
+    nsToYy
+}
