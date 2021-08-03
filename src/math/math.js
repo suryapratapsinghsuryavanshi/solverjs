@@ -248,8 +248,6 @@ const token = () => {
     return token;
 }
 
-console.log(token());
-
 // export maths methods.
 module.exports = {
     getFib,
