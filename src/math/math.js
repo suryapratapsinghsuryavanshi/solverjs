@@ -223,6 +223,33 @@ const isSpace = (str) => /^(\s+)$/.test(str);
 // this method is used for the given string is in title form or not.
 const isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
 
+// unique token generator, generate a unique token.
+const token = () => {
+    let token = "";
+    while(true){
+        let char = numToAscii(Math.floor(Math.random() * (126 - 64 + 1) + 64))
+        if(token.length > 5) break;
+        if(char != ' ')
+            token += char;
+    }
+    let total = 0;
+    while(true){
+        let num = Math.round(Math.random() * 1000000);
+        if(total > 1000000) break;
+        total += num;
+    }
+    token = token + total;
+    while(true){
+        let char = numToAscii(Math.floor(Math.random() * (126 - 64 + 1) + 64))
+        if(token.length > 25) break;
+        if(char != ' ')
+            token += char;
+    }
+    return token;
+}
+
+console.log(token());
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -258,5 +285,6 @@ module.exports = {
     isLower,
     isUpper,
     isSpace,
-    isTitle
+    isTitle,
+    token
 }

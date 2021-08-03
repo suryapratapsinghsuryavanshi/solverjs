@@ -201,7 +201,8 @@ const {
     isLower,
     isUpper,
     isSpace,
-    isTitle
+    isTitle,
+    token
 } = require('./src/math/math');
 
 // numbers systems.
@@ -475,6 +476,7 @@ module.exports = {
     isUpper,
     isSpace,
     isTitle,
+    token,
     // numbers system.
     hexToDec,
     hexToOct,
