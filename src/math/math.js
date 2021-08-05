@@ -1,4 +1,10 @@
 // getGcd return the gcd of two numbers.
+/**
+ * 
+ * @param {Number} arg1 first argument for gcd
+ * @param {Number} arg2 second argument for gcd
+ * @returns return a `gcd` vlaue of both number.
+ */
 let getGcd = (arg1, arg2) => {
     let less = arg1 > arg2 ? arg2 : arg1;
     for(less; less>=2; less--){
