@@ -14,6 +14,11 @@ let getGcd = (arg1, arg2) => {
 }
 
 // getFib return the n'th fibonacci number.
+/**
+ * 
+ * @param {Number} arg_n n'th natural number
+ * @returns return a `n'th fibonacci` number.
+ */
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
     return getFib(arg_n-1) + getFib(arg_n-2); 
