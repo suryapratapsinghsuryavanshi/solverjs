@@ -1,6 +1,6 @@
 {
   "name": "solverjs",
-  "version": "1.16.12",
+  "version": "1.17.12",
   "description": "This package is a combination of many useful functions.",
   "main": "index.js",
   "scripts": {
@@ -47,6 +47,8 @@
     "phoneValidator",
     "phoneExtractor",
     "numbers system",
+    "toekn",
+    "randomInt",
     "hexToDec",
     "hexToOct",
     "hexToBin",

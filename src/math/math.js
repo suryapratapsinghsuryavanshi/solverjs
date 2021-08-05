@@ -248,6 +248,14 @@ const token = () => {
     return token;
 }
 
+/**
+ * 
+ * @param {Number} min a minimum range
+ * @param {Number} max a maximum range
+ * @returns `random` vlaue between min to max.
+ */
+const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -284,5 +292,6 @@ module.exports = {
     isUpper,
     isSpace,
     isTitle,
-    token
+    token,
+    randomInt
 }

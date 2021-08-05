@@ -8,7 +8,7 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v1.16.12-blue
+[npm-image]: https://img.shields.io/badge/npm-v1.17.12-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -255,6 +255,11 @@ Installation is done using the
     // for any kind of authentication in string format.
     console.log(solverjs.token());
     // The output is : l\sF\h1402241vmEY@xkFziVNp (unique token)
+
+### randomInt
+    // Generates a random integer between the given range.
+    console.log(solverjs.randomInt(5, 9));
+    // The output is : 7
 
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
