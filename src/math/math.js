@@ -1,6 +1,6 @@
 // getGcd return the gcd of two numbers.
 /**
- * 
+ * getGcd return the gcd of two numbers.
  * @param {Number} arg1 first argument for gcd
  * @param {Number} arg2 second argument for gcd
  * @returns return a `gcd` vlaue of both number.
@@ -15,7 +15,7 @@ let getGcd = (arg1, arg2) => {
 
 // getFib return the n'th fibonacci number.
 /**
- * 
+ * getFib return the n'th fibonacci number.
  * @param {Number} arg_n n'th natural number
  * @returns return a `n'th fibonacci` number.
  */
@@ -26,7 +26,7 @@ let getFib = (arg_n) => {
 
 // printFib return the fibonacci series string up to n.
 /**
- * 
+ * printFib return the fibonacci series string up to n.
  * @param {Number} n n'th natural number
  * @returns return a `series` of n'th fibonacci numbers.
  */
