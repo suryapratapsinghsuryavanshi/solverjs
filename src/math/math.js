@@ -45,6 +45,11 @@ let printFib = (n) => {
 }
 
 // sumAllDigit return the addition of all the digits in a given number.
+/**
+ * sumAllDigit return the addition of all the digits in a given number.
+ * @param {Number} n n'th natural number.
+ * @returns return the sum of all digit of n number numebrs.
+ */
 let sumAllDigit = (n) => {
     let sum = 0;
     n.toString().split('').map(x => sum+=parseInt(x))
