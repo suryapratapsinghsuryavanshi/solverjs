@@ -25,6 +25,11 @@ let getFib = (arg_n) => {
 }
 
 // printFib return the fibonacci series string up to n.
+/**
+ * 
+ * @param {Number} n n'th natural number
+ * @returns return a `series` of n'th fibonacci numbers.
+ */
 let printFib = (n) => {
     let num1 = 1;
     let num2 = 0;
