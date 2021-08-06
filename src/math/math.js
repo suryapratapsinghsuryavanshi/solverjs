@@ -57,11 +57,21 @@ let sumAllDigit = (n) => {
 }
 
 // reverseNumber return the reversed value of the given number.
+/**
+ * reverseNumber return the reversed value of the given number.
+ * @param {Number | String} n any digit number.
+ * @returns `Number` n reverse in reverse.
+ */
 let reverseNumber = (n) => {
     return parseInt(n.toString().split('').reverse().join(''))
 }
 
 // isArmstrong return the boolean in respenct of the are armstorng or not.
+/**
+ * isArmstrong return the boolean in respenct of the are armstorng or not.
+ * @param {Number | String} n a number for checking.
+ * @returns return boolen based on condition the number is armstrong or not.
+ */
 let isArmstrong = (n) => {
     let sum = 0;
     n.toString().split('').map(x => sum += parseInt(x) * parseInt(x) * parseInt(x))
@@ -69,26 +79,52 @@ let isArmstrong = (n) => {
 }
 
 // sumOfN return the sum of n natural numbers.
+/**
+ * sumOfN return the sum of n natural numbers.
+ * @param {Number} n natural number in series.
+ * @returns {Number} sum of n natural numbers.
+ */
 let sumOfN = (n) => {
     return n == 1 ? n : n + sumOfN(n-1);
 }
 
 // fac return the factorial of n.
+/**
+ * the `fac` method return the n'th factorial of given number.
+ * @param {Number} n the number for calculating factorial.
+ * @returns {Number} return n'th factorial value of a number.
+ */
 let fac = (n) => {
     return n == 1 ? n : n * fac(n-1);
 }
 
 // the pow function return the power of x^y.
+/**
+ * the pow function return the calculation of x^y.
+ * @param {Number} x `base` value for oparetion.
+ * @param {Number} y `exponent` value for oparetion.
+ * @returns {Number} return the calculation of `x^y`.
+ */
 let pow = (x, y) => {
     return y == 0 ? 1 : x * pow(x, y-1);
 }
 
 // the len function return the length of number or string.
+/**
+ * the len function return the length of number or string.
+ * @param {Number | String} x a given number or string.
+ * @returns return the `length` of givne number or string.
+ */
 let len = (x) => {
     return x.toString().length;
 }
 
 // the isPrime return boolean in respect of the given number prime or not.
+/**
+ * the isPrime return boolean in respect of the given number prime or not.
+ * @param {Number} x n number for checking is prime or not.
+ * @returns return correspond boolean value, if prime return `ture` else return `false`.
+ */
 let isPrime = (x) => {
     if(x == 1) return false;
     for(let i=x-1; i>=2; i--)
@@ -99,12 +135,24 @@ let isPrime = (x) => {
 }
 
 // isCoPrime function return the boolean in respect of the given number is co-prime or not.
+/**
+ * isCoPrime function return the boolean in respect of the given number is co-prime or not.
+ * @param {Number} x first number for cheing co-prime or not.
+ * @param {Number} y second number for chieng co-prime or not.
+ * @returns return correspond boolean value, if both number are co-prime return `true`, else return `false`.
+ */
 let isCoPrime = (x, y) => {
     return getGcd(x, y) == 1;
 }
 
-// krishnamurthy number is a number the sum of the all fectorial all the dight is equal to the number.
+// krishnamurthy number is a number the sum of the all fectorial of the all dights is equal to the number itself.
 // 145 => 1! + 4! + 5! = 1  + 24 + 120 = 145
+/**
+ * krishnamurthy number is a number the sum of the all fectorial of the all dights is equal to the number itself.
+ * @param {Number} n a number for ching is krishnamurthy number or not.
+ * @returns return correspond boolean vlaue, if the number is krishnamurthy number return `true` else return `false`.
+ * @example 145 => 1! + 4! + 5! = 1  + 24 + 120 = 145
+ */
 let isKishnamurthyNumber = (n) => {
     let sm = 0;
     String(n).split('').map(x => sm+=fac(Number(x)));
@@ -113,6 +161,12 @@ let isKishnamurthyNumber = (n) => {
 
 // Average is a terms is define summetion of all the given point and divide by thers numbers of count.
 // [1, 2, 3, 4, 5] => 15 / 5 = 3
+/**
+ * Average is a terms is define summetion of all the given point and divide by thers numbers of count.
+ * @param {Number[]} arr A sequese of value for conting the avarage.
+ * @returns return appropriate `avarage` of the all terms.
+ * @example [1, 2, 3, 4, 5] => 15 / 5 = 3
+ */
 let avg = (arr) => {
     let sm = 0;
     arr.map(x => sm+=x);
@@ -121,6 +175,12 @@ let avg = (arr) => {
 
 // mod is define as the absulute value , without the signe.
 // 0 <= mod (all the real numbers.)
+/**
+ * mod is define as the absulute value , without the signe.
+ * @param {Number} n a number with a sign or without a sign.
+ * @returns return the absolute value of the given number.
+ * @description `0 <= mod (all the real numbers.)`
+ */
 let mod = (n) => {
     return Math.abs(n);
 }
