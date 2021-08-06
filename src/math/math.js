@@ -334,42 +334,86 @@ let phoneValidator = (str) => {
 }
 
 // indian phone number extractor.
+/**
+ * Indian phone number extractor.
+ * @param {String} str a paragraph for extracting a indain number.
+ * @returns return a indian number string if present.
+ */
 let phoneExtractor = (str) => {
     return str.match(/(\+)+([91])+(\d{10})/)[0];
 }
 
 // use for check the given string are alphanumeric or not.
 const { contatinSpecial } = require('../utils/utils');
+/**
+ * Use for check the given string are alphanumeric or not.
+ * @param {String} str string for checking.
+ * @returns return boolean, true if alpahnumeric else return false.
+ */
 const isAlNum = (str) => {
     const pat = /([a-zA-Z]+[0-9]+)|([0-9]+[a-zA-Z]+)/;
     return(!contatinSpecial(str) && pat.test(str));
 }
 
 // use for check the given stirn is alpha or not.
+/**
+ * Use for check the given stirn is alpha or not.
+ * @param {String} str string for checking.
+ * @returns return boolean, true if the string is alpha else return false.
+ */
 const isAlpha = (str) => {
     const pat = /^[a-zA-Z_]*$/;
     return pat.test(str);
 }
 
-// this function check the givent string is all decimal characters or not.
+// this function check the given string is all decimal characters or not.
+/**
+ * This function check the givent string is all decimal characters or not.
+ * @param {String} str string for chacking.
+ * @returns return true if the string is decimal else return false.
+ */
 const isDecimal = (str) => {
     const pat = /^(\d+)$/;
     return(!isAlNum(str) && pat.test(str));
 }
 
 // this method check the givne string in lower case or not.
+/**
+ * This method check the given string in lower case or not.
+ * @param {String} str string value for checking.
+ * @returns return true if the string in lower case, else return false.
+ */
 const isLower = (str) => str.toLowerCase() == str && !isAlNum(str);
 
 // this method check the given string in upper case or not.
+/**
+ * This method check the given string in upper case or not.
+ * @param {String} str string value for checking.
+ * @returns return true if the string in upper case, else return false.
+ */
 const isUpper = (str) => str.toUpperCase() == str && !isAlNum(str);
 
 // this method is used for the given string is only contain spaces.
+/**
+ * This method is used for the given string is only contain spaces.
+ * @param {String} str string for checking.
+ * @returns return true if the string  is only space, else return false.
+ */
 const isSpace = (str) => /^(\s+)$/.test(str);
 
 // this method is used for the given string is in title form or not.
+/**
+ * This method is used for check the given string is in title form or not.
+ * @param {String} str string vlaue for checking.
+ * @returns return true, if given string in title case, else return false.
+ */
 const isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
 
 // unique token generator, generate a unique token.
+/**
+ * Fenerate a unique token, every time you run without any arguments.
+ * @returns return a unique token every time to run.
+ */
 const token = () => {
     let token = "";
     while(true){
@@ -398,7 +442,7 @@ const token = () => {
  * 
  * @param {Number} min a minimum range
  * @param {Number} max a maximum range
- * @returns `random` vlaue between min to max.
+ * @returns return `random` vlaue between min to max.
  */
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
