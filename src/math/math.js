@@ -101,8 +101,8 @@ let fac = (n) => {
 // the pow function return the power of x^y.
 /**
  * the pow function return the calculation of x^y.
- * @param {Number} x `base` value for oparetion.
- * @param {Number} y `exponent` value for oparetion.
+ * @param {Number} x `base` value for operation.
+ * @param {Number} y `exponent` value for operation.
  * @returns {Number} return the calculation of `x^y`.
  */
 let pow = (x, y) => {
@@ -187,6 +187,11 @@ let mod = (n) => {
 
 // A leap year is a calendar year that contains an additional day
 // check the given year leap year or not.
+/**
+ * A leap year is a calendar year that contains an additional day check the given year leap year or not.
+ * @param {Number} year value for check leap year.
+ * @returns return boolean vlaue, if the year is leep-year return `true`, else `false`.
+ */
 let isLeap = (year) => {
     if(year % 400 == 0) return true;
     else if(year % 100 == 0) return false;
@@ -196,37 +201,85 @@ let isLeap = (year) => {
 
 // LCM - Least Comman multiple.
 // least common multiple of integers a and b
+/**
+ * LCM - Least Comman multiple, find least common multiple of integers a and b
+ * @param {Number} a first number for operation
+ * @param {Number} b second number for operation
+ * @returns return the `lcm` of the number.
+ */
 let lcm = (a, b) => {
     return (mod(a)/getGcd(a, b)) * mod(b);
 }
 
 // HCF - Highest Common Factor
+/**
+ * HCF - Highest Common Factor of the given numbers.
+ * @param {Number} a first number for operation.
+ * @param {Number} b second number for operation.
+ * @returns return the `gcd` of the number.
+ */
 let hcf = (a, b) => getGcd(a, b);
 
-// ASCII Code of the charector.
+// ASCII Code of the character.
+/**
+ * ASCII Code of the character.
+ * @param {String | CharacterData} ch a valid character 
+ * @returns return `ascii code` of the given character
+ * @example ascii('A') => 65 
+ */
 let ascii = (ch) => String(ch).charCodeAt();
 
 // Number To ASCII code.
+/**
+ * Number To ASCII code.
+ * @param {Number} num for find the character.
+ * @returns return correspond string character of the number.
+ * @example numToAscii(65) => 'A'
+ */
 let numToAscii = (num) => String.fromCharCode(num);
 
 // Reverse - read backword
+/**
+ * Reverse the given string.
+ * @param {String} str a string vlaue.
+ * @returns return the reverse of the given string.
+ * @example reverse('ABC') => 'CBA'
+ */
 let reverse = (str) => {
-    return str.toString().split('').reverse().join('')
+    return str.toString().split('').reverse().join('');
 }
 
 // Palindrome - A palindrome is a word, number, phrase, or other sequence 
 //of characters which reads the same backward as forward
 // check string or numebr is palindrome or not.
+/**
+ * Palindrome - A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward check string or numebr is palindrome or not.
+ * @param {String} str string value for chacking.
+ * @returns return correspond boolean value, if the string is palindrom return `true`, else return `false`.
+ * @example isPalindrome('AABAA') => true
+ */
 let isPalindrome = (str) => {
     return str == reverse(str);
 }
 
 // Word count
+/**
+ * Count the number of work with the help of separetor.
+ * @param {String} str a string vlaue or paragraph.
+ * @param {String} separetor a value for separation.
+ * @returns return a work count with the help of separetor.
+ * @example workCount('This is normal string', ' ') => 4
+ */
 let wordCount = (str, separetor) => {
     return str.split(separetor).length
 }
 
 // permutation - get all the permutation of a given string.
+/**
+ * permutation - get all the permutation of a given string.
+ * @param {String} str a string value or a paragraph.
+ * @returns {String[]} return all `permutation` of the string.
+ */
 let permutation = (str) => {
     str = str.split('');
     let result = [];
@@ -246,6 +299,13 @@ let permutation = (str) => {
 }
 
 // alternative string arrangement.
+/**
+ * alternative string arrangement.
+ * @param {String} st1 first string vlaue
+ * @param {String} st2 second string value.
+ * @returns return a `alternative arranged string`.
+ * @example alternativeStringArrange('ABCD', 'XY') => 'AXBYCD'
+ */
 let alternativeStringArrange = (st1, st2) => {
     st1Length = st1.length
     st2Length = st2.length
@@ -263,6 +323,11 @@ let alternativeStringArrange = (st1, st2) => {
 }
 
 // indian phone number Validator.
+/**
+ * indian phone number Validator.
+ * @param {String} str a phone number in form of string
+ * @returns check the number is true if `indian number`, else return flase.
+ */
 let phoneValidator = (str) => {
     const re = /^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/;
     return re.test(str);
@@ -286,7 +351,7 @@ const isAlpha = (str) => {
     return pat.test(str);
 }
 
-// this function check the givent string is all decimal charectors or not.
+// this function check the givent string is all decimal characters or not.
 const isDecimal = (str) => {
     const pat = /^(\d+)$/;
     return(!isAlNum(str) && pat.test(str));
