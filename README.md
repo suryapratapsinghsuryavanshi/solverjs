@@ -8,7 +8,7 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v1.17.12-blue
+[npm-image]: https://img.shields.io/badge/npm-v2.17.12-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -23,6 +23,9 @@
 
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolverJS are a combination of many common mathematical and some very used logic solutions.
+
+## ☯ Whats a new
+Finally, most of the methods are given code snippet help so you easily use our methods and solve your common code problems.
 
 ## Installation
 
