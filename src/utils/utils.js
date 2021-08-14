@@ -27,6 +27,11 @@ const days = { // weeks-day
 
 // date to week-day calculator.
 // date formate => dd/mm/yyyy
+/**
+ * Take a date string and return a week day name of the given date.
+ * @param {String} date input date string
+ * @returns {String} `weekday` String day name
+ */
 const dateToDay = (date) => {
     // extarct the date
     const newDate = date.split('/').map((x) => Number(x));
@@ -55,6 +60,11 @@ const dateToDay = (date) => {
 // Age calculator calculat the age to DOB to current date.
 // date formate : dd/mm/yyyy
 // dobToAge() : 1/1/2015 -> calculat the age is on current : 6 years 5 months 24 days
+/**
+ * Take a date string and return a string withe year, month day vlaues.
+ * @param {String} date date string
+ * @returns {String} a string with formte.
+ */
 const dobToAge = (date) => {
     // extarct the date
     const newDate = date.split('/').map((x) => Number(x));
@@ -86,18 +96,33 @@ const dobToAge = (date) => {
 }
 
 // find the word are contain numaric charector or not.
+/**
+ * If the word are contain number return true, else return false.
+ * @param {String} word a input string
+ * @returns {Boolean} return true false.
+ */
 const containNumber = (word) => {
     let pat = /(\d+)/;
     return pat.test(word);
 }
 
 // find the word are contain Special charector.
+/**
+ * If the word are contain special charector return true, else return false.
+ * @param {String} word a input string
+ * @returns {Boolean} return true false.
+ */
 const contatinSpecial = (word) => {
     let pat = /([!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+)/;
     return pat.test(word);
 }
 
 // keyword extractor.
+/**
+ * Extract the key word from given string and return it.
+ * @param {String} str input string.
+ * @returns {String[]} return a string array of keywords.
+ */
 const keywordExtractor = (str) => {
     // firstly extract all the word from the string.
     // using split methdo and ' ' as a separator.
@@ -117,6 +142,12 @@ const keywordExtractor = (str) => {
 }
 
 // keyword finder.
+/**
+ * If the string contain keyword return true, else return false.
+ * @param {String} str input string as a test string.
+ * @param {String} keyword keyword for testing.
+ * @returns return true false.
+ */
 const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
 
 module.exports = {
