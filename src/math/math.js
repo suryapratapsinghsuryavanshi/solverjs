@@ -446,6 +446,14 @@ const token = () => {
  */
 const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
+/**
+ * Use to find the remainder or modulo division.
+ * @param {Number} divident 
+ * @param {Number} devisor 
+ * @returns `Number` return numeric value of the remainder.
+ */
+const remainder = (divident, devisor) => divident % devisor;
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -483,5 +491,6 @@ module.exports = {
     isSpace,
     isTitle,
     token,
-    randomInt
+    randomInt,
+    remainder
 }

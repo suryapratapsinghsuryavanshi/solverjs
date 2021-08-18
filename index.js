@@ -203,7 +203,8 @@ const {
     isSpace,
     isTitle,
     token,
-    randomInt
+    randomInt,
+    remainder
 } = require('./src/math/math');
 
 // numbers systems.
@@ -479,6 +480,7 @@ module.exports = {
     isTitle,
     token,
     randomInt,
+    remainder,
     // numbers system.
     hexToDec,
     hexToOct,
