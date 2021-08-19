@@ -264,6 +264,11 @@ Installation is done using the
     console.log(solverjs.randomInt(5, 9));
     // The output is : 7
 
+### remainder
+    // Use to find the remainder or modulo division.
+    console.log(solverjs.remainder(5, 2));
+    // The output is : 1
+
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
 
