@@ -150,10 +150,90 @@ const keywordExtractor = (str) => {
  */
 const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
 
+/**
+ * CheckCamelCase method returns true if the string in camelCase, else return the false.
+ * @param {String} varName the name of the variable to check.
+ * @returns `Boolean` return true if the string is in camelCase, else return false.
+ */
+ const checkCamelCase = (varName) => {
+    // firstly, check that input is a string or not.
+    if (typeof varName !== 'string') {
+        return new TypeError('Argument is not a string.')
+    }
+
+    const pat = /^[a-z][A-Za-z]*$/
+    return pat.test(varName)
+}
+
+/**
+ * CheckFlatCase method returns true if the string in flatcase, else return the false.
+ * @param {String} varname the name of the variable to check.
+ * @returns `Boolean` return true if the string is in flatcase, else return false.
+ */
+ const checkFlatCase = (varname) => {
+    // firstly, check that input is a string or not.
+    if (typeof varname !== 'string') {
+        return new TypeError('Argument is not a string.')
+    }
+
+    const pat = /^[a-z]*$/
+    return pat.test(varname)
+}
+
+/**
+ * CheckKebabCase method returns true if the string in kebab-case, else return the false.
+ * @param {String} varName the name of the variable to check.
+ * @returns `Boolean` return true if the string is in kebab-case, else return false.
+ */
+ const checkKebabCase = (varName) => {
+    // firstly, check that input is a string or not.
+    if (typeof varName !== 'string') {
+        return new TypeError('Argument is not a string.')
+    }
+  
+    const pat = /(\w+)-(\w)([\w-]*)/
+    return pat.test(varName) && !varName.includes('_')
+}
+
+/**
+ * CheckPascalCase method returns true if the string in PascalCase, else return the false.
+ * @param {String} VarName the name of the variable to check.
+ * @returns `Boolean` return true if the string is in PascalCase, else return false.
+ */
+ const checkPascalCase = (VarName) => {
+    // firstly, check that input is a string or not.
+    if (typeof VarName !== 'string') {
+        return new TypeError('Argument is not a string.')
+    }
+  
+    const pat = /^[A-Z][A-Za-z]*$/
+    return pat.test(VarName)
+}
+
+/**
+ * CheckSnakeCase method returns true if the string in snake_case, else return the false.
+ * @param {String} varName the name of the variable to check.
+ * @returns `Boolean` return true if the string is in snake_case, else return false.
+ */
+ const checkSnakeCase = (varName) => {
+    // firstly, check that input is a string or not.
+    if (typeof varName !== 'string') {
+        return new TypeError('Argument is not a string.')
+    }
+  
+    const pat = /(.*?)_([a-zA-Z])*/
+    return pat.test(varName)
+}
+
 module.exports = {
     dateToDay,
     dobToAge,
     keywordExtractor,
     contatinSpecial,
-    isKeywordExists
+    isKeywordExists,
+    checkCamelCase,
+    checkFlatCase,
+    checkKebabCase,
+    checkPascalCase,
+    checkSnakeCase
 }

@@ -156,7 +156,13 @@ const {
     dateToDay,
     dobToAge,
     keywordExtractor,
-    isKeywordExists
+    isKeywordExists,
+    contatinSpecial,
+    checkCamelCase,
+    checkFlatCase,
+    checkKebabCase,
+    checkPascalCase,
+    checkSnakeCase
 } = require('./src/utils/utils');
 
 // matrix 
@@ -637,6 +643,12 @@ module.exports = {
     dobToAge,
     keywordExtractor,
     isKeywordExists,
+    contatinSpecial,
+    checkCamelCase,
+    checkFlatCase,
+    checkKebabCase,
+    checkPascalCase,
+    checkSnakeCase,
     // matrix
     matAdd,
     matSub,

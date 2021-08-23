@@ -1184,6 +1184,38 @@ Defined method.
     console.log(solverjs.isKeywordExists('This is a string', 'is');
     // The output is : true
 
+#### Check String Containe Special Later => contatinSpecial
+    // The contatinSpecial() method is take a string
+    // and return true, if the string containe special later,
+    // else return false.
+    console.log(solverjs.contatinSpecial("My $Name is "));
+    // The output is : true
+
+#### Check CheckCamelCase => checkCamelCase
+    // CheckCamelCase method checks the given string is in camelCase or not.
+    console.log(solverjs.checkCamelCase("myVar"));
+    // The output is : true
+
+#### Check CheckFlatCase => checkFlatCase 
+    // CheckFlatCase method checks the given string is in flatcase or not.
+    console.log(solverjs.checkFlatCase("myvar"));
+    // The output is : true
+
+#### Check CheckKebabCase => checkKebabCase
+    // CheckKebabCase method checks the given string is in kebab-case or not.
+    console.log(solverjs.checkKebabCase("my-var"));
+    // The output is : true
+
+#### Check CheckPascalCase => checkPascalCase
+    // CheckPascalCase method checks the given string is in PascalCase or not.
+    console.log(solverjs.checkPascalCase("MyVar"));
+    // The output is : true
+
+#### Check CheckSnakeCase => checkSnakeCase
+    // CheckSnakeCase method checks the given string is in snake_case or not.
+    console.log(solverjs.checkSnakeCase("my_var"));
+    // The output is : true
+
 ## Matrix Operations
     // The matrix mathod are highly optimized.
 
