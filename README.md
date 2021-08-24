@@ -8,7 +8,7 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v2.20.12-blue
+[npm-image]: https://img.shields.io/badge/npm-v2.20.13-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -1159,6 +1159,13 @@ Defined method.
 - dateToDay
 - dobToAge
 - keywordExtractor
+- contatinSpecial
+- isKeywordExists
+- checkCamelCase
+- checkFlatCase
+- checkKebabCase
+- checkPascalCase
+- checkSnakeCase
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
