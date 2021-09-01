@@ -1166,6 +1166,7 @@ Defined method.
 - checkKebabCase
 - checkPascalCase
 - checkSnakeCase
+- URLShortener
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1222,6 +1223,11 @@ Defined method.
     // CheckSnakeCase method checks the given string is in snake_case or not.
     console.log(solverjs.checkSnakeCase("my_var"));
     // The output is : true
+
+#### short url => URLShortener
+    // URLShortener is a method sort your interger value in a string value.
+    console.log(solverjs.URLShortener(12345));
+    // The output is : dnh
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
