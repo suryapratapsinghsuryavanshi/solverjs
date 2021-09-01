@@ -1,17 +1,17 @@
 // some globle value are required.
 const months = { // create a months dictonary for easy to use.
-    1:'January',
-    2:'February',
-    3:'March',
-    4:'April',
-    5:'May',
-    6:'June',
-    7:'July',
-    8:'August',
-    9:'September',
-    10:'October',
-    11:'November',
-    12:'December'
+    1: 'January',
+    2: 'February',
+    3: 'March',
+    4: 'April',
+    5: 'May',
+    6: 'June',
+    7: 'July',
+    8: 'August',
+    9: 'September',
+    10: 'October',
+    11: 'November',
+    12: 'December'
 };
 
 // show the week day in a number : Sunday - Saturday => 0 - 6
@@ -43,7 +43,7 @@ const dateToDay = (date) => {
     // month valid if value of month is (month <= 12)
     // year valid if value of year is (1900 <= year <= 2030)
     // if date not valid return the msg.
-    if(day > 31 || month > 12 || year < 1900 || year > 2030) return 'Please Check The Date.';
+    if (day > 31 || month > 12 || year < 1900 || year > 2030) return 'Please Check The Date.';
     // create a base data for finding the actuale date.
     const baseDate = `${months[month]} ${day}, ${year} 23:15:30`;
     // use the Date class and make a object use of the base date.
@@ -76,7 +76,7 @@ const dobToAge = (date) => {
     // month valid if value of month is (month <= 12)
     // year valid if value of year is lesser to current year.
     // if date not valid return the msg.
-    if(day > 31 || month > 12 || year > new Date().getFullYear()) return 'Please Check The DOB.';
+    if (day > 31 || month > 12 || year > new Date().getFullYear()) return 'Please Check The DOB.';
     // create a base data for finding the actuale date.
     const baseDobDate = `${months[month]} ${day}, ${year} 00:00:00`;
     // create a newDob object (date)
@@ -129,13 +129,13 @@ const keywordExtractor = (str) => {
     let words = str.split(' ');
     // if the word contatin some spacil charectors so reduce it.
     // if the length of the word is less then 4 is not valid keyword.
-    let reduceWords = words.filter((word) =>  {
+    let reduceWords = words.filter((word) => {
         // if the word length aee less then 5 or 
         // the word contain any numaric charector the return flase. 
         // and the property of reduce if the return false the not
         // consider as a valid word.
         // last check the containe special charector or not.
-        return((word.length >= 5) && (!containNumber(word)) && (!contatinSpecial(word)));
+        return ((word.length >= 5) && (!containNumber(word)) && (!contatinSpecial(word)));
     });
     // all the number and special char contain word are eluminate so return it.
     return reduceWords;
@@ -155,7 +155,7 @@ const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in camelCase, else return false.
  */
- const checkCamelCase = (varName) => {
+const checkCamelCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
@@ -170,7 +170,7 @@ const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
  * @param {String} varname the name of the variable to check.
  * @returns `Boolean` return true if the string is in flatcase, else return false.
  */
- const checkFlatCase = (varname) => {
+const checkFlatCase = (varname) => {
     // firstly, check that input is a string or not.
     if (typeof varname !== 'string') {
         return new TypeError('Argument is not a string.')
@@ -185,12 +185,12 @@ const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in kebab-case, else return false.
  */
- const checkKebabCase = (varName) => {
+const checkKebabCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
-  
+
     const pat = /(\w+)-(\w)([\w-]*)/
     return pat.test(varName) && !varName.includes('_')
 }
@@ -200,12 +200,12 @@ const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
  * @param {String} VarName the name of the variable to check.
  * @returns `Boolean` return true if the string is in PascalCase, else return false.
  */
- const checkPascalCase = (VarName) => {
+const checkPascalCase = (VarName) => {
     // firstly, check that input is a string or not.
     if (typeof VarName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
-  
+
     const pat = /^[A-Z][A-Za-z]*$/
     return pat.test(VarName)
 }
@@ -215,14 +215,37 @@ const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in snake_case, else return false.
  */
- const checkSnakeCase = (varName) => {
+const checkSnakeCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
-  
+
     const pat = /(.*?)_([a-zA-Z])*/
     return pat.test(varName)
+}
+
+
+/**
+ * URLShortener method converts any numeric id to a unique string
+ * @param {Number} id input id.
+ * @returns `String` Shorter or tiny id(url).
+ */
+const URLShortener = (id) => {
+    // firstly, check that input is a number or not.
+    if (typeof id !== 'number') {
+        return new TypeError('Argument is not a number.')
+    }
+    // create a base62 char-set.
+    const charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    const urlList = []
+    // convert the number to the alphabet using the above explanation.
+    while (id > 0) {
+        urlList.push(charSet[id % 62])
+        id = Math.floor(id / 62)
+    }
+    // reverse and join all characters and return to the user.
+    return urlList.reverse().join('')
 }
 
 module.exports = {
@@ -235,5 +258,6 @@ module.exports = {
     checkFlatCase,
     checkKebabCase,
     checkPascalCase,
-    checkSnakeCase
+    checkSnakeCase,
+    URLShortener
 }
