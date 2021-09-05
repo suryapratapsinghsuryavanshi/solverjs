@@ -1167,6 +1167,7 @@ Defined method.
 - checkPascalCase
 - checkSnakeCase
 - URLShortener
+- railwayTimeConversion
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1228,6 +1229,11 @@ Defined method.
     // URLShortener is a method sort your interger value in a string value.
     console.log(solverjs.URLShortener(12345));
     // The output is : dnh
+
+### time conversion => railwayTimeConversion
+    // railwayTimeConversion method take a normalized time and convert railway time.
+    console.log(solverjs.railwayTimeConversion('07:05:45PM'))
+    // The output is : 19:05:45
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
