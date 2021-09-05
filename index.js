@@ -163,7 +163,8 @@ const {
     checkKebabCase,
     checkPascalCase,
     checkSnakeCase,
-    URLShortener
+    URLShortener,
+    railwayTimeConversion
 } = require('./src/utils/utils');
 
 // matrix 
@@ -651,6 +652,7 @@ module.exports = {
     checkPascalCase,
     checkSnakeCase,
     URLShortener,
+    railwayTimeConversion,
     // matrix
     matAdd,
     matSub,
