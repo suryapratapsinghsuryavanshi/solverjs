@@ -38,6 +38,12 @@ contributors in other timezones have time to review. Consideration should also b
 weekends and other holiday periods to ensure active committers all have reasonable time to
 become involved in the discussion and review process if they wish.
 
+## Becoming a Triager
+[Open an issue in `solverjs` repo](https://github.com/suryapratapsinghsuryavanshi/solverjs/issues/new)
+to request the triage role. State that you have read and agree to the
+[Code of Conduct](Code-Of-Conduct.md) and details of the role.
+
+
 ## Becoming a Committer
 
 All contributors who land a non-trivial contribution should be on-boarded in a timely manner,
