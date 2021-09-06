@@ -1,5 +1,5 @@
 // some globle value are required.
-const months = { // create a months dictonary for easy to use.
+let months = { // create a months dictonary for easy to use.
     1: 'January',
     2: 'February',
     3: 'March',
@@ -15,7 +15,7 @@ const months = { // create a months dictonary for easy to use.
 };
 
 // show the week day in a number : Sunday - Saturday => 0 - 6
-const days = { // weeks-day
+let days = { // weeks-day
     0: 'Sunday',
     1: 'Monday',
     2: 'Tuesday',
@@ -32,12 +32,12 @@ const days = { // weeks-day
  * @param {String} date input date string
  * @returns {String} `weekday` String day name
  */
-const dateToDay = (date) => {
+let dateToDay = (date) => {
     // extarct the date
-    const newDate = date.split('/').map((x) => Number(x));
-    const day = newDate[0]; // extarct the day 
-    const month = newDate[1]; // extarct the month
-    const year = newDate[2]; // extarct the year.
+    let newDate = date.split('/').map((x) => Number(x));
+    let day = newDate[0]; // extarct the day 
+    let month = newDate[1]; // extarct the month
+    let year = newDate[2]; // extarct the year.
     // check the data are valid or not.
     // day valid if value of day is (day <= 31)
     // month valid if value of month is (month <= 12)
@@ -45,11 +45,11 @@ const dateToDay = (date) => {
     // if date not valid return the msg.
     if (day > 31 || month > 12 || year < 1900 || year > 2030) return 'Please Check The Date.';
     // create a base data for finding the actuale date.
-    const baseDate = `${months[month]} ${day}, ${year} 23:15:30`;
+    let baseDate = `${months[month]} ${day}, ${year} 23:15:30`;
     // use the Date class and make a object use of the base date.
-    const finalDate = new Date(baseDate);
+    let finalDate = new Date(baseDate);
     // call a getDay() method of Date() class.
-    const finalDay = finalDate.getDay();
+    let finalDay = finalDate.getDay();
     // return the output.
     return days[finalDay];
 }
@@ -65,12 +65,12 @@ const dateToDay = (date) => {
  * @param {String} date date string
  * @returns {String} a string with formte.
  */
-const dobToAge = (date) => {
+let dobToAge = (date) => {
     // extarct the date
-    const newDate = date.split('/').map((x) => Number(x));
-    const day = newDate[0]; // extarct the day 
-    const month = newDate[1]; // extarct the month
-    const year = newDate[2]; // extarct the year.
+    let newDate = date.split('/').map((x) => Number(x));
+    let day = newDate[0]; // extarct the day 
+    let month = newDate[1]; // extarct the month
+    let year = newDate[2]; // extarct the year.
     // check the data are valid or not.
     // day valid if value of day is (day <= 31)
     // month valid if value of month is (month <= 12)
@@ -78,21 +78,21 @@ const dobToAge = (date) => {
     // if date not valid return the msg.
     if (day > 31 || month > 12 || year > new Date().getFullYear()) return 'Please Check The DOB.';
     // create a base data for finding the actuale date.
-    const baseDobDate = `${months[month]} ${day}, ${year} 00:00:00`;
+    let baseDobDate = `${months[month]} ${day}, ${year} 00:00:00`;
     // create a newDob object (date)
-    const newDob = new Date(baseDobDate);
+    let newDob = new Date(baseDobDate);
     // create a new current data object
-    const newCurr = new Date();
+    let newCurr = new Date();
     // make some celculation for retrive the result.
-    const diffTime = Math.abs(newCurr - newDob);
+    let diffTime = Math.abs(newCurr - newDob);
     // convert tiks to day.
-    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    // construct our required answers.
-    const constructYear = Math.floor(diffDays / 365);
-    const constructMonth = Math.floor((diffDays / 30.417) % 12);
-    const constructDay = Math.floor(diffDays % 30.417)
+    let diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    // letruct our required answers.
+    let letructYear = Math.floor(diffDays / 365);
+    let letructMonth = Math.floor((diffDays / 30.417) % 12);
+    let letructDay = Math.floor(diffDays % 30.417)
     // return the String output.
-    return `${constructYear} years ${constructMonth} months and ${constructDay} days`
+    return `${letructYear} years ${letructMonth} months and ${letructDay} days`
 }
 
 // find the word are contain numaric charector or not.
@@ -101,7 +101,7 @@ const dobToAge = (date) => {
  * @param {String} word a input string
  * @returns {Boolean} return true false.
  */
-const containNumber = (word) => {
+let containNumber = (word) => {
     let pat = /(\d+)/;
     return pat.test(word);
 }
@@ -112,7 +112,7 @@ const containNumber = (word) => {
  * @param {String} word a input string
  * @returns {Boolean} return true false.
  */
-const contatinSpecial = (word) => {
+let contatinSpecial = (word) => {
     let pat = /([!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+)/;
     return pat.test(word);
 }
@@ -123,7 +123,7 @@ const contatinSpecial = (word) => {
  * @param {String} str input string.
  * @returns {String[]} return a string array of keywords.
  */
-const keywordExtractor = (str) => {
+let keywordExtractor = (str) => {
     // firstly extract all the word from the string.
     // using split methdo and ' ' as a separator.
     let words = str.split(' ');
@@ -148,20 +148,20 @@ const keywordExtractor = (str) => {
  * @param {String} keyword keyword for testing.
  * @returns return true false.
  */
-const isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
+let isKeywordExists = (str, keyword) => RegExp(`${keyword}`).test(str);
 
 /**
  * CheckCamelCase method returns true if the string in camelCase, else return the false.
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in camelCase, else return false.
  */
-const checkCamelCase = (varName) => {
+let checkCamelCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
 
-    const pat = /^[a-z][A-Za-z]*$/
+    let pat = /^[a-z][A-Za-z]*$/
     return pat.test(varName)
 }
 
@@ -170,13 +170,13 @@ const checkCamelCase = (varName) => {
  * @param {String} varname the name of the variable to check.
  * @returns `Boolean` return true if the string is in flatcase, else return false.
  */
-const checkFlatCase = (varname) => {
+let checkFlatCase = (varname) => {
     // firstly, check that input is a string or not.
     if (typeof varname !== 'string') {
         return new TypeError('Argument is not a string.')
     }
 
-    const pat = /^[a-z]*$/
+    let pat = /^[a-z]*$/
     return pat.test(varname)
 }
 
@@ -185,13 +185,13 @@ const checkFlatCase = (varname) => {
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in kebab-case, else return false.
  */
-const checkKebabCase = (varName) => {
+let checkKebabCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
 
-    const pat = /(\w+)-(\w)([\w-]*)/
+    let pat = /(\w+)-(\w)([\w-]*)/
     return pat.test(varName) && !varName.includes('_')
 }
 
@@ -200,13 +200,13 @@ const checkKebabCase = (varName) => {
  * @param {String} VarName the name of the variable to check.
  * @returns `Boolean` return true if the string is in PascalCase, else return false.
  */
-const checkPascalCase = (VarName) => {
+let checkPascalCase = (VarName) => {
     // firstly, check that input is a string or not.
     if (typeof VarName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
 
-    const pat = /^[A-Z][A-Za-z]*$/
+    let pat = /^[A-Z][A-Za-z]*$/
     return pat.test(VarName)
 }
 
@@ -215,13 +215,13 @@ const checkPascalCase = (VarName) => {
  * @param {String} varName the name of the variable to check.
  * @returns `Boolean` return true if the string is in snake_case, else return false.
  */
-const checkSnakeCase = (varName) => {
+let checkSnakeCase = (varName) => {
     // firstly, check that input is a string or not.
     if (typeof varName !== 'string') {
         return new TypeError('Argument is not a string.')
     }
 
-    const pat = /(.*?)_([a-zA-Z])*/
+    let pat = /(.*?)_([a-zA-Z])*/
     return pat.test(varName)
 }
 
@@ -231,14 +231,14 @@ const checkSnakeCase = (varName) => {
  * @param {Number} id input id.
  * @returns `String` Shorter or tiny id(url).
  */
-const URLShortener = (id) => {
+let URLShortener = (id) => {
     // firstly, check that input is a number or not.
     if (typeof id !== 'number') {
         return new TypeError('Argument is not a number.')
     }
     // create a base62 char-set.
-    const charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
-    const urlList = []
+    let charSet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+    let urlList = []
     // convert the number to the alphabet using the above explanation.
     while (id > 0) {
         urlList.push(charSet[id % 62])
@@ -262,15 +262,15 @@ const URLShortener = (id) => {
  * @param {String} timeString Normalized time string Input Formate -> 07:05:45PM.
  * @returns {String} Railway time string Output Fromate -> 19:05:45.
  */
-const railwayTimeConversion = (timeString) => {
+let railwayTimeConversion = (timeString) => {
     // firstly, check that input is a string or not.
     if (typeof timeString !== 'string') {
         return new TypeError('Argument is not a string.')
     }
     // split the string by ':' character.
-    const [hour, minute, scondWithShift] = timeString.split(':')
+    let [hour, minute, scondWithShift] = timeString.split(':')
     // split second and shift value.
-    const [second, shift] = [scondWithShift.substr(0, 2), scondWithShift.substr(2)]
+    let [second, shift] = [scondWithShift.substr(0, 2), scondWithShift.substr(2)]
     // convert shifted time to not-shift time(Railway time) by using the above explanation.
     if (shift === 'PM') {
         if (parseInt(hour) === 12) { return `${hour}:${minute}:${second}` } else { return `${parseInt(hour) + 12}:${minute}:${second}` }

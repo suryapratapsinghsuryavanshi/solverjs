@@ -152,7 +152,7 @@ let info = () => {
 }
 
 // utils
-const {
+let {
     dateToDay,
     dobToAge,
     keywordExtractor,
@@ -168,14 +168,14 @@ const {
 } = require('./src/utils/utils');
 
 // matrix 
-const {
+let {
     matAdd,
     matSub,
     matSpiralPrint
 } = require('./src/matrix/matrix');
 
 // maths methods.
-const {
+let {
     getFib,
     getGcd,
     printFib,
@@ -216,7 +216,7 @@ const {
 } = require('./src/math/math');
 
 // numbers systems.
-const {
+let {
     hexToDec,
     hexToOct,
     hexToBin,
@@ -232,7 +232,7 @@ const {
 } = require('./src/number/number');
 
 // length conversion
-const {
+let {
     // km
     kmToMe,
     kmToCm,
@@ -318,7 +318,7 @@ const {
 
 
 // temperature conversion 
-const {
+let {
     celToFah,
     celToKel,
     fahToCel,
@@ -330,7 +330,7 @@ const {
 
 // area conversion
 
-const {
+let {
     // square kilometer to all
     sqKmToSqMe,
     sqKmToSqYd,
@@ -383,7 +383,7 @@ const {
 } = require('./src/units/area/area');
 
 // digital storage methods import.
-const {
+let {
     // bit to all
     bitToByte,
     bitToKb,
@@ -436,7 +436,7 @@ const {
 } = require('./src/units/digital_storage/digital_storage');
 
 
-const {
+let {
     nsToUs,
     nsToMs,
     nsToSc,

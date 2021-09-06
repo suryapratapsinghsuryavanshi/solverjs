@@ -283,7 +283,7 @@ let wordCount = (str, separetor) => {
 let permutation = (str) => {
     str = str.split('');
     let result = [];
-    const permute = (arr, m = []) => {
+    let permute = (arr, m = []) => {
         if (arr.length === 0) {
             result.push(m.join(''))
             } else {
@@ -329,7 +329,7 @@ let alternativeStringArrange = (st1, st2) => {
  * @returns check the number is true if `indian number`, else return flase.
  */
 let phoneValidator = (str) => {
-    const re = /^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/;
+    let re = /^(\+91[\-\s]?)?[0]?(91)?[789]\d{9}$/;
     return re.test(str);
 }
 
@@ -344,25 +344,25 @@ let phoneExtractor = (str) => {
 }
 
 // use for check the given string are alphanumeric or not.
-const { contatinSpecial } = require('../utils/utils');
+let { contatinSpecial } = require('../utils/utils');
 /**
  * Use for check the given string are alphanumeric or not.
  * @param {String} str string for checking.
  * @returns return boolean, true if alpahnumeric else return false.
  */
-const isAlNum = (str) => {
-    const pat = /([a-zA-Z]+[0-9]+)|([0-9]+[a-zA-Z]+)/;
+let isAlNum = (str) => {
+    let pat = /([a-zA-Z]+[0-9]+)|([0-9]+[a-zA-Z]+)/;
     return(!contatinSpecial(str) && pat.test(str));
 }
 
-// use for check the given stirn is alpha or not.
+// use for check the given string is alpha or not.
 /**
  * Use for check the given stirn is alpha or not.
  * @param {String} str string for checking.
  * @returns return boolean, true if the string is alpha else return false.
  */
-const isAlpha = (str) => {
-    const pat = /^[a-zA-Z_]*$/;
+let isAlpha = (str) => {
+    let pat = /^[a-zA-Z_]*$/;
     return pat.test(str);
 }
 
@@ -372,8 +372,8 @@ const isAlpha = (str) => {
  * @param {String} str string for chacking.
  * @returns return true if the string is decimal else return false.
  */
-const isDecimal = (str) => {
-    const pat = /^(\d+)$/;
+let isDecimal = (str) => {
+    let pat = /^(\d+)$/;
     return(!isAlNum(str) && pat.test(str));
 }
 
@@ -383,7 +383,7 @@ const isDecimal = (str) => {
  * @param {String} str string value for checking.
  * @returns return true if the string in lower case, else return false.
  */
-const isLower = (str) => str.toLowerCase() == str && !isAlNum(str);
+let isLower = (str) => str.toLowerCase() == str && !isAlNum(str);
 
 // this method check the given string in upper case or not.
 /**
@@ -391,7 +391,7 @@ const isLower = (str) => str.toLowerCase() == str && !isAlNum(str);
  * @param {String} str string value for checking.
  * @returns return true if the string in upper case, else return false.
  */
-const isUpper = (str) => str.toUpperCase() == str && !isAlNum(str);
+let isUpper = (str) => str.toUpperCase() == str && !isAlNum(str);
 
 // this method is used for the given string is only contain spaces.
 /**
@@ -399,7 +399,7 @@ const isUpper = (str) => str.toUpperCase() == str && !isAlNum(str);
  * @param {String} str string for checking.
  * @returns return true if the string  is only space, else return false.
  */
-const isSpace = (str) => /^(\s+)$/.test(str);
+let isSpace = (str) => /^(\s+)$/.test(str);
 
 // this method is used for the given string is in title form or not.
 /**
@@ -407,14 +407,14 @@ const isSpace = (str) => /^(\s+)$/.test(str);
  * @param {String} str string vlaue for checking.
  * @returns return true, if given string in title case, else return false.
  */
-const isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
+let isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
 
 // unique token generator, generate a unique token.
 /**
  * Fenerate a unique token, every time you run without any arguments.
  * @returns return a unique token every time to run.
  */
-const token = () => {
+let token = () => {
     let token = "";
     while(true){
         let char = numToAscii(Math.floor(Math.random() * (126 - 64 + 1) + 64))
@@ -444,7 +444,7 @@ const token = () => {
  * @param {Number} max a maximum range
  * @returns return `random` vlaue between min to max.
  */
-const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+let randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
 /**
  * Use to find the remainder or modulo division.
@@ -452,7 +452,7 @@ const randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min
  * @param {Number} devisor 
  * @returns `Number` return numeric value of the remainder.
  */
-const remainder = (divident, devisor) => divident % devisor;
+let remainder = (divident, devisor) => divident % devisor;
 
 // export maths methods.
 module.exports = {

@@ -1,6 +1,6 @@
 // matrix oparetions
 // util for Addition/subtraction.
-const matUtil = (mat1, mat2, opr) => {
+let matUtil = (mat1, mat2, opr) => {
     // make another smae dimention matrix
     let resultMat = new Array();
     // check the both matrix are same dimention or not.
@@ -25,13 +25,13 @@ const matUtil = (mat1, mat2, opr) => {
 }
 
 // Aditon => if the matrix are same dimention it posible to add them.
-const matAdd = (mat1, mat2) => matUtil(mat1, mat2, '+');
+let matAdd = (mat1, mat2) => matUtil(mat1, mat2, '+');
 
 // Subtraction => if the matrix are same dimention it posible to subtract them.
-const matSub = (mat1, mat2) => matUtil(mat1, mat2, '-');
+let matSub = (mat1, mat2) => matUtil(mat1, mat2, '-');
 
 // spiral print.
-const matSpiralPrint = (mat1) => {
+let matSpiralPrint = (mat1) => {
     let T = 0;
     let B = mat1.length - 1;
     let L = 0;
