@@ -48,7 +48,7 @@ Installation is done using the
     yarn add solverjs
 
 ### Using jsDeliver CDN
-[SolverJS CDN](https://www.jsdelivr.com/package/npm/solverjs)
+[SolverJS jsDeliver CDN](https://www.jsdelivr.com/package/npm/solverjs)
 
 ## Contributing
 
