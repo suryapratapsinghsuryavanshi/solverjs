@@ -25,7 +25,7 @@ With web application all the time we face many problems to implement some logic,
 SolverJS are a combination of many common mathematical and some very used logic solutions.
 
 ## ☯ Whats a new
-Finally, most of the methods are given code snippet help so you easily use our methods and solve your common code problems.
+Finally, jsDelivr CDN is available so you can now use the SolverJs in your non-npm project.
 
 ## Installation
 
