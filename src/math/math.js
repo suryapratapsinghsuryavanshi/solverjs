@@ -454,6 +454,18 @@ let randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
  */
 let remainder = (divident, devisor) => divident % devisor;
 
+let isPerfectSquare = (x) => {
+    let s = parseInt(Math.sqrt(x));
+    return (s * s == x);
+}
+
+/**
+ * Check fibonacci number : Returns true if n is a Fibinacci Number, else false
+ * @param {Number} num number for check the are fibonacci or not.
+ * @returns `Boolean` true if the number is fibonacci, else return false.
+ */
+let isFibonacci = (num) => isPerfectSquare(5 * num * num + 4) || isPerfectSquare(5 * num * num - 4);
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -492,5 +504,6 @@ module.exports = {
     isTitle,
     token,
     randomInt,
-    remainder
+    remainder,
+    isFibonacci
 }
