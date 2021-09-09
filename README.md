@@ -272,6 +272,11 @@ Installation is done using the
     console.log(solverjs.remainder(5, 2));
     // The output is : 1
 
+### isFibonacci
+    // Use for checking the number is a fibonacci number or not.
+    console.log(solverjs.isFibonacci(5));
+    // The output is : true
+
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
 
