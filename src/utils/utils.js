@@ -279,6 +279,42 @@ let railwayTimeConversion = (timeString) => {
     }
 }
 
+/**
+ * Sort the list of values, partition in place method O(nlogn).
+ * @param {Number[]} arr list of values.
+ * @param {Boolean} reverse if the reverse value is true the sort in ascending order else descending.
+ */
+let sort = (arr, reverse = true) => {
+    if(reverse) {
+        quickSort(arr, 0, arr.length - 1);
+    }
+    else {
+        quickSort(arr, 0, arr.length - 1);
+        arr.reverse()
+    }
+}
+
+let quickSort = (arr, low, high) => {
+    if(low < high) {
+        let pIndex = partition(arr, low, high);
+        quickSort(arr, low, pIndex - 1);
+        quickSort(arr, pIndex + 1, high);
+    }
+}
+
+let partition = (arr, low, high) => {
+    let pivot = arr[high];
+    let pIndex = low;
+    for(let i=low; i<high; i++) {
+        if(arr[i] < pivot) {
+            [arr[i], arr[pIndex]] = [arr[pIndex], arr[i]];
+            pIndex++;
+        }
+    }
+    [arr[pIndex], arr[high]] = [arr[high], arr[pIndex]];
+    return pIndex;
+}
+
 module.exports = {
     dateToDay,
     dobToAge,
@@ -291,5 +327,6 @@ module.exports = {
     checkPascalCase,
     checkSnakeCase,
     URLShortener,
-    railwayTimeConversion
+    railwayTimeConversion,
+    sort
 }

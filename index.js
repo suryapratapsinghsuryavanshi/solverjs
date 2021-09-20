@@ -164,7 +164,8 @@ let {
     checkPascalCase,
     checkSnakeCase,
     URLShortener,
-    railwayTimeConversion
+    railwayTimeConversion,
+    sort
 } = require('./src/utils/utils');
 
 // matrix 
@@ -655,6 +656,7 @@ module.exports = {
     checkSnakeCase,
     URLShortener,
     railwayTimeConversion,
+    sort,
     // matrix
     matAdd,
     matSub,
