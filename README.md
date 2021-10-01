@@ -54,6 +54,8 @@ Installation is done using the
 
 [Contributing Guide](Contributing.md)
 
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/suryapratapsinghsuryavanshi/solverjs)&nbsp;
+
 ## Usage In NodeJs
     // Load the full solverjs.
     var solverjs = require('solverjs');
