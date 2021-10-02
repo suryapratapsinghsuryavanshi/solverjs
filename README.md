@@ -99,7 +99,7 @@ Installation is done using the
     // The output is : 539
 
 ### isArmstrong
-    // The isArmstrong function are return true/false according
+    // The isArmstrong function are return boolean valu according
     // to the given number.
     console.log(solverjs.isArmstrong(153));
     // The output is : true
