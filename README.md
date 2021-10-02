@@ -13,7 +13,7 @@
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
 [travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
-[travis-url]: https://www.npmjs.com/package/solverjs
+[travis-url]: https://www.npmjs.com/package/serjs
 [appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows
 [appveyor-url]: https://www.npmjs.com/package/solverjs
 [coveralls-image]: https://img.shields.io/badge/coverage-2%25-yellow
@@ -105,7 +105,7 @@ Installation is done using the
     // The output is : true
 
 ### sumOfN
-    // The sumOfN function are return the sum of n natural numbers.
+    // The sumOfN function returns the sum of n natural numbers.
     console.log(solverjs.sumOfN(5));
     // The output is : 15
 
