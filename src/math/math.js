@@ -85,17 +85,22 @@ let isArmstrong = (n) => {
  * @returns {Number} sum of n natural numbers.
  */
 let sumOfN = (n) => {
-    return n == 1 ? n : n + sumOfN(n-1);
+    return (n * (n + 1)) / 2;
 }
 
 // fac return the factorial of n.
 /**
  * the `fac` method return the n'th factorial of given number.
  * @param {Number} n the number for calculating factorial.
- * @returns {Number} return n'th factorial value of a number.
+ * @returns {BigInt} return n'th factorial value of a number.
  */
 let fac = (n) => {
-    return n == 1 ? n : n * fac(n-1);
+    if (n < 2) return 1;
+    let product = BigInt(n);
+    for (let i = BigInt(n); i > 1; i--){
+        product *= i;
+    }
+    return product;
 }
 
 // the pow function return the power of x^y.
