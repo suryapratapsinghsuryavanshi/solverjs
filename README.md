@@ -66,7 +66,7 @@ Installation is done using the
 
 ## All Commonly used Functions
 ### info
-    // The info function are give the information about the solverjs.
+    // The info function are give the information about the solverjs methods.
     solverjs.info();
     // The output is : information about the module.
 
