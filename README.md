@@ -24,7 +24,7 @@
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolverJS are a combination of many common mathematical and some very used logic solutions.
 
-## ☯ Whats a new
+## ☯ What's New
 Finally, jsDelivr CDN is available so you can now use the SolverJs in your non-npm project and we use 'let' over the 'const' so you freely use SolverJs package within an old codebase also.
 
 ## Installation
@@ -47,8 +47,8 @@ Installation is done using the
 ### Using yarn:
     yarn add solverjs
 
-### Using jsDeliver CDN
-[SolverJS jsDeliver CDN](https://www.jsdelivr.com/package/npm/solverjs)
+### Using jsDelivr CDN
+[SolverJS jsDelivr CDN](https://www.jsdelivr.com/package/npm/solverjs)
 
 ## Contributing
 
@@ -66,216 +66,287 @@ Installation is done using the
 
 ## All Commonly used Functions
 ### info
+The info () function is used to print a concise summary of a DataFrame.
+This method prints information about a DataFrame including the index dtype and column dtypes, non-null values and memory usage. 
+
     // The info function are give the information about the solverjs methods.
     solverjs.info();
     // The output is : information about the module.
 
 ### getFib
+The Fibonacci numbers form a sequence such that each number is the sum of the two preceding numbers, starting from 0 and 1
+getFib function to calculate the nth term of the Fibonacci sequence.
+
     // The getFib function are return the n'th fibonacci number.
     console.log(solverjs.getFib(8));
     // The 8'th fibonacci number is : 8.
 
 ### getGcd
-    // The getGcd function are return the gcd of the given two numbers.
+ The GCD is a mathematical term for the Greatest Common Divisor of two or more numbers.
+ It is the Greatest common divisor that completely divides two or more numbers without leaving any remainder. 
+ 
+   
     console.log(solverjs.getGcd(12, 24));
     // The output is : 12.
 
 ### printFib
-    // The printFib function are return the string formated as:
-    // Fibonacci Series : 1 1 2 3 5
+The Fibonacci numbers form a sequence such that each number is the sum of the two preceding numbers, starting from 0 and 1
+we use the recursive printFib function that takes a number n as a parameter and display  Fibonacci sequence uoto nth place .
+The first few Fibonacci numbers are: 
+1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89…
+
+  
     console.log(solverjs.printFib(8));
     // Fibonacci Series : 1 1 2 3 5 8 13 21
 
 ### sumAllDigit
-    // The sumAllDigit function are return the sum of all
-    // digit of the given number.
+Function that takes a number and returns sum of the digit the given number.
+
     console.log(solverjs.sumAllDighti(123));
     // The output is : 6
 
 ### reverseNumber
-    // The reverseNumber function are return the reverse of 
-    // the given number.
+reverseNumber function that takes in a number and returns its reversed number.
+
     console.log(solverjs.reverseNumber(935));
     // The output is : 539
 
 ### isArmstrong
+An Armstrong number is a number such that the sum ! of its digits raised to the third power is equal to the number ! itself. 
+153 is an Armstrong number. 153 = (1*1*1)+ (5*5*5)+ (3*3*3)
+
     // The isArmstrong function are return true/false according
     // to the given number.
     console.log(solverjs.isArmstrong(153));
     // The output is : true
 
 ### sumOfN
-    // The sumOfN function returns the sum of n natural numbers.
-    console.log(solverjs.sumOfN(5));
+The sumOfN function returns the sum of n natural numbers.
+    
+    // console.log(solverjs.sumOfN(5));
     // The output is : 15
 
 ### fac
+Factorial is the product of a given positive integer multiplied by all lesser positive integers.
+Zero Factorial is interesting ... it is generally agreed that 0! = 1.
+
     // The fac function are return the factoril of the given number.
     console.log(solverjs.fac(5));
     // The output is : 120
 
 ### pow
+The function pow() is used to calculate the power raised to the base value. It takes two arguments. 
+It returns the power raised to the base value.
+
     // The pow function are return the power of x^y.
     console.log(solverjs.pow(4, 2));
     // The output is : 16
 
 ### len
-    // The len function are return the length ot given number or string.
+len function returns the number of characters in a given string or number. 
+len takes just one argument, string or number.
+  
     console.log(solverjs.len(1234));
     // The output is : 4
 
 ### isPrime
+Prime numbers are the positive integers having only two factors, 1 and the integer itself.
+
     // The isPrime function are return the true or false according
     // to the number is prime or not
     console.log(solverjs.isPrime(2));
     // The output is : true
 
 ### isCoPrime
+A Co-prime number is a set of numbers or integers which have only 1 as their common factor i.e.
+their highest common factor (HCF) will be 1.
+
     // The isCoPrime function are return the true/false
     // acording the both number are co-prime or not.
     console.log(solverjs.isCoPrime(13, 34));
     // The output is : true
 
 ### isKishnamurthyNumber
-    // The Krshna Murthy Number is a number sum of all factorial digit
-    // is equal to the given number.
+A Krishnamurthy number is a number whose sum of the factorial of digits is equal to the number itself. 
+For example 145, sum of factorial of each digits: 1! + 4! + 5! = 1 + 24 + 120 = 145
+isKishnamurthyNumbrer is a boolean function that take number as agrument and return true/false.
+
     console.log(solverjs.isKishnamurthyNumber(145));
     // The output is : true
 
 ### avg
+The average calculated by avg is the arithmetic mean (the sum of the values divided by the number of values).
+
     // Average - is a term mid of the all given data point.
     console.log(solverjs.avg([5, 6, 8, 9, 3]));
     // The output is : 6.2
 
 ### mod 
-    // mod is define the absulute value whout sign.
+mod function return absolute value of a number is the number without its sign.
+   
     console.log(solverjs.mod(-145));
     // The output is : 145
 
 ### wordCount
-    // Word Counter is count he word of the given stirng.
+This method relies on the number of words present in the input string to count the number of words as every word in a sentence is separated by a space. 
+
+    // Word Counter is count he word of the given string.
     // provide seperator.
     console.log(solverjs.wordCount('alsdjf lasjfd lsjf', ' '));
     // The output is : 3
 
 ### isLeap
-    // The isLeap year check the given year is leap or not.
-    console.log(solverjs.isLeap(2021));
+ A leap year is a year with 366 days instead of 365; every 4 years in February one extra day is added.
+ The isLeap year check the given year is leap or not and return true/false.
+ 
+    //console.log(solverjs.isLeap(2021));
     // The output is : false
 
 ### lcm
-    // Find the lcm of two numbers.
+Least Common Multiple(LCM) is a method to find the smallest common multiple between any two or more numbers. 
+A common multiple is a number which is a multiple of two or more numbers.
+lcm function takes two numbers as argument and return lcm of these number.
+
     console.log(solverjs.lcm(12, 3));
     // The output is : 12
 
 ### hcf
-    // Find the hcf of two numbers.
+The greatest number which divides each of the two or more numbers is called HCF or Highest Common Factor. 
+It is also called the Greatest Common Measure(GCM) and Greatest Common Divisor(GCD).
+hcf function takes two numbers as argument and return hcf of these number.
+
+  
     console.log(solverjs.hcf(72, 23));
     // The output is : 1
 
 ### ascii
-    // Find the ascii value of the given charector.
+ASCII (which stands for American Standard Code for Information Interchange) is a character encoding standard for text files in computers and other devices.
+ASCII is a subset of Unicode and is made up of 128 symbols in the character set. 
+ascii method is returning equivalent numeric ascii value for the given character.
+
+    // Find the ascii value of the given character.
     console.log(solverjs.ascii('A'));
     // The output is : 65
 
 ### reverse
-    // The method reverse the given stirn g.
-    console.log(solverjs.reverse('abcde'));
+ The method reverse the given string.
+     
+     //console.log(solverjs.reverse('abcde'));
     // The output is : edcba
 
 ### isPalindrome
-    // The isPalindrome check the given stirn is
-    // palindrome or not.
-    console.log(solverjs.isPalindrome('abcba'));
+A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
+The isPalindrome check the given stirng is palindrome or not.
+    
+    //console.log(solverjs.isPalindrome('abcba'));
     // The output is : true
 
 ### permutation
-    // The permutation return the all combination of a string.
+A permutation is an arrangement of objects in a definite order. The members or elements of sets are arranged here in a sequence or linear order.
+permutation function take one string  argument and return all combination of string.
+   
     console.log(solverjs.permutation('abc'));
     // The output is : [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
 
 ### alternativeStringArrange 
-    // The alternativeStringArrange return alternetive marge string.
-    console.log(solverjs.alternativeStringArrange('abcde', 'xyz'));
+The alternativeStringArrange takes two string argument alternative merge  the character and return new merge string.
+
+    //console.log(solverjs.alternativeStringArrange('abcde', 'xyz'));
     // The output is : axbyczde
     // Time Complexity O(n)
 
 ### phoneValidator 
-    // The phoneValidator check the numebr is a valid or not.
-    console.log(solverjs.phoneValidator('+910011223344'));
+The phoneValidator takes number as argument and check the numebr is a valid or not , return true/false.
+
+    //console.log(solverjs.phoneValidator('+910011223344'));
     // The output is : true
 
 ### phoneExtractor
-    // The phoneExtractor find the phone number in stirng.
-    console.log(solverjs.phoneExtractor('this is no. +910011223344'));
+The phoneExtractor takes string as argument ,find the phone number in stirng and return phone number.
+    
+    //console.log(solverjs.phoneExtractor('this is no. +910011223344'));
     // The output is : +910011223344
 
 ### isAlNum
+Alphanumericals are a combination of alphabetical and numerical characters, and is used to describe the collection of Latin letters.
+
     // The isAlNum method check the given string
     // alphanumeric or not return boolean value.
     console.log(solverjs.isAlNum('55x'));
     // The output is : true
 
 ### isAlpha
-    // The isAlpha method check the givne string
-    // alpha or not return boolean value.
-    console.log(solverjs.isAlpha('55'));
+The isAlpha method check the givne string alpha or not return boolean value.
+    
+    //console.log(solverjs.isAlpha('55'));
     // The output is : false
 
 ### numToAscii
-    // The numToAscii method are return
-    // number to correspond char value.
+The numToAscii method  that converts a decimal number into ASCII or char value.
+   
     console.log(solverjs.numToAscii(97));
     // The output is : a
 
 ### isDecimal
-    // The method are check the given string are decimal
-    // or return corspond boolean value.
+isDecimal is a function that returns true if all characters in a string are decimal. 
+If all characters are not decimal then it returns false.
+
     console.log(solverjs.isDecimal('55'));
     // The output is : true
 
 ### isLower 
-    // The isLower method are used for check the all
-    // charector in lower case form or not.
-    console.log(solverjs.isLower('lower'));
+The isLower method are used for check the all charector in lower case form or not.
+     
+    //console.log(solverjs.isLower('lower'));
     // The output is : true
 
 ### isUpper
-    // The isUpper method are used for check the all
-    // charector in upper case form or not.
-    console.log(solverjs.isUpper('UPPER'));
+The isUpper method are used for check the all charector in upper case form or not.
+    
+    //console.log(solverjs.isUpper('UPPER'));
     // The output is : true
 
 ### isTitle 
+The isTitle method returns True if all words in a text start with a upper case letter, AND the rest of the word are lower case letters, otherwise False.
+
     // The isTitle method are used for check the
-    // given strin in title form or not.
+    // given string in title form or not.
     console.log(solverjs.isTitle('Title'));
     // The output is : true
 
 ### isSpace 
+The isSpace method returns True if all the characters in a string are whitespaces, otherwise False.
+
     // The isSpace method are used for check the given 
-    // string is all charector in space or not.
+    // string is all character in space or not.
     console.log(solverjs.isSpace('  '));
     // The output is : true
 
 ### token
-    // The token method provides a unique token value
-    // for any kind of authentication in string format.
-    console.log(solverjs.token());
+The token method provides a unique token value for any kind of authentication in string format.
+    
+    //console.log(solverjs.token());
     // The output is : l\sF\h1402241vmEY@xkFziVNp (unique token)
 
 ### randomInt
-    // Generates a random integer between the given range.
-    console.log(solverjs.randomInt(5, 9));
+randomint function takes two argument as a range and generates a random integer between the given range.
+    
+    //console.log(solverjs.randomInt(5, 9));
     // The output is : 7
 
 ### remainder
+remainder returns the remainder of a number divided by another number. 
+remainder function take 2 number as a argument and return the remainder (first number divide by Second number).
+remember second number can't be 0,function  returns an error as you cannot divide by 0.
+ 
     // Use to find the remainder or modulo division.
     console.log(solverjs.remainder(5, 2));
     // The output is : 1
 
 ### isFibonacci
-    // Use for checking the number is a fibonacci number or not.
+The Fibonacci numbers form a sequence such that each number is the sum of the two preceding numbers, starting from 0 and 1.
+isFibonacci is a boolean function that take one number as argument , checks the number is a fibonacci number or not  and return true/false;
+    
     console.log(solverjs.isFibonacci(5));
     // The output is : true
 
