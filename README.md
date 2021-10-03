@@ -179,12 +179,12 @@ Installation is done using the
     // The output is : 65
 
 ### reverse
-    // The method reverse the given stirn g.
+    // The method reverse the given string.
     console.log(solverjs.reverse('abcde'));
     // The output is : edcba
 
 ### isPalindrome
-    // The isPalindrome check the given stirn is
+    // The isPalindrome check the given string is
     // palindrome or not.
     console.log(solverjs.isPalindrome('abcba'));
     // The output is : true
