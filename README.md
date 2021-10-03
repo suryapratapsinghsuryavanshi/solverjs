@@ -105,7 +105,7 @@ Installation is done using the
     // The output is : true
 
 ### sumOfN
-    // The sumOfN function are return the sum of n natural numbers.
+    // The sumOfN function returns the sum of n natural numbers.
     console.log(solverjs.sumOfN(5));
     // The output is : 15
 
