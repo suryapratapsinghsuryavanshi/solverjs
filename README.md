@@ -240,3 +240,5 @@ The length has many types but in this time we see only some very frequently used
     // The output is : 39370
 
 
+# Basically this This is a function of JavaScript it is provied as a tool or doing to our work in a easier way for solving or matematics problem in effective way
+# Here this is my First Open Source project 
