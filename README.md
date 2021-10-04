@@ -1613,6 +1613,7 @@ The Time units has many types but in this we see only some very frequently used.
 - Nanosecond(ns)
 
 ### Time Conversion Methods
+Time conversion methods are convert the time unit to another time units.
 
 #### Nanosecond to Microsecond => nsToUs(ns)
     // The nsToUs method are take nanosecond value and return
