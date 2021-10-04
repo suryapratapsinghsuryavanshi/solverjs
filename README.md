@@ -66,8 +66,7 @@ Installation is done using the
 
 ## All Commonly used Functions
 ### info
-The info () function is used to print a concise summary of a DataFrame.
-This method prints information about a DataFrame including the index dtype and column dtypes, non-null values and memory usage. 
+The info () function is used to print a concise summary of a all solverjs methods.
 
     // The info function are give the information about the solverjs methods.
     solverjs.info();
@@ -82,10 +81,9 @@ getFib function to calculate the nth term of the Fibonacci sequence.
     // The 8'th fibonacci number is : 8.
 
 ### getGcd
- The GCD is a mathematical term for the Greatest Common Divisor of two or more numbers.
- It is the Greatest common divisor that completely divides two or more numbers without leaving any remainder. 
- 
-   
+The GCD is a mathematical term for the Greatest Common Divisor of two or more numbers.
+It is the Greatest common divisor that completely divides two or more numbers without leavingany remainder. 
+
     console.log(solverjs.getGcd(12, 24));
     // The output is : 12.
 
@@ -95,7 +93,6 @@ we use the recursive printFib function that takes a number n as a parameter and 
 The first few Fibonacci numbers are: 
 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89…
 
-  
     console.log(solverjs.printFib(8));
     // Fibonacci Series : 1 1 2 3 5 8 13 21
 
@@ -123,7 +120,7 @@ An Armstrong number is a number such that the sum ! of its digits raised to the 
 ### sumOfN
 The sumOfN function returns the sum of n natural numbers.
     
-    // console.log(solverjs.sumOfN(5));
+    console.log(solverjs.sumOfN(5));
     // The output is : 15
 
 ### fac
@@ -196,10 +193,10 @@ This method relies on the number of words present in the input string to count t
     // The output is : 3
 
 ### isLeap
- A leap year is a year with 366 days instead of 365; every 4 years in February one extra day is added.
- The isLeap year check the given year is leap or not and return true/false.
+A leap year is a year with 366 days instead of 365; every 4 years in February one extra day is added.
+The isLeap year check the given year is leap or not and return true/false.
  
-    //console.log(solverjs.isLeap(2021));
+    console.log(solverjs.isLeap(2021));
     // The output is : false
 
 ### lcm
@@ -215,7 +212,6 @@ The greatest number which divides each of the two or more numbers is called HCF 
 It is also called the Greatest Common Measure(GCM) and Greatest Common Divisor(GCD).
 hcf function takes two numbers as argument and return hcf of these number.
 
-  
     console.log(solverjs.hcf(72, 23));
     // The output is : 1
 
@@ -231,14 +227,14 @@ ascii method is returning equivalent numeric ascii value for the given character
 ### reverse
  The method reverse the given string.
      
-     //console.log(solverjs.reverse('abcde'));
+     console.log(solverjs.reverse('abcde'));
     // The output is : edcba
 
 ### isPalindrome
 A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as madam or racecar.
 The isPalindrome check the given stirng is palindrome or not.
     
-    //console.log(solverjs.isPalindrome('abcba'));
+    console.log(solverjs.isPalindrome('abcba'));
     // The output is : true
 
 ### permutation
@@ -251,20 +247,20 @@ permutation function take one string  argument and return all combination of str
 ### alternativeStringArrange 
 The alternativeStringArrange takes two string argument alternative merge  the character and return new merge string.
 
-    //console.log(solverjs.alternativeStringArrange('abcde', 'xyz'));
+    console.log(solverjs.alternativeStringArrange('abcde', 'xyz'));
     // The output is : axbyczde
     // Time Complexity O(n)
 
 ### phoneValidator 
 The phoneValidator takes number as argument and check the numebr is a valid or not , return true/false.
 
-    //console.log(solverjs.phoneValidator('+910011223344'));
+    console.log(solverjs.phoneValidator('+910011223344'));
     // The output is : true
 
 ### phoneExtractor
 The phoneExtractor takes string as argument ,find the phone number in stirng and return phone number.
     
-    //console.log(solverjs.phoneExtractor('this is no. +910011223344'));
+    console.log(solverjs.phoneExtractor('this is no. +910011223344'));
     // The output is : +910011223344
 
 ### isAlNum
@@ -278,7 +274,7 @@ Alphanumericals are a combination of alphabetical and numerical characters, and 
 ### isAlpha
 The isAlpha method check the givne string alpha or not return boolean value.
     
-    //console.log(solverjs.isAlpha('55'));
+    console.log(solverjs.isAlpha('55'));
     // The output is : false
 
 ### numToAscii
@@ -297,13 +293,13 @@ If all characters are not decimal then it returns false.
 ### isLower 
 The isLower method are used for check the all charector in lower case form or not.
      
-    //console.log(solverjs.isLower('lower'));
+    console.log(solverjs.isLower('lower'));
     // The output is : true
 
 ### isUpper
 The isUpper method are used for check the all charector in upper case form or not.
     
-    //console.log(solverjs.isUpper('UPPER'));
+    console.log(solverjs.isUpper('UPPER'));
     // The output is : true
 
 ### isTitle 
@@ -325,13 +321,13 @@ The isSpace method returns True if all the characters in a string are whitespace
 ### token
 The token method provides a unique token value for any kind of authentication in string format.
     
-    //console.log(solverjs.token());
+    console.log(solverjs.token());
     // The output is : l\sF\h1402241vmEY@xkFziVNp (unique token)
 
 ### randomInt
 randomint function takes two argument as a range and generates a random integer between the given range.
     
-    //console.log(solverjs.randomInt(5, 9));
+    console.log(solverjs.randomInt(5, 9));
     // The output is : 7
 
 ### remainder
