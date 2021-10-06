@@ -19,6 +19,8 @@ let getGcd = (arg1, arg2) => {
  * @param {Number} arg_n n'th natural number
  * @returns return a `n'th fibonacci` number.
  */
+
+
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
     let [a, b] = [0, 1];
@@ -35,18 +37,18 @@ let getFib = (arg_n) => {
  * @param {Number} n n'th natural number
  * @returns return a `series` of n'th fibonacci numbers.
  */
-let printFib = (n) => {
+ let printFib = (n) => {
     let num1 = 1;
     let num2 = 0;
     let num3 = 0;
-    let st = "";
+    let st = [];
     for(let i=0;i<n;i++){
         num3 = num1 + num2;
-        st = st + num3 + ' ';
+        st.push(num3);
         num1 = num2;
         num2 = num3;
     }
-    return("Fibonacci Series : "+st);
+    return("Fibonacci Series : "+st.join(' '));
 }
 
 // sumAllDigit return the addition of all the digits in a given number.
