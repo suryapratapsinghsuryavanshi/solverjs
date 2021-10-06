@@ -21,8 +21,13 @@ let getGcd = (arg1, arg2) => {
  */
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
-    return getFib(arg_n-1) + getFib(arg_n-2); 
+    let [a, b] = [0, 1];
+    while (--arg_n > 0) {
+        [a, b] = [b, a + b];
+    }
+  return b;
 }
+
 
 // printFib return the fibonacci series string up to n.
 /**
