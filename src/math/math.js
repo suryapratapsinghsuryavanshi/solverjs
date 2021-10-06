@@ -21,8 +21,13 @@ let getGcd = (arg1, arg2) => {
  */
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
-    return getFib(arg_n-1) + getFib(arg_n-2); 
+    let [a, b] = [0, 1];
+    while (--arg_n > 0) {
+        [a, b] = [b, a + b];
+    }
+  return b;
 }
+
 
 // printFib return the fibonacci series string up to n.
 /**
@@ -130,13 +135,13 @@ let len = (x) => {
  * @param {Number} x n number for checking is prime or not.
  * @returns return correspond boolean value, if prime return `ture` else return `false`.
  */
-let isPrime = (x) => {
+ let isPrime = (x) => {
     if(x == 1) return false;
-    for(let i=x-1; i>=2; i--)
+    let root=Math.sqrt(x);
+    for(let i=2; i<=root; i++)
         if(x % i == 0)
             return false;
     return true;
-
 }
 
 // isCoPrime function return the boolean in respect of the given number is co-prime or not.
