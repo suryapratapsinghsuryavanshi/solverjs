@@ -19,10 +19,17 @@ let getGcd = (arg1, arg2) => {
  * @param {Number} arg_n n'th natural number
  * @returns return a `n'th fibonacci` number.
  */
+
+
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
-    return getFib(arg_n-1) + getFib(arg_n-2); 
+    let [a, b] = [0, 1];
+    while (--arg_n > 0) {
+        [a, b] = [b, a + b];
+    }
+  return b;
 }
+
 
 // printFib return the fibonacci series string up to n.
 /**
@@ -30,18 +37,18 @@ let getFib = (arg_n) => {
  * @param {Number} n n'th natural number
  * @returns return a `series` of n'th fibonacci numbers.
  */
-let printFib = (n) => {
+ let printFib = (n) => {
     let num1 = 1;
     let num2 = 0;
     let num3 = 0;
-    let st = "";
+    let st = [];
     for(let i=0;i<n;i++){
         num3 = num1 + num2;
-        st = st + num3 + ' ';
+        st.push(num3);
         num1 = num2;
         num2 = num3;
     }
-    return("Fibonacci Series : "+st);
+    return("Fibonacci Series : "+st.join(' '));
 }
 
 // sumAllDigit return the addition of all the digits in a given number.
@@ -130,13 +137,13 @@ let len = (x) => {
  * @param {Number} x n number for checking is prime or not.
  * @returns return correspond boolean value, if prime return `ture` else return `false`.
  */
-let isPrime = (x) => {
+ let isPrime = (x) => {
     if(x == 1) return false;
-    for(let i=x-1; i>=2; i--)
+    let root=Math.sqrt(x);
+    for(let i=2; i<=root; i++)
         if(x % i == 0)
             return false;
     return true;
-
 }
 
 // isCoPrime function return the boolean in respect of the given number is co-prime or not.
