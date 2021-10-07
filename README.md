@@ -1376,7 +1376,7 @@ The bitToByte method are take bit value and return the byte value correspond to 
 
 The bitToMb method are take bit value and return the Megabyte value correspond to the digital storage parameters.
     
-    //console.log(solverjs.bitToMb(1))
+    console.log(solverjs.bitToMb(1))
     // The output is : 1.25e-7
 
 #### Bit to Gigabyte => bitToGb(bit)
