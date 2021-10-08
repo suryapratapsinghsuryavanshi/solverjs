@@ -1329,7 +1329,7 @@ Defined method.
 ### sort
 The sort method sort the given array.
 
-    console.log(solverjs.log([5, 6, 2, 3]));
+    console.log(solverjs.sort([5, 6, 2, 3]));
     // The output is : [2, 3, 5, 6]
 
 ### ext
