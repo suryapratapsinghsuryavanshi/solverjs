@@ -479,7 +479,7 @@ let isPerfectSquare = (x) => {
 let isFibonacci = (num) => isPerfectSquare(5 * num * num + 4) || isPerfectSquare(5 * num * num - 4);
 
 /**
- * Find maximum value of the Array.
+ * The max method returns the maximum value from the given array.
  * @param {Number[]} arr Array or list
  * @returns {Number} maximum value form array.
  */
@@ -492,7 +492,7 @@ let max = (arr) => {
 }
 
 /**
- * Find minimum value of the Array.
+ * The min method returns the minimum value from the given array.
  * @param {Number[]} arr Array or list
  * @returns {Number} minimum value form array.
  */

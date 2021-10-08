@@ -8,7 +8,7 @@
   [![Test Coverage][coveralls-image]][coveralls-url]
   [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
   
-[npm-image]: https://img.shields.io/badge/npm-v3.25.13-blue
+[npm-image]: https://img.shields.io/badge/npm-v3.26.13-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -345,6 +345,18 @@ isFibonacci is a boolean function that take one number as argument , checks the 
     
     console.log(solverjs.isFibonacci(5));
     // The output is : true
+
+### max
+The max method returns the maximum value from the given array.
+
+    console.log(solverjs.max([2, 5, 6, 3]));
+    // The output is : 6
+
+### min
+The min method returns the minimum value from the given array.
+
+    console.log(solverjs.min([2, 5, 6, 3]));
+    // The output is : 2
 
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.
@@ -1245,6 +1257,8 @@ Defined method.
 - checkSnakeCase
 - URLShortener
 - railwayTimeConversion
+- sort
+- ext
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1311,6 +1325,18 @@ Defined method.
     // railwayTimeConversion method take a normalized time and convert railway time.
     console.log(solverjs.railwayTimeConversion('07:05:45PM'))
     // The output is : 19:05:45
+
+### sort
+The sort method sort the given array.
+
+    console.log(solverjs.log([5, 6, 2, 3]));
+    // The output is : [2, 3, 5, 6]
+
+### ext
+The ext method returns the extension of the given file name.
+
+    console.log(solverjs.ext("mypic.jpg"));
+    // The output is : .jpg
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
