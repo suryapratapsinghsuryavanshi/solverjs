@@ -478,6 +478,32 @@ let isPerfectSquare = (x) => {
  */
 let isFibonacci = (num) => isPerfectSquare(5 * num * num + 4) || isPerfectSquare(5 * num * num - 4);
 
+/**
+ * Find maximum value of the Array.
+ * @param {Number[]} arr Array or list
+ * @returns {Number} maximum value form array.
+ */
+let max = (arr) => {
+    let mx = arr[0];
+    for(let i = 1; i < arr.length; i++)
+        if (mx < arr[i])
+            mx = arr[i];
+    return mx;
+}
+
+/**
+ * Find minimum value of the Array.
+ * @param {Number[]} arr Array or list
+ * @returns {Number} minimum value form array.
+ */
+ let min = (arr) => {
+    let mn = arr[0];
+    for(let i = 1; i < arr.length; i++)
+        if (mn > arr[i])
+            mn = arr[i];
+    return mn;
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -517,5 +543,7 @@ module.exports = {
     token,
     randomInt,
     remainder,
-    isFibonacci
+    isFibonacci,
+    max,
+    min
 }

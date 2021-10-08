@@ -215,7 +215,9 @@ let {
     token,
     randomInt,
     remainder,
-    isFibonacci
+    isFibonacci,
+    max,
+    min
 } = require('./src/math/math');
 
 // numbers systems.
@@ -493,6 +495,8 @@ module.exports = {
     randomInt,
     remainder,
     isFibonacci,
+    max,
+    min,
     // numbers system.
     hexToDec,
     hexToOct,
