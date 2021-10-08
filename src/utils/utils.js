@@ -315,6 +315,17 @@ let partition = (arr, low, high) => {
     return pIndex;
 }
 
+/**
+ * ext method return the file extention.
+ * @param {String} filename full filename with extention.
+ * @returns return only the extention value.
+ * @example mypicture.jpg => .jpg
+ */
+let ext = (filename) => {
+    let extList = filename.split('.');
+    return '.' + extList[extList.length - 1];
+}
+
 module.exports = {
     dateToDay,
     dobToAge,
@@ -328,5 +339,6 @@ module.exports = {
     checkSnakeCase,
     URLShortener,
     railwayTimeConversion,
-    sort
+    sort,
+    ext
 }
