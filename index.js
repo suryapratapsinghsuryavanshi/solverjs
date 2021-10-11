@@ -1,4 +1,4 @@
-// info function for giveing information about the methods.
+// info function for giving information about the methods.
 let info = () => {
     console.log("This package is a combination of many useful functions.");
     console.log({
@@ -118,23 +118,23 @@ let info = () => {
         "The kelToCel function convert kelvin to Celsius.": 'kelToCel(k)',
         "The kelToFah function convert kelvin to fahrenheit.": 'kelToFah(k)',
         // new meth's methods
-        "The isKishnamurthyNumber method are return true false acording to number. ": 'isKishnamurthyNumber(n)',
-        "The avg method are return the avarage of the given array ": 'avg([n1, n2, n3])',
-        "The mod method are return the mod value of the number. ": 'mod(+-n)',
-        "The wordCount method are return the word count of a string. ": 'wordCount(`this is word count.`, ` `)',
-        "The isLeap method are return ture false according to the year. ": 'isLeap(year)',
-        "The lcm method are return two numbers lcm. ": 'lcm(n1, n2)',
-        "The hcf method are return two numbers hcf/gcd. ": 'hcf(n1, n2)',
-        "The ascii method are return ascii value of a charector. ": 'ascii(`a`)',
-        "The reverse method are return reverse stirng. ": 'reverse(`abc`)',
-        "The isPalindrome is try to check the string isPalindrome or not ": 'isPalindrome(`aba`)',
-        "The permutation give all permutation array. ": 'permutation(`abc`)',
+        "The isKishnamurthyNumber method returns true false according to number. ": 'isKishnamurthyNumber(n)',
+        "The avg method returns the average of the given array ": 'avg([n1, n2, n3])',
+        "The mod method returns the mod value of the number. ": 'mod(+-n)',
+        "The wordCount method returns the word count of a string. ": 'wordCount(`this is word count.`, ` `)',
+        "The isLeap method returns true false according to the year. ": 'isLeap(year)',
+        "The lcm method returns two numbers lcm. ": 'lcm(n1, n2)',
+        "The hcf method returns two numbers hcf/gcd. ": 'hcf(n1, n2)',
+        "The ascii method returns ascii value of a character. ": 'ascii(`a`)',
+        "The reverse method returns reverse stirng. ": 'reverse(`abc`)',
+        "The isPalindrome tries to check if the given string is a palindrome": 'isPalindrome(`aba`)',
+        "The permutation gives all permutations of the given array. ": 'permutation(`abc`)',
         "The alternativeStringArrange method marge both stirng alternetive order.": 'alternativeStringArrange(`abc`)',
         "The phoneValidator method check the number area valid or not. ": 'phoneValidator(`+910011223344`)',
         "The phoneExtractor extarct number form string. ": 'phoneExtractor(`this is number +910011223344`)',
         "The isAlNum method check the stirn are alphanumeric or not. ": 'isAlNum(`55x`)',
         "The isAlpha method check the stirn are alpha or not. ": 'isAlNum(`abc`)',
-        "The numToAscii method are return number to ASCII value. ": 'numToAscii(97)',
+        "The numToAscii method returns number to ASCII value. ": 'numToAscii(97)',
         "The isDecimal method are check the the string is a valid decimal or not. ": 'isDecimal(`55`)',
         "The isLower method are check the all charector in lower case or not. ": 'isLower(`lower`)',
         "The isUpper methor are used to check the string is in upper case or not. ": 'isUpper(`upper`)',
@@ -144,7 +144,7 @@ let info = () => {
         "The dateToDay method return the week-day of this date.": 'dateToDay(`01/01/2000`)',
         "The dobToAge method return the time of year month and day.": 'dobToAge(`01/01/2000`)',
         "The keywordExtractor is used to find keyword in a string for use.": 'keywordExtractor(`This is String 0r not`)',
-        // matrix 
+        // matrix
         "The matAdd method are do addition of two same dimention matrix.": 'matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])',
         "The matSub method are do subtraction of two same dimention matrix.": 'matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])',
         "The matSpiralPrint print the matrix in spiral form.": 'matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]])'
