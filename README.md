@@ -1763,7 +1763,7 @@ The pbToTb method are take Petabyte value and return the Gigabyte value correspo
 ## Time Conversion
 
 Sometimes we work with time conversion, at that time we are very confused in calculating the time so we have created a very efficient way to do it.
-The SI base unit for time is the second. 1 second is equal to 1000000000 nanoseconds, or 3.1688738506811E-8 year.
+The SI base unit for time is the second. 1 second is equal to 1000000000 nanoseconds, or 3.1688738506811E-8 years.
 
 ### Times Units
 The Time units has many types but in this we see only some very frequently used.
@@ -1773,83 +1773,83 @@ The Time units has many types but in this we see only some very frequently used.
 
 #### Nanosecond to Microsecond => nsToUs(ns)
 
-The method convert nanosecond to Microsecond
+The method converts nanoseconds to Microseconds
 
-The nsToUs method are take nanosecond value and return corrospond microsecond value.
+The nsToUs method takes a time in nanoseconds and returns the corresponding amount of time in Microseconds.
 
     console.log(solverjs.nsToUs(1))
     // The output is : 0.001
 
-#### Nanosecond to Milisecond => nsToMs(ns)
+#### Nanosecond to Millisecond => nsToMs(ns)
 
-The method convert nanosecond to Milisecond
+The method converts nanoseconds to Milliseconds
 
-The nsToMs method are take nanosecond value and return corrospond milisecond value.
-  
-  
+The nsToMs method takes a time in nanoseconds and returns the corresponding amount of time in Milliseconds.
+
+
     console.log(solverjs.nsToMs(1))
     // The output is : 0.000001
 
 #### Nanosecond to Second => nsToSc(ns)
 
-The method convert nanosecond to second
+The method converts nanoseconds to seconds
 
-The nsToSc method are take nanosecond value and return corrospond second value.
-    
+The nsToSc method takes a time in nanoseconds and returns the corresponding amount of time in seconds.
+
     console.log(solverjs.nsToSc(1))
     // The output is : 1e-9
 
 #### Nanosecond to Minute => nsToMi(ns)
 
-The method convert nanosecond to minute
+The method converts nanoseconds to minutes
 
-The nsToMi method are take nanosecond value and return corrospond  minute value.
-   
+The nsToMi method takes a time in nanoseconds and returns the corresponding amount of time in minutes.
+
     console.log(solverjs.nsToMi(1))
     // The output is : 1.6666666666666667e-11
 
 #### Nanosecond to Hour => nsToHr(ns)
 
-The method convert nanosecond to hour
+The method converts nanoseconds to hours
 
-The nsToHr method are take nanosecond value and return corrospond  hour value.
+The nsToHr method takes a time in nanoseconds and returns the corresponding amount of time in hours.
 
-   
+
     console.log(solverjs.nsToHr(1))
     // The output is : 2.777777777777778e-13
 
 #### Nanosecond to Day => nsToDd(ns)
 
-The method convert nanosecond to day
+The method converts nanoseconds to days
 
-The nsToDd method are take nanosecond value and return corrospond day value.
+The nsToDd method takes a time in nanoseconds and returns the corresponding amount of time in days.
 
     console.log(solverjs.nsToDd(1))
     // The output is : 1.1574074074074074e-14
 
 #### Nanosecond to Week => nsToWk(ns)
 
-The method convert nanosecond to week
+The method converts nanoseconds to weeks
 
-The nsToWk method are take nanosecond value and return corrospond week value.
+The nsToWk method takes a time in nanoseconds and returns the corresponding amount of time in weeks.
 
     console.log(solverjs.nsToWk(1))
     // The output is : 1.6534391534391534e-15
 
 #### Nanosecond to Month => nsToMm(ns)
 
-The method convert nanosecond to month
+The method converts nanoseconds to months
 
-The nsToMm method are take nanosecond value and return corrospond month value.
+The nsToMm method takes a time in nanoseconds and returns the corresponding amount of time in months.
 
      console.log(solverjs.nsToMm(1))
     // The output is : 3.8051750380517503e-16
 
 #### Nanosecond to Year => nsToYy(ns)
 
-The method convert nanosecond to year
+The method converts nanoseconds to years
 
-The nsToYy method are take nanosecond value and return corrospond year value.
+The nsToYy method takes a time in nanoseconds and returns the corresponding amount of time in years.
 
 
     console.log(solverjs.nsToYy(1))
