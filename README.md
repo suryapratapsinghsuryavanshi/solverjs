@@ -1,25 +1,52 @@
+<div align="center">
+
 [![SolverJs Logo](https://localprofiler.ml/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
+</div>
 
+<div align="center">
+ 
+[![GitHub forks](https://img.shields.io/github/forks/suryapratapsinghsuryavanshi/solverjs.svg?style=social&label=Fork&maxAge=2592000)](https://https://github.com/suryapratapsinghsuryavanshi/solverjs//network/)
+[![GitHub stars](https://img.shields.io/github/stars/suryapratapsinghsuryavanshi/solverjs.svg?style=social&label=Star&maxAge=2592000)](https://https://github.com/suryapratapsinghsuryavanshi/solverjs//stargazers/)
+<br />
+ 
+[![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/suryapratapsinghsuryavanshi)
+[![Visits](https://komarev.com/ghpvc/?username=suryapratapsinghsuryavanshi&label=You%20Are%20Visitor%20No.&color=f20707&logo=github&style=flat-square)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
+![Lines of code](https://img.shields.io/tokei/lines/github/suryapratapsinghsuryavanshi/solverjs?color=red&label=Lines%20of%20Code)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+<br/>
 
-  [![NPM Version][npm-image]][npm-url]
-  [![NPM Downloads][downloads-image]][downloads-url]
-  [![Linux Build][travis-image]][travis-url]
-  [![Windows Build][appveyor-image]][appveyor-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
-  [![](https://tokei.rs/b1/github/suryapratapsinghsuryavanshi/solverjs)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
+[![Updated Badge](https://img.shields.io/github/last-commit/suryapratapsinghsuryavanshi/solverjs?label=Last%20Updated&style=flat)](https://github.com/suryapratapsinghsuryavanshi/solverjs/commits)
+[![Number of Contributors](https://img.shields.io/github/contributors/suryapratapsinghsuryavanshi/solverjs?style=flat&label=Contributors)](https://github.com/suryapratapsinghsuryavanshi/solverjs/graphs/contributors)
+[![Issues opened](https://img.shields.io/github/issues/suryapratapsinghsuryavanshi/solverjs?label=Issues)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
+[![Issues closed](https://img.shields.io/github/issues-closed/suryapratapsinghsuryavanshi/solverjs?label=Issues)](https://github.com/suryapratapsinghsuryavanshi/solverjs/issues)
+[![PRs open](https://img.shields.io/github/issues-pr/suryapratapsinghsuryavanshi/solverjs?label=Pull%20Requests)](https://github.com/suryapratapsinghsuryavanshi/solverjs/pulls)
+[![PRs closed](https://img.shields.io/github/issues-pr-closed/suryapratapsinghsuryavanshi/solverjs?label=Pull%20Requests)](https://github.com/suryapratapsinghsuryavanshi/solverjs/pulls)
+<br/>
+
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
+[![Linux Build][travis-image]][travis-url]
+[![Windows Build][appveyor-image]][appveyor-url]
+[![Test Coverage][coveralls-image]][coveralls-url]
   
 [npm-image]: https://img.shields.io/badge/npm-v3.26.13-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
-[downloads-image]: https://img.shields.io/badge/downloads-200%2FWeeks-green
+[downloads-image]: https://img.shields.io/badge/Downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
-[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
+[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=Linux
 [travis-url]: https://www.npmjs.com/package/solverjs
-[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows
+[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=Windows
 [appveyor-url]: https://www.npmjs.com/package/solverjs
-[coveralls-image]: https://img.shields.io/badge/coverage-2%25-yellow
+[coveralls-image]: https://img.shields.io/badge/Coverage-2%25-yellow
 [coveralls-url]: https://www.npmjs.com/package/solverjs
 
-#
+<br>
+
+![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-21-red)
+</div>
+
+# SolverJS
 
 With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
 SolverJS are a combination of many common mathematical and some very used logic solutions.
