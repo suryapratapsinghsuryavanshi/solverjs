@@ -40,11 +40,9 @@
 [appveyor-url]: https://www.npmjs.com/package/solverjs
 [coveralls-image]: https://img.shields.io/badge/Coverage-2%25-yellow
 [coveralls-url]: https://www.npmjs.com/package/solverjs
-
-<br>
-
-![Hacktoberfest](https://img.shields.io/badge/Hacktoberfest-21-red)
 </div>
+
+<br/>
 
 # SolverJS
 
