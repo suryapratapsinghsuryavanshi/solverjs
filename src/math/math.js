@@ -70,7 +70,8 @@ let sumAllDigit = (n) => {
  * @returns `Number` n reverse in reverse.
  */
 let reverseNumber = (n) => {
-    return parseInt(n.toString().split('').reverse().join(''))
+    let sign= n >= 0? 1:-1;
+    return sign * parseInt(n.toString().split('').reverse().join(''));
 }
 
 // isArmstrong return the boolean in respenct of the are armstorng or not.
