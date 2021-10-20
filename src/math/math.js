@@ -119,11 +119,12 @@ let fac = (n) => {
  */
 let pow = (x, y) => {
     let ans = 1;
-    if(y != 0){
+    while(y != 0){
         if(y%2 == 1){
             ans = ans*x;
         }
         y = y/2;
+        y = Number.parseInt(y);
         x = x*x;
     }
     return ans;
