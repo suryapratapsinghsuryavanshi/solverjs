@@ -119,7 +119,16 @@ let fac = (n) => {
  * @returns {Number} return the calculation of `x^y`.
  */
 let pow = (x, y) => {
-    return y == 0 ? 1 : x * pow(x, y-1);
+    let ans = 1;
+    while(y != 0){
+        if(y%2 == 1){
+            ans = ans*x;
+        }
+        y = y/2;
+        y = Number.parseInt(y);
+        x = x*x;
+    }
+    return ans;
 }
 
 // the len function return the length of number or string.
