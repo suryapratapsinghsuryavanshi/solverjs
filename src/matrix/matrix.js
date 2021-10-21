@@ -72,7 +72,7 @@ let matSpiralPrint = (mat1) => {
 
 // transpose of matrix
 let matTrans = (mat) => {
-    // make another same dimention matrix
+    // make another same dimension matrix
     let resultMat = new Array();
     
     for(let j = 0; j < mat[0].length; j++){
