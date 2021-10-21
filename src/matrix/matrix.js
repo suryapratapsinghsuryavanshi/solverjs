@@ -70,8 +70,29 @@ let matSpiralPrint = (mat1) => {
     return str;
 }
 
+// transpose of matrics
+let matTrans = (mat) => {
+    // make another smae dimention matrix
+    let resultMat = new Array();
+    
+    for(let j = 0; j < mat[0].length; j++){
+        // create a row for new transpose matrix.
+        let row = new Array();
+        for(let i = 0; i < mat.length; i++){
+            // push the column value into row.
+            row.push(mat[i][j]);
+        }
+        // push the row value for the result matrix.
+        resultMat.push(row);
+    }
+    // return result matrix.
+    return resultMat;
+}
+
+
 module.exports = {
     matAdd,
     matSub,
-    matSpiralPrint
+    matSpiralPrint,
+    matTrans
 }
