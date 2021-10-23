@@ -617,7 +617,7 @@ The length has many types but in this time we see only some very frequently used
     // The output is : 10000000
 
 ### Centimetre to Yard => cmToYd(cm)
-    // the cmToYd() function are take centimeter value and return there
+    // The cmToYd() function are take centimeter value and return there
     // yard value.
     console.log(solverjs.cmToYd(1));
     // The output is : 0.010936132983377079
