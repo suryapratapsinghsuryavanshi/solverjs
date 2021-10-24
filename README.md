@@ -91,7 +91,7 @@ Installation is done using the
 
 ## All Commonly used Functions
 ### info
-The info () function is used to print a concise summary of a all solverjs methods.
+The info () function is used to print a concise summary of all solverjs methods.
 
     // The info function are give the information about the solverjs methods.
     solverjs.info();
@@ -264,7 +264,7 @@ The isPalindrome check the given stirng is palindrome or not.
 
 ### permutation
 A permutation is an arrangement of objects in a definite order. The members or elements of sets are arranged here in a sequence or linear order.
-permutation function take one string  argument and return all combination of string.
+Permutation function take one string  argument and return all combination of string.
    
     console.log(solverjs.permutation('abc'));
     // The output is : [ 'abc', 'acb', 'bac', 'bca', 'cab', 'cba' ]
@@ -283,7 +283,7 @@ The phoneValidator takes number as argument and check the numebr is a valid or n
     // The output is : true
 
 ### phoneExtractor
-The phoneExtractor takes string as argument ,find the phone number in stirng and return phone number.
+The phoneExtractor takes string as argument, find the phone number in stirng and return phone number.
     
     console.log(solverjs.phoneExtractor('this is no. +910011223344'));
     // The output is : +910011223344
@@ -297,7 +297,7 @@ Alphanumericals are a combination of alphabetical and numerical characters, and 
     // The output is : true
 
 ### isAlpha
-The isAlpha method check the givne string alpha or not return boolean value.
+The isAlpha method check the given string alpha or not return boolean value.
     
     console.log(solverjs.isAlpha('55'));
     // The output is : false
@@ -316,13 +316,13 @@ If all characters are not decimal then it returns false.
     // The output is : true
 
 ### isLower 
-The isLower method are used for check the all charector in lower case form or not.
+The isLower method are used for check the all charactor in lower case form or not.
      
     console.log(solverjs.isLower('lower'));
     // The output is : true
 
 ### isUpper
-The isUpper method are used for check the all charector in upper case form or not.
+The isUpper method are used for check the all charactor in upper case form or not.
     
     console.log(solverjs.isUpper('UPPER'));
     // The output is : true
@@ -985,7 +985,7 @@ All popular types.
     // The output is : -459.66999999999996
 
 ## Area Conversion
-Area conversion is more used if you create a site to manage land and area. If you want to make your work easier then we have written some tools that you can use
+Area conversion is more used if you create a site to manage land and area. If you want to make your work easier then we have written some tools that you can use.
 
 ## Types Of Areas
 All popular types.
