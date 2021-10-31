@@ -173,7 +173,8 @@ let {
 let {
     matAdd,
     matSub,
-    matSpiralPrint
+    matSpiralPrint,
+    matTrans
 } = require('./src/matrix/matrix');
 
 // maths methods.
@@ -667,6 +668,7 @@ module.exports = {
     matAdd,
     matSub,
     matSpiralPrint,
+    matTrans,
     // digital storage methdos.
     // bit to all
     bitToByte,

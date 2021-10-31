@@ -25,12 +25,32 @@ let matUtil = (mat1, mat2, opr) => {
 }
 
 // Aditon => if the matrix are same dimention it posible to add them.
+/**
+ * Addition of two matrix is the result of adding the corresponding elements of two matrices.
+ * @param {Number[][]} mat1 A first matrix for addition.
+ * @param {Number[][]} mat2 A second matrix for addition.
+ * @returns {Number[][]} Addition of the matrix.
+ * @example matAdd([[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]) => [[2,4,6],[8,10,12]]
+ */
 let matAdd = (mat1, mat2) => matUtil(mat1, mat2, '+');
 
 // Subtraction => if the matrix are same dimention it posible to subtract them.
+/**
+ * Subtraction of two matrix is the result of subtracting the corresponding elements of two matrices.
+ * @param {Number[][]} mat1 A first matrix for subtraction.
+ * @param {Number[][]} mat2 A second matrix for subtraction.
+ * @returns {Number[][]} Subtraction of the matrix.
+ * @example matSub([[1,2,3],[4,5,6]],[[1,2,3],[4,5,6]]) => [[0,0,0],[0,0,0]]
+ */
 let matSub = (mat1, mat2) => matUtil(mat1, mat2, '-');
 
 // spiral print.
+/**
+ * The spiral print of a matrix is the order in which the elements are printed in a square matrix in a spiral order.
+ * @param {Number[][]} mat1 A matrix for spiral print.
+ * @returns {String} Spiral print of the matrix.
+ * @example matSpiralPrint([[1,2,3],[4,5,6],[7,8,9]]) => "1 2 3 6 9 8 7 4 5"
+ */
 let matSpiralPrint = (mat1) => {
     let T = 0;
     let B = mat1.length - 1;
@@ -71,6 +91,12 @@ let matSpiralPrint = (mat1) => {
 }
 
 // transpose of matrix
+/**
+ * The transpose of a matrix is the matrix that results from exchanging the rows and columns of the original matrix.
+ * @param {Number[][]} mat A matrix for transpose.
+ * @returns {Number[][]} Transpose of the matrix.
+ * @example matTrans([[1,2,3],[4,5,6]]) => [[1,4],[2,5],[3,6]]
+ */
 let matTrans = (mat) => {
     // make another same dimension matrix
     let resultMat = new Array();

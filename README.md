@@ -1370,6 +1370,8 @@ The ext method returns the extension of the given file name.
 Defined method.
 - matAdd
 - matSub
+- matSpiralPrint
+- matTrans
 
 #### Addition of the matrix => matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])
     // The matAdd() method are take two matrix and perform
@@ -1387,6 +1389,11 @@ Defined method.
     // The matSpiralPrint print the matrix in spiral form.
     console.log(solverjs.matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
     // The output is : [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+#### The transpose of a matrix is the matrix that results from exchanging the rows and columns of the original matrix.
+    // The matTrans transpose the matrix.
+    console.log(solverjs.matTrans([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
+    // The output is : [ [ 1, 4, 7 ], [ 2, 5, 8 ], [ 3, 6, 9 ] ]
 
 ## Digital Storage Conversion
 Digital storage conversion is very useful if you are working with some internal architecture tool or system configuration tools that provide lots of flexibility to work with memory size.
