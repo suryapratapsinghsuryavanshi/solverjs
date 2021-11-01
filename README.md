@@ -1373,24 +1373,32 @@ Defined method.
 - matSpiralPrint
 - matTrans
 
-#### Addition of the matrix => matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+#### Addition of the matrix
+matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+
     // The matAdd() method are take two matrix and perform
     // addition operation.
     console.log(solverjs.matAdd([[1, 2], [4, 5]], [[6, 7], [8, 9]]))
     // The output is : [ [ 7, 9 ], [ 12, 14 ] ]
 
-#### Subtraction of the matrix => matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+#### Subtraction of the matrix
+matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]])
+
     // The matSub method are take two matrix and perform
     // subtraction operation.
     console.log(solverjs.matSub([[1, 2], [4, 5]], [[6, 7], [8, 9]]))
     // The output is : [ [ -5, -5 ], [ -4, -4 ] ]
 
-#### Spiral print of a matrix => matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+#### Spiral print of a matrix
+matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+
     // The matSpiralPrint print the matrix in spiral form.
     console.log(solverjs.matSpiralPrint([[1, 2, 3], [4, 5, 6], [7, 8, 9]]))
     // The output is : [1, 2, 3, 6, 9, 8, 7, 4, 5]
 
-#### The transpose of a matrix is the matrix that results from exchanging the rows and columns of the original matrix.
+#### matTrans
+The transpose of a matrix is the matrix that results from exchanging the rows and columns of the original matrix.
+
     // The matTrans transpose the matrix.
     console.log(solverjs.matTrans([[1, 2, 3], [4, 5, 6], [7, 8, 9]]));
     // The output is : [ [ 1, 4, 7 ], [ 2, 5, 8 ], [ 3, 6, 9 ] ]
