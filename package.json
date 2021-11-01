@@ -1,6 +1,6 @@
 {
   "name": "solverjs",
-  "version": "3.27.13",
+  "version": "3.28.13",
   "description": "This package is a combination of many useful functions.",
   "main": "index.js",
   "scripts": {
