@@ -166,7 +166,8 @@ let {
     URLShortener,
     railwayTimeConversion,
     sort,
-    ext
+    ext,
+    title
 } = require('./src/utils/utils');
 
 // matrix 
@@ -745,6 +746,7 @@ module.exports = {
     railwayTimeConversion,
     sort,
     ext,
+    title,
     // matrix
     matAdd,
     matSub,

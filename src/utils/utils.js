@@ -326,6 +326,16 @@ let ext = (filename) => {
     return '.' + extList[extList.length - 1];
 }
 
+/**
+ * Convert the lower or upper case string to the title case string.
+ * @param {String} lower lower or upper case string
+ * @returns return title string
+ * @example title('name') => 'Name'
+ */
+let title = (lower) => {
+    return lower.substr(0, 1).toUpperCase() + lower.substr(1, lower.length).toLowerCase()
+}
+
 module.exports = {
     dateToDay,
     dobToAge,
@@ -340,5 +350,6 @@ module.exports = {
     URLShortener,
     railwayTimeConversion,
     sort,
-    ext
+    ext,
+    title
 }
