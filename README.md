@@ -2746,4 +2746,3 @@ The yyToMm method takes a time in year and returns the corresponding amount of t
     
     console.log(solverjs.yyToMm(1))
     // The output is: 12
-        
