@@ -2,7 +2,7 @@
 
 // nanosecond to micorsecond.
 let nsToUs = (ns) => ns / 1000;
-// nanosecond to milisecond.
+// nanosecond to millisecond.
 let nsToMs = (ns) => ns / 1e+6;
 // nanosecond to second.
 let nsToSc = (ns) => ns / 1e+9;
@@ -21,7 +21,7 @@ let nsToYy = (ns) => ns / 3.154e+16;
 
 // microsecond to nanosecond.
 let usToNs = (us) => us * 1000;
-// microsecond to milisecond.
+// microsecond to millisecond.
 let usToMs = (us) => us / 1000;
 // microsecond to second.
 let usToSc = (us) => us / 1e+6;
@@ -38,30 +38,30 @@ let usToMm = (us) => us / 2.628e+11;
 // microsecond to year.
 let usToYy = (us) => us / 3.154e+12;
 
-// milisecond to nanosecond.
+// millisecond to nanosecond.
 let msToNs = (ms) => ms * 1e+6;
-// milisecond to microsecond.
+// millisecond to microsecond.
 let msToUs = (ms) => ms * 1000;
-// milisecond to second.
+// millisecond to second.
 let msToSc = (ms) => ms / 1000;
-// milisecond to minute.
+// millisecond to minute.
 let msToMi = (ms) => ms / 6e+4;
-// milisecond to hour.
+// millisecond to hour.
 let msToHr = (ms) => ms / 3.6e+5;
-// milisecond to day.
+// millisecond to day.
 let msToDd = (ms) => ms / 8.64e+6;
-// milisecond to week.
+// millisecond to week.
 let msToWk = (ms) => ms / 6.048e+7;
-// milisecond to month.
+// millisecond to month.
 let msToMm = (ms) => ms / 2.628e+8;
-// milisecond to year.
+// millisecond to year.
 let msToYy = (ms) => ms / 3.154e+9;
 
 // second to nanosecond.
 let scToNs = (sc) => sc * 1e+9;
 // second to microsecond.
 let scToUs = (sc) => sc * 1e+6;
-// second to milisecond.
+// second to millisecond.
 let scToMs = (sc) => sc * 1000;
 // second to minute.
 let scToMi = (sc) => sc / 60;
@@ -80,7 +80,7 @@ let scToYy = (sc) => sc / 3.154e+7;
 let miToNs = (mi) => mi * 6e+10;
 // minute to microsecond.
 let miToUs = (mi) => mi * 6e+7;
-// minute to milisecond.
+// minute to millisecond.
 let miToMs = (mi) => mi * 6e+4;
 // minute to second.
 let miToSc = (mi) => mi * 60;
@@ -99,7 +99,7 @@ let miToYy = (mi) => mi / 525960;
 let hrToNs = (hr) => hr * 3.6e+12;
 // hour to microsecond.
 let hrToUs = (hr) => hr * 3.6e+9;
-// hour to milisecond.
+// hour to millisecond.
 let hrToMs = (hr) => hr * 3.6e+6;
 // hour to second.
 let hrToSc = (hr) => hr * 3600;
@@ -118,7 +118,7 @@ let hrToYy = (hr) => hr / 8766;
 let ddToNs = (dd) => dd * 8.64e+13;
 // day to microsecond.
 let ddToUs = (dd) => dd * 8.64e+10;
-// day to milisecond.
+// day to millisecond.
 let ddToMs = (dd) => dd * 8.64e+7;
 // day to second.
 let ddToSc = (dd) => dd * 86400;
@@ -137,7 +137,7 @@ let ddToYy = (dd) => dd / 365.2425;
 let wkToNs = (wk) => wk * 6.048e+14;
 // week to microsecond.
 let wkToUs = (wk) => wk * 6.048e+11;
-// week to milisecond.
+// week to millisecond.
 let wkToMs = (wk) => wk * 6.048e+8;
 // week to second.
 let wkToSc = (wk) => wk * 604800;
@@ -156,7 +156,7 @@ let wkToYy = (wk) => wk / 52.177457;
 let mmToNs = (mm) => mm * 2.628e+15;
 // month to microsecond.
 let mmToUs = (mm) => mm * 2.628e+12;
-// month to milisecond.
+// month to millisecond.
 let mmToMs = (mm) => mm * 2.628e+9;
 // month to second.
 let mmToSc = (mm) => mm * 2.628e+6;
@@ -175,7 +175,7 @@ let mmToYy = (mm) => mm / 12;
 let yyToNs = (yy) => yy * 3.154e+16;
 // year to microsecond.
 let yyToUs = (yy) => yy * 3.154e+13;
-// year to milisecond.
+// year to millisecond.
 let yyToMs = (yy) => yy * 3.154e+10;
 // year to second.
 let yyToSc = (yy) => yy * 3.154e+7;
