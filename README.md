@@ -1936,3 +1936,814 @@ The nsToYy method takes a time in nanoseconds and returns the corresponding amou
 
     console.log(solverjs.nsToYy(1))
     // The output is : 3.170577045022194e-17
+
+
+#### Microsecond to Nanosecond => usToNs(us)
+
+The method converts microsecond to nanosecond.
+
+The usToNs method takes a time in microsecond and returns the corresponding amount of time in nanosecond.
+
+    console.log(solverjs.usToNs(1))
+    // The output is: 1000
+
+
+#### Microsecond to Millisecond => usToMs(us)
+
+The method converts microsecond to millisecond.
+
+The usToMs method takes a time in microsecond and returns the corresponding amount of time in millisecond.
+
+    console.log(solverjs.usToMs(1))
+    // The output is: 0.001
+
+
+#### Microsecond to Second => usToSc(us)
+
+The method converts microsecond to second.
+
+The usToSc method takes a time in microsecond and returns the corresponding amount of time in second.
+
+    console.log(solverjs.usToSc(1))
+    // The output is: 1e-6
+
+
+#### Microsecond to Minute => usToMi(us)
+
+The method converts microsecond to minute.
+
+The usToMi method takes a time in microsecond and returns the corresponding amount of time in minute.
+
+    console.log(solverjs.usToMi(1))
+    // The output is: 1.6667e-8
+
+
+#### Microsecond to Hour => usToHr(us)
+
+The method converts microsecond to hour.
+
+The usToHr method takes a time in microsecond and returns the corresponding amount of time in hour.
+
+    console.log(solverjs.usToHr(1))
+    // The output is: 2.77783333e-10
+    
+
+#### Microsecond to Day => usToDd(us)
+
+The method converts microsecond to day.
+
+The usToDd method takes a time in microsecond and returns the corresponding amount of time in day.
+
+    console.log(solverjs.usToDd(1))
+    // The output is: 1.1574305541667e-11
+    
+
+#### Microsecond to Week => usToWk(us)
+
+The method converts microsecond to week.
+
+The usToWk method takes a time in microsecond and returns the corresponding amount of time in week.
+
+    console.log(solverjs.usToWk(1))
+    // The output is: 1.653472220238142845e-12
+    
+
+#### Microsecond to Month => usToMm(us)
+
+The method converts microsecond to month.
+
+The usToMm method takes a time in microsecond and returns the corresponding amount of time in month.
+
+    console.log(solverjs.usToMm(1))
+    // The output is: 3.805246966852749016e-13
+    
+
+#### Microsecond to Year => usToYy(us)
+
+The method converts microsecond to year.
+
+The usToYy method takes a time in microsecond and returns the corresponding amount of time in year.
+
+    console.log(solverjs.usToYy(1))
+    // The output is: 3.171042614155342523e-14
+
+
+#### Millisecond to Nanosecond => msToNs(ms)
+
+The method converts millisecond to nanosecond.
+
+The msToNs method takes a time in millisecond and returns the corresponding amount of time in nanosecond.
+
+    console.log(solverjs.msToNs(1))
+    // The output is: 1000019.9988000289304
+    
+
+#### Millisecond to Microsecond => msToUs(ms)
+
+The method converts millisecond to microsecond.
+
+The msToUs method takes a time in millisecond and returns the corresponding amount of time in microsecond.
+
+    console.log(solverjs.msToUs(1))
+    // The output is: 1000.0199988000290432
+    
+
+#### Millisecond to Second => msToSc(ms)
+
+The method converts millisecond to second.
+
+The msToSc method takes a time in millisecond and returns the corresponding amount of time in second.
+
+    console.log(solverjs.msToSc(1))
+    // The output is: 0.0010000199988000290068
+    
+
+#### Millisecond to Minute => msToMi(ms)
+
+The method converts millisecond to minute.
+
+The msToMi method takes a time in millisecond and returns the corresponding amount of time in minute.
+
+    console.log(solverjs.msToMi(1))
+    // The output is: 1.6666999980000483e-5
+    
+
+#### Millisecond to Hour => msToHr(ms)
+
+The method converts millisecond to hour.
+
+The msToHr method takes a time in millisecond and returns the corresponding amount of time in hour.
+
+    console.log(solverjs.msToHr(1))
+    // The output is: 2.77783333000008057e-7
+    
+
+#### Millisecond to Day => msToDd(ms)
+
+The method converts millisecond to day.
+
+The msToDd method takes a time in millisecond and returns the corresponding amount of time in day.
+
+    console.log(solverjs.msToDd(1))
+    // The output is: 1.157430554166700293e-8
+    
+
+#### Millisecond to Week => msToWk(ms)
+
+The method converts millisecond to week.
+
+The msToWk method takes a time in millisecond and returns the corresponding amount of time in week.
+
+    console.log(solverjs.msToWk(1))
+    // The output is: 1.6534e-9
+    
+
+#### Millisecond to Month => msToMm(ms)
+
+The method converts millisecond to month.
+
+The msToMm method takes a time in millisecond and returns the corresponding amount of time in month.
+
+    console.log(solverjs.msToMm(1))
+    // The output is: 3.80508076156e-10
+    
+
+#### Millisecond to Year => msToYy(ms)
+
+The method converts millisecond to year.
+
+The msToYy method takes a time in millisecond and returns the corresponding amount of time in year.
+
+    console.log(solverjs.msToYy(1))
+    // The output is: 3.170904109592933292e-11
+
+
+#### Second to Nanosecond => scToNs(sc)
+    
+The method converts second to nanosecond.
+    
+The scToNs method takes a time in second and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.scToNs(1))
+    // The output is: 1000000000
+        
+
+#### Second to Microsecond => scToUs(sc)
+    
+The method converts second to microsecond.
+    
+The scToUs method takes a time in second and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.scToUs(1))
+    // The output is: 1000000
+        
+
+#### Second to Millisecond => scToMs(sc)
+    
+The method converts second to millisecond.
+    
+The scToMs method takes a time in second and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.scToMs(1))
+    // The output is: 1000
+        
+
+#### Second to Minute => scToMi(sc)
+    
+The method converts second to minute.
+    
+The scToMi method takes a time in second and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.scToMi(1))
+    // The output is: 0.016666666666666666
+        
+
+#### Second to Hour => scToHr(sc)
+    
+The method converts second to hour.
+    
+The scToHr method takes a time in second and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.scToHr(1))
+    // The output is: 0.0002777777777777778
+        
+
+#### Second to Day => scToDd(sc)
+    
+The method converts second to day.
+    
+The scToDd method takes a time in second and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.scToDd(1))
+    // The output is: 0.000011574074074074073
+        
+
+#### Second to Week => scToWk(sc)
+    
+The method converts second to week.
+    
+The scToWk method takes a time in second and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.scToWk(1))
+    // The output is: 0.0000016534391534391535
+        
+
+#### Second to Month => scToMm(sc)
+    
+The method converts second to month.
+    
+The scToMm method takes a time in second and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.scToMm(1))
+    // The output is: 3.8051750380517503e-7
+        
+
+#### Second to Year => scToYy(sc)
+    
+The method converts second to year.
+    
+The scToYy method takes a time in second and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.scToYy(1))
+    // The output is: 3.170577045022194e-8
+        
+
+#### Minute to Nanosecond => miToNs(mi)
+    
+The method converts minute to nanosecond.
+    
+The miToNs method takes a time in minute and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.miToNs(1))
+    // The output is: 60000000000
+        
+
+#### Minute to Microsecond => miToUs(mi)
+    
+The method converts minute to microsecond.
+    
+The miToUs method takes a time in minute and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.miToUs(1))
+    // The output is: 60000000
+        
+
+#### Minute to Millisecond => miToMs(mi)
+    
+The method converts minute to millisecond.
+    
+The miToMs method takes a time in minute and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.miToMs(1))
+    // The output is: 60000
+        
+
+#### Minute to Second => miToSc(mi)
+    
+The method converts minute to second.
+    
+The miToSc method takes a time in minute and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.miToSc(1))
+    // The output is: 60
+        
+
+#### Minute to Hour => miToHr(mi)
+    
+The method converts minute to hour.
+    
+The miToHr method takes a time in minute and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.miToHr(1))
+    // The output is: 0.016666666666666666
+        
+
+#### Minute to Day => miToDd(mi)
+    
+The method converts minute to day.
+    
+The miToDd method takes a time in minute and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.miToDd(1))
+    // The output is: 0.0006944444444444445
+        
+
+#### Minute to Week => miToWk(mi)
+    
+The method converts minute to week.
+    
+The miToWk method takes a time in minute and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.miToWk(1))
+    // The output is: 0.0000992063492063492
+        
+
+#### Minute to Month => miToMm(mi)
+    
+The method converts minute to month.
+    
+The miToMm method takes a time in minute and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.miToMm(1))
+    // The output is: 0.000022831050228310503
+        
+
+#### Minute to Year => miToYy(mi)
+    
+The method converts minute to year.
+    
+The miToYy method takes a time in minute and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.miToYy(1))
+    // The output is: 0.000001901285268841737
+        
+
+#### Hour to Nanosecond => hrToNs(hr)
+    
+The method converts hour to nanosecond.
+    
+The hrToNs method takes a time in hour and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.hrToNs(1))
+    // The output is: 3600000000000
+        
+
+#### Hour to Microsecond => hrToUs(hr)
+    
+The method converts hour to microsecond.
+    
+The hrToUs method takes a time in hour and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.hrToUs(1))
+    // The output is: 3600000000
+        
+
+#### Hour to Millisecond => hrToMs(hr)
+    
+The method converts hour to millisecond.
+    
+The hrToMs method takes a time in hour and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.hrToMs(1))
+    // The output is: 3600000
+        
+
+#### Hour to Second => hrToSc(hr)
+    
+The method converts hour to second.
+    
+The hrToSc method takes a time in hour and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.hrToSc(1))
+    // The output is: 3600
+        
+
+#### Hour to Minute => hrToMi(hr)
+    
+The method converts hour to minute.
+    
+The hrToMi method takes a time in hour and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.hrToMi(1))
+    // The output is: 60
+        
+
+#### Hour to Day => hrToDd(hr)
+    
+The method converts hour to day.
+    
+The hrToDd method takes a time in hour and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.hrToDd(1))
+    // The output is: 0.041666666666666664
+        
+
+#### Hour to Week => hrToWk(hr)
+    
+The method converts hour to week.
+    
+The hrToWk method takes a time in hour and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.hrToWk(1))
+    // The output is: 0.005952380952380952
+        
+
+#### Hour to Month => hrToMm(hr)
+    
+The method converts hour to month.
+    
+The hrToMm method takes a time in hour and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.hrToMm(1))
+    // The output is: 0.0013698611371765245
+        
+
+#### Hour to Year => hrToYy(hr)
+    
+The method converts hour to year.
+    
+The hrToYy method takes a time in hour and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.hrToYy(1))
+    // The output is: 0.00011407711613050422
+        
+
+#### Day to Nanosecond => ddToNs(dd)
+    
+The method converts day to nanosecond.
+    
+The ddToNs method takes a time in day and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.ddToNs(1))
+    // The output is: 86400000000000
+        
+
+#### Day to Microsecond => ddToUs(dd)
+    
+The method converts day to microsecond.
+    
+The ddToUs method takes a time in day and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.ddToUs(1))
+    // The output is: 86400000000
+        
+
+#### Day to Millisecond => ddToMs(dd)
+    
+The method converts day to millisecond.
+    
+The ddToMs method takes a time in day and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.ddToMs(1))
+    // The output is: 86400000
+        
+
+#### Day to Second => ddToSc(dd)
+    
+The method converts day to second.
+    
+The ddToSc method takes a time in day and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.ddToSc(1))
+    // The output is: 86400
+        
+
+#### Day to Minute => ddToMi(dd)
+    
+The method converts day to minute.
+    
+The ddToMi method takes a time in day and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.ddToMi(1))
+    // The output is: 1440
+        
+
+#### Day to Hour => ddToHr(dd)
+    
+The method converts day to hour.
+    
+The ddToHr method takes a time in day and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.ddToHr(1))
+    // The output is: 24
+        
+
+#### Day to Week => ddToWk(dd)
+    
+The method converts day to week.
+    
+The ddToWk method takes a time in day and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.ddToWk(1))
+    // The output is: 0.14285714285714285
+        
+
+#### Day to Month => ddToMm(dd)
+    
+The method converts day to month.
+    
+The ddToMm method takes a time in day and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.ddToMm(1))
+    // The output is: 0.03285488408386209
+        
+
+#### Day to Year => ddToYy(dd)
+    
+The method converts day to year.
+    
+The ddToYy method takes a time in day and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.ddToYy(1))
+    // The output is: 0.002737907006988508
+        
+
+#### Week to Nanosecond => wkToNs(wk)
+    
+The method converts week to nanosecond.
+    
+The wkToNs method takes a time in week and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.wkToNs(1))
+    // The output is: 604800000000000
+        
+
+#### Week to Microsecond => wkToUs(wk)
+    
+The method converts week to microsecond.
+    
+The wkToUs method takes a time in week and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.wkToUs(1))
+    // The output is: 604800000000
+        
+
+#### Week to Millisecond => wkToMs(wk)
+    
+The method converts week to millisecond.
+    
+The wkToMs method takes a time in week and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.wkToMs(1))
+    // The output is: 604800000
+        
+
+#### Week to Second => wkToSc(wk)
+    
+The method converts week to second.
+    
+The wkToSc method takes a time in week and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.wkToSc(1))
+    // The output is: 604800
+        
+
+#### Week to Minute => wkToMi(wk)
+    
+The method converts week to minute.
+    
+The wkToMi method takes a time in week and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.wkToMi(1))
+    // The output is: 10080
+        
+
+#### Week to Hour => wkToHr(wk)
+    
+The method converts week to hour.
+    
+The wkToHr method takes a time in week and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.wkToHr(1))
+    // The output is: 168
+        
+
+#### Week to Day => wkToDd(wk)
+    
+The method converts week to day.
+    
+The wkToDd method takes a time in week and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.wkToDd(1))
+    // The output is: 7
+        
+
+#### Week to Month => wkToMm(wk)
+    
+The method converts week to month.
+    
+The wkToMm method takes a time in week and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.wkToMm(1))
+    // The output is: 0.22998418858703468
+        
+
+#### Week to Year => wkToYy(wk)
+    
+The method converts week to year.
+    
+The wkToYy method takes a time in week and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.wkToYy(1))
+    // The output is: 0.01916536484328855
+        
+
+#### Month to Nanosecond => mmToNs(mm)
+    
+The method converts month to nanosecond.
+    
+The mmToNs method takes a time in month and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.mmToNs(1))
+    // The output is: 2628000000000000
+        
+
+#### Month to Microsecond => mmToUs(mm)
+    
+The method converts month to microsecond.
+    
+The mmToUs method takes a time in month and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.mmToUs(1))
+    // The output is: 2628000000000
+        
+
+#### Month to Millisecond => mmToMs(mm)
+    
+The method converts month to millisecond.
+    
+The mmToMs method takes a time in month and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.mmToMs(1))
+    // The output is: 2628000000
+        
+
+#### Month to Second => mmToSc(mm)
+    
+The method converts month to second.
+    
+The mmToSc method takes a time in month and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.mmToSc(1))
+    // The output is: 2628000
+        
+
+#### Month to Minute => mmToMi(mm)
+    
+The method converts month to minute.
+    
+The mmToMi method takes a time in month and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.mmToMi(1))
+    // The output is: 43800
+        
+
+#### Month to Hour => mmToHr(mm)
+    
+The method converts month to hour.
+    
+The mmToHr method takes a time in month and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.mmToHr(1))
+    // The output is: 730.001
+        
+
+#### Month to Day => mmToDd(mm)
+    
+The method converts month to day.
+    
+The mmToDd method takes a time in month and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.mmToDd(1))
+    // The output is: 30.436875
+        
+
+#### Month to Week => mmToWk(mm)
+    
+The method converts month to week.
+    
+The mmToWk method takes a time in month and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.mmToWk(1))
+    // The output is: 4.348125
+        
+
+#### Month to Year => mmToYy(mm)
+    
+The method converts month to year.
+    
+The mmToYy method takes a time in month and returns the corresponding amount of time in year.
+    
+    console.log(solverjs.mmToYy(1))
+    // The output is: 0.08333333333333333
+        
+
+#### Year to Nanosecond => yyToNs(yy)
+    
+The method converts year to nanosecond.
+    
+The yyToNs method takes a time in year and returns the corresponding amount of time in nanosecond.
+    
+    console.log(solverjs.yyToNs(1))
+    // The output is: 31540000000000000
+        
+
+#### Year to Microsecond => yyToUs(yy)
+    
+The method converts year to microsecond.
+    
+The yyToUs method takes a time in year and returns the corresponding amount of time in microsecond.
+    
+    console.log(solverjs.yyToUs(1))
+    // The output is: 31540000000000
+        
+
+#### Year to Millisecond => yyToMs(yy)
+    
+The method converts year to millisecond.
+    
+The yyToMs method takes a time in year and returns the corresponding amount of time in millisecond.
+    
+    console.log(solverjs.yyToMs(1))
+    // The output is: 31540000000
+        
+
+#### Year to Second => yyToSc(yy)
+    
+The method converts year to second.
+    
+The yyToSc method takes a time in year and returns the corresponding amount of time in second.
+    
+    console.log(solverjs.yyToSc(1))
+    // The output is: 31540000
+        
+
+#### Year to Minute => yyToMi(yy)
+    
+The method converts year to minute.
+    
+The yyToMi method takes a time in year and returns the corresponding amount of time in minute.
+    
+    console.log(solverjs.yyToMi(1))
+    // The output is: 525960
+        
+
+#### Year to Hour => yyToHr(yy)
+    
+The method converts year to hour.
+    
+The yyToHr method takes a time in year and returns the corresponding amount of time in hour.
+    
+    console.log(solverjs.yyToHr(1))
+    // The output is: 8766
+        
+
+#### Year to Day => yyToDd(yy)
+    
+The method converts year to day.
+    
+The yyToDd method takes a time in year and returns the corresponding amount of time in day.
+    
+    console.log(solverjs.yyToDd(1))
+    // The output is: 365.2425
+        
+
+#### Year to Week => yyToWk(yy)
+    
+The method converts year to week.
+    
+The yyToWk method takes a time in year and returns the corresponding amount of time in week.
+    
+    console.log(solverjs.yyToWk(1))
+    // The output is: 52.177457
+        
+
+#### Year to Month => yyToMm(yy)
+    
+The method converts year to month.
+    
+The yyToMm method takes a time in year and returns the corresponding amount of time in month.
+    
+    console.log(solverjs.yyToMm(1))
+    // The output is: 12
+        
