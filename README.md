@@ -30,7 +30,7 @@
 [![Windows Build][appveyor-image]][appveyor-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
   
-[npm-image]: https://img.shields.io/badge/npm-v3.28.13-blue
+[npm-image]: https://img.shields.io/badge/npm-v3.29.13-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/Downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
