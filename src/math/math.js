@@ -441,7 +441,7 @@ let token = () => {
     while(true){
         let char = numToAscii(Math.floor(Math.random() * (126 - 64 + 1) + 64))
         if(token.length > 5) break;
-        if(char != ' ')
+        if(char != ' ' && char != '[' && char != ']' && char != '\\' && char != '/' && char != '{' && char != '}' && char != '(' && char != ')')
             token += char;
     }
     let total = 0;
@@ -454,7 +454,7 @@ let token = () => {
     while(true){
         let char = numToAscii(Math.floor(Math.random() * (126 - 64 + 1) + 64))
         if(token.length > 25) break;
-        if(char != ' ')
+        if(char != ' ' && char != '[' && char != ']' && char != '\\' && char != '/' && char != '{' && char != '}' && char != '(' && char != ')')
             token += char;
     }
     return token;
