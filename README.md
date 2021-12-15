@@ -347,7 +347,7 @@ The isSpace method returns True if all the characters in a string are whitespace
 The token method provides a unique token value for any kind of authentication in string format.
     
     console.log(solverjs.token());
-    // The output is : l\sF\h1402241vmEY@xkFziVNp (unique token)
+    // The output is : ~VYVHg1103007iThJRPqrxkEZQ (unique token)
 
 ### randomInt
 randomint function takes two argument as a range and generates a random integer between the given range.
