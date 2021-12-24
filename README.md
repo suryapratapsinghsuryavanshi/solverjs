@@ -1297,6 +1297,14 @@ Defined method.
     console.log(solverjs.dobToAge('01/01/2000'));
     // The output is : 21 years 5 months and 29 days
 
+#### Date Delta => dateDelta('Mmm dd, yyyy Hh:Mm:Ss')
+    // The timeDelta method is used for finding the 
+    // difference between the two dates, if the 
+    // difference is not valid the return false.
+    console.log(dateDelta("Dec 20, 2021 12:00:00", "Dec 25, 2021 12:00:00"))
+    // The output is : { days: 5, hours: 0, minutes: 0, seconds: 0 }
+    
+
 #### String To keyword => keywordExtractor(str)
     // The keywordExtractor() method is take stirng and
     // return the keyword array.

@@ -1,6 +1,6 @@
 {
   "name": "solverjs",
-  "version": "3.29.14",
+  "version": "3.30.14",
   "description": "This package is a combination of many useful functions.",
   "main": "index.js",
   "scripts": {
@@ -246,7 +246,8 @@
     "pbToKb",
     "pbToMb",
     "pbToGb",
-    "pbToTb"
+    "pbToTb",
+    "dateDelta"
   ],
   "author": "Suryapratap Singh Suryavanshi <suryprtaps@gmail.com> (https://github.com/suryapratapsinghsuryavanshi)",
   "license": "MIT",

@@ -167,7 +167,8 @@ let {
     railwayTimeConversion,
     sort,
     ext,
-    title
+    title,
+    dateDelta
 } = require('./src/utils/utils');
 
 // matrix 
@@ -747,6 +748,7 @@ module.exports = {
     sort,
     ext,
     title,
+    dateDelta,
     // matrix
     matAdd,
     matSub,

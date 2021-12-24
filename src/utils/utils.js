@@ -95,6 +95,36 @@ let dobToAge = (date) => {
     return `${letructYear} years ${letructMonth} months and ${letructDay} days`
 }
 
+// "Dec 21, 2021 20:00:00"
+/**
+ * The timeDelta method is used for finding the difference between the two 
+ * dates, if the difference is not valid the return false.
+ * @param {data1 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format} data1 
+ * @param {data2 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format} data2 
+ * @returns They return an object who contained days, hours, minutes, seconds delta values.
+ * @example dateDelta("Dec 20, 2021 12:00:00", "Dec 25, 2021 12:00:00") => 
+ * { days: 5, hours: 0, minutes: 0, seconds: 0 }
+ */
+const dateDelta = (data1, data2) => {
+    let countDownDate = new Date(data2).getTime();
+    let nowData = new Date(data1).getTime();
+
+    // date delta
+    let delta = countDownDate - nowData;
+
+    // change into day, hours, minutes, seconds
+    let days = Math.floor(delta / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((delta % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((delta % (1000 * 60 * 60)) / (1000 * 60));
+    let seconds = Math.floor((delta % (1000 * 60)) / 1000);
+
+    if(delta < 0) {
+        return false;
+    }
+
+    return { days, hours, minutes, seconds };
+}
+
 // find the word are contain numaric charector or not.
 /**
  * If the word are contain number return true, else return false.
@@ -351,5 +381,6 @@ module.exports = {
     railwayTimeConversion,
     sort,
     ext,
-    title
+    title,
+    dateDelta
 }
