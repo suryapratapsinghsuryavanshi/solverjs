@@ -220,7 +220,8 @@ let {
     remainder,
     isFibonacci,
     max,
-    min
+    min,
+    getPowerset
 } = require('./src/math/math');
 
 // numbers systems.
@@ -581,6 +582,7 @@ module.exports = {
     isFibonacci,
     max,
     min,
+    getPowerset,
     // numbers system.
     hexToDec,
     hexToOct,

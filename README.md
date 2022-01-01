@@ -30,7 +30,7 @@
 [![Windows Build][appveyor-image]][appveyor-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
   
-[npm-image]: https://img.shields.io/badge/npm-v3.30.15-blue
+[npm-image]: https://img.shields.io/badge/npm-v3.31.15-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/Downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -382,6 +382,12 @@ The min method returns the minimum value from the given array.
 
     console.log(solverjs.min([2, 5, 6, 3]));
     // The output is : 2
+
+### getPowerset
+In mathematics, the power set (or powerset) of a set S is the set of all subsets of S, including the empty set and S itself.
+
+    console.log(solverjs.getPowerset([1, 2, 3]));
+    // The output is : [[], [ 1 ], [ 2 ], [ 1, 2 ], [ 3 ], [ 1, 3 ], [ 2, 3 ], [ 1, 2, 3 ]]
 
 ## Number System Conversion
 We all know we have very frequently is number system conversion in programming, our number system conversion methods provide all type of conversion of the numbers systems.

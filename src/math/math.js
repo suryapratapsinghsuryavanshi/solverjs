@@ -433,7 +433,7 @@ let isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);
 
 // unique token generator, generate a unique token.
 /**
- * Fenerate a unique token, every time you run without any arguments.
+ * The token method generates and returns a unique token in string format, every time you run without any arguments.
  * @returns return a unique token every time to run.
  */
 let token = () => {
@@ -514,6 +514,24 @@ let max = (arr) => {
     return mn;
 }
 
+/**
+ * The getPowerset method calculates all subset of the given set and return it, also known as powerset.
+ * @param {Array} set A set array.
+ * @returns {Array[][]} `Powerset` Returns the powerset of the given set.
+ */
+function getPowerset(set) {
+    let subset = [[]];
+
+    for(let ele of set) {
+        let len = subset.length;
+        for(let i = 0; i < len; i++) {
+            subset.push([...subset[i], ele]);
+        }
+    }
+
+    return subset;
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -555,5 +573,6 @@ module.exports = {
     remainder,
     isFibonacci,
     max,
-    min
+    min,
+    getPowerset
 }
