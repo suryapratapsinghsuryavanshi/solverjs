@@ -124,7 +124,7 @@ The first few Fibonacci numbers are:
 ### sumAllDigit
 Function that takes a number and returns sum of the digit the given number.
 
-    console.log(solverjs.sumAllDighti(123));
+    console.log(solverjs.sumAllDigit(123));
     // The output is : 6
 
 ### reverseNumber
@@ -1775,14 +1775,14 @@ and returns the corresponding digital storage value converted to Megabytes.
     console.log(solverjs.tbToMb(1))
     // The output is : 1000000
 
-#### Terabyte to Gigabyte => tbToTb(TB)
+#### Terabyte to Gigabyte => tbToGb(TB)
 
 1 TB=1000 GB
 
-The tbToTb method takes a digital storage value in Terabytes   
+The tbToGb method takes a digital storage value in Terabytes   
 and returns the corresponding digital storage value converted to Gigabytes.
 
-    console.log(solverjs.tbToTb(1))
+    console.log(solverjs.tbToGb(1))
     // The output is : 1000
 
 #### Terabyte to Petabyte => tbToPb(TB)
