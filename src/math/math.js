@@ -532,6 +532,19 @@ function getPowerset(set) {
     return subset;
 }
 
+
+/**
+ * 
+ * @param {number} originalCost Gross Price
+ * @param {number} gst gst percentage
+ * @returns {object} {netCost: Total_production_cost, tex: Tex}
+ */
+const getGST = (originalCost, gst) => {
+    const tex = (originalCost * gst) / 100;
+    const totalProductionCost = originalCost + tex;
+    return {netCost: totalProductionCost, tex: tex};
+}
+
 // export maths methods.
 module.exports = {
     getFib,
@@ -574,5 +587,6 @@ module.exports = {
     isFibonacci,
     max,
     min,
-    getPowerset
+    getPowerset,
+    getGST
 }

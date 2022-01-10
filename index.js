@@ -221,7 +221,8 @@ let {
     isFibonacci,
     max,
     min,
-    getPowerset
+    getPowerset,
+    getGST
 } = require('./src/math/math');
 
 // numbers systems.
@@ -583,6 +584,7 @@ module.exports = {
     max,
     min,
     getPowerset,
+    getGST,
     // numbers system.
     hexToDec,
     hexToOct,
