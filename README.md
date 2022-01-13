@@ -91,7 +91,7 @@ Installation is done using the
 
 ## All Commonly used Functions
 ### info
-The info () function is used to print a concise summary of a all solverjs methods.
+The info() function is used to print a concise summary of all SolverJs methods.
 
     // The info function are give the information about the solverjs methods.
     solverjs.info();
