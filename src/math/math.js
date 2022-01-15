@@ -271,6 +271,16 @@ let reverse = (str) => {
     return str.toString().split('').reverse().join('');
 }
 
+/**
+ * The capitalize method converts any string in capitalize form for also known as title case form.
+ * @param {String} str 
+ * @returns return capitalize string.
+ * @example capitalize('javascript') => 'Javascript'
+ */
+let capitalize = (str) => {
+    return str[0].toUpperCase() + str.slice(1).toLowerCase();
+}
+
 // Palindrome - A palindrome is a word, number, phrase, or other sequence 
 //of characters which reads the same backward as forward
 // check string or numebr is palindrome or not.
@@ -568,6 +578,7 @@ module.exports = {
     hcf, 
     ascii, 
     reverse, 
+    capitalize,
     isPalindrome, 
     permutation,
     alternativeStringArrange,

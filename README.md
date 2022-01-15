@@ -249,6 +249,13 @@ ascii method is returning equivalent numeric ascii value for the given character
     console.log(solverjs.ascii('A'));
     // The output is : 65
 
+### capitalize
+The capitalize method converts any string in capitalize form for also known as title case form.
+
+    // Converts any string to Title case string.
+    console.log(solverjs.capitalize('javascript'));
+    // The output is : Javascript
+
 ### reverse
  The method reverse the given string.
      
