@@ -256,6 +256,13 @@ The capitalize method converts any string in capitalize form for also known as t
     console.log(solverjs.capitalize('javascript'));
     // The output is : Javascript
 
+### count
+Return count of the substring in the string.
+    
+    // Return substring count.
+    console.log(solverjs.count('This is a string.', 'is'));
+    // The output is : 2
+
 ### reverse
  The method reverse the given string.
      

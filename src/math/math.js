@@ -281,6 +281,21 @@ let capitalize = (str) => {
     return str[0].toUpperCase() + str.slice(1).toLowerCase();
 }
 
+/**
+ * Return count of the substring in the string.
+ * @param {String} str input string.
+ * @param {String} seq input character or substring.
+ * @returns substring count.
+ */
+let count = (str, seq) => {
+    if(seq === '.') {
+        return str.match(/\./g).length;
+    }
+    let re = new RegExp(seq, 'g');
+    let match = str.match(re)
+    return match.length;
+}
+
 // Palindrome - A palindrome is a word, number, phrase, or other sequence 
 //of characters which reads the same backward as forward
 // check string or numebr is palindrome or not.
@@ -579,6 +594,7 @@ module.exports = {
     ascii, 
     reverse, 
     capitalize,
+    count,
     isPalindrome, 
     permutation,
     alternativeStringArrange,
