@@ -105,7 +105,7 @@ let sumOfN = (n) => {
 let fac = (n) => {
     if (n < 2) return 1;
     let product = BigInt(n);
-    for (let i = BigInt(n); i > 1; i--){
+    for (let i = BigInt(n - 1); i > 1; i--){
         product *= i;
     }
     return product;
