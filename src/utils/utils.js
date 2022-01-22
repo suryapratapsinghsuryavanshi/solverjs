@@ -99,8 +99,8 @@ let dobToAge = (date) => {
 /**
  * The timeDelta method is used for finding the difference between the two 
  * dates, if the difference is not valid the return false.
- * @param {data1 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format} data1 
- * @param {data2 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format} data2 
+ * @param {String} data1 data1 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format
+ * @param {String} data2 data2 are previous data in "Mmm dd, yyyy Hh:Mm:Ss" format
  * @returns They return an object who contained days, hours, minutes, seconds delta values.
  * @example dateDelta("Dec 20, 2021 12:00:00", "Dec 25, 2021 12:00:00") => 
  * { days: 5, hours: 0, minutes: 0, seconds: 0 }
