@@ -8,6 +8,7 @@ lerna-debug.log*
 
 # testing
 main.js
+main.ts
 
 #beta
 # /src/utils/utils.js
