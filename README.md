@@ -30,7 +30,7 @@
 [![Windows Build][appveyor-image]][appveyor-url]
 [![Test Coverage][coveralls-image]][coveralls-url]
   
-[npm-image]: https://img.shields.io/badge/npm-v3.32.1-blue
+[npm-image]: https://img.shields.io/badge/npm-v4.0.0-blue
 [npm-url]: https://www.npmjs.com/package/solverjs
 [downloads-image]: https://img.shields.io/badge/Downloads-200%2FWeeks-green
 [downloads-url]: https://www.npmjs.com/package/solverjs
@@ -81,13 +81,27 @@ Installation is done using the
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/suryapratapsinghsuryavanshi/solverjs)&nbsp;
 
-## Usage In NodeJs
-    // Load the full solverjs.
-    var solverjs = require('solverjs');
-    // The getFib return the n'th fibonacci number.
-    var ans = solverjs.getFib(8);
-    // The 8'th fibonacci number is 8.
-    // Output should be : 21
+## Usage In NodeJs | JavaScript
+```javascript
+// Load the full solverjs.
+var solverjs = require('solverjs');
+// The getFib return the n'th fibonacci number.
+var ans = solverjs.getFib(8);
+console.log(ans);
+// The 8'th fibonacci number is 21.
+// Output should be : 21
+```
+
+## Usage In NodeJs | TypeScript
+```typescript
+// Load the full solverjs.
+import * as solverjs from 'solverjs';
+// The getFib return the n'th fibonacci number.
+let ans: number = solverjs.getFib(8);
+console.log(ans);
+// The 8'th fibonacci number is 21.
+// Output should be : 21
+```
 
 ## All Commonly used Functions
 ### info
