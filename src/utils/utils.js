@@ -312,7 +312,7 @@ let railwayTimeConversion = (timeString) => {
 /**
  * Sort the list of values, partition in place method O(nlogn).
  * @param {Number[]} arr list of values.
- * @param {Boolean} reverse if the reverse value is true the sort in ascending order else descending.
+ * @param {Boolean = true} reverse if the reverse value is true the sort in ascending order else descending, default is true.
  * @returns {Number[]} sorted list of values.
  */
 let sort = (arr, reverse = true) => {
