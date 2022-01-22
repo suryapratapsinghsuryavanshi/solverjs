@@ -19,8 +19,6 @@ let getGcd = (arg1, arg2) => {
  * @param {Number} arg_n n'th natural number
  * @returns return a `n'th fibonacci` number.
  */
-
-
 let getFib = (arg_n) => {
     if(arg_n == 0 || arg_n == 1) return arg_n;
     let [a, b] = [0, 1];
@@ -545,7 +543,7 @@ let max = (arr) => {
  * @returns {Array[][]} `Powerset` Returns the powerset of the given set.
  */
 function getPowerset(set) {
-    let subset = [[]];
+    let subset = new Array(new Array());
 
     for(let ele of set) {
         let len = subset.length;
