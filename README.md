@@ -2,44 +2,24 @@
 
 [![SolverJs Logo](https://localprofiler.tk/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
 </div>
-
 <div align="center">
- 
+
 [![GitHub forks](https://img.shields.io/github/forks/suryapratapsinghsuryavanshi/solverjs.svg?style=social&label=Fork&maxAge=2592000)](https://https://github.com/suryapratapsinghsuryavanshi/solverjs//network/)
 [![GitHub stars](https://img.shields.io/github/stars/suryapratapsinghsuryavanshi/solverjs.svg?style=social&label=Star&maxAge=2592000)](https://https://github.com/suryapratapsinghsuryavanshi/solverjs//stargazers/)
-<br />
- 
-[![Welcome to my profile](https://img.shields.io/badge/Hello,Programmer!-Welcome-blue.svg?style=flat&logo=github)](https://github.com/suryapratapsinghsuryavanshi)
-[![Visits](https://komarev.com/ghpvc/?username=suryapratapsinghsuryavanshi&label=You%20Are%20Visitor%20No.&color=f20707&logo=github&style=flat-square)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
+<br>
+
+[![npm version](https://badge.fury.io/js/solverjs.svg)](https://badge.fury.io/js/solverjs)
+[![install size](https://packagephobia.com/badge?p=solverjs)](https://packagephobia.com/result?p=solverjs)
 ![Lines of code](https://img.shields.io/tokei/lines/github/suryapratapsinghsuryavanshi/solverjs?color=red&label=Lines%20of%20Code)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Number of Contributors](https://img.shields.io/github/contributors/suryapratapsinghsuryavanshi/solverjs?style=flat&label=Contributors)](https://github.com/suryapratapsinghsuryavanshi/solverjs/graphs/contributors)
 <br/>
 
-[![Updated Badge](https://img.shields.io/github/last-commit/suryapratapsinghsuryavanshi/solverjs?label=Last%20Updated&style=flat)](https://github.com/suryapratapsinghsuryavanshi/solverjs/commits)
-[![Number of Contributors](https://img.shields.io/github/contributors/suryapratapsinghsuryavanshi/solverjs?style=flat&label=Contributors)](https://github.com/suryapratapsinghsuryavanshi/solverjs/graphs/contributors)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
 [![Issues opened](https://img.shields.io/github/issues/suryapratapsinghsuryavanshi/solverjs?label=Issues)](https://github.com/suryapratapsinghsuryavanshi/solverjs)
-[![Issues closed](https://img.shields.io/github/issues-closed/suryapratapsinghsuryavanshi/solverjs?label=Issues)](https://github.com/suryapratapsinghsuryavanshi/solverjs/issues)
 [![PRs open](https://img.shields.io/github/issues-pr/suryapratapsinghsuryavanshi/solverjs?label=Pull%20Requests)](https://github.com/suryapratapsinghsuryavanshi/solverjs/pulls)
 [![PRs closed](https://img.shields.io/github/issues-pr-closed/suryapratapsinghsuryavanshi/solverjs?label=Pull%20Requests)](https://github.com/suryapratapsinghsuryavanshi/solverjs/pulls)
 <br/>
-
-[![NPM Version][npm-image]][npm-url]
-[![NPM Downloads][downloads-image]][downloads-url]
-[![Linux Build][travis-image]][travis-url]
-[![Windows Build][appveyor-image]][appveyor-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
-  
-[npm-image]: https://img.shields.io/badge/npm-v4.0.0-blue
-[npm-url]: https://www.npmjs.com/package/solverjs
-[downloads-image]: https://img.shields.io/badge/Downloads-200%2FWeeks-green
-[downloads-url]: https://www.npmjs.com/package/solverjs
-[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=Linux
-[travis-url]: https://www.npmjs.com/package/solverjs
-[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=Windows
-[appveyor-url]: https://www.npmjs.com/package/solverjs
-[coveralls-image]: https://img.shields.io/badge/Coverage-2%25-yellow
-[coveralls-url]: https://www.npmjs.com/package/solverjs
 </div>
 
 <br/>
