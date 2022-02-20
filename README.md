@@ -26,16 +26,15 @@
 
 # SolverJS
 
-With web application all the time we face many problems to implement some logic, but in logic, we want some common mathematical applications like GCD, sum of all digits and this makes our implementation more complex hence If you want all these common math problems solved, then you can use solverjs.
-SolverJS are a combination of many common mathematical and some very used logic solutions.
+With web applications, all the time we face many problems in implementing logical solutions, or logic makes our codebase too long or unmanaged because mathematical formulas take up huge space in your codebase, so you can use this package Including general mathematical solutions and difficult mathematical solutions. In it, we have also put all the functions that JavaScript does not provide but other languages ​​provide so that you can reduce your development time and increase your productivity.
 
 ## ☯ What's New
-Finally, jsDelivr CDN is available so you can now use the SolverJs in your non-npm project and we use 'let' over the 'const' so you freely use SolverJs package within an old codebase also.
+Finally, SolverJS is compatible with CommonJs, TypeScript as well as CDNs.
 
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/).
+[npm registry](https://www.npmjs.com/solverjs).
 
 Before installing, [download and install Node.js](https://nodejs.org/en/download/).
 Node.js 4.2.4 or higher is required.
@@ -47,13 +46,14 @@ Installation is done using the
 [`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
 
 ### Using npm:
-    npm i solverjs
+    npm install solverjs
 
 ### Using yarn:
     yarn add solverjs
 
-### Using jsDelivr CDN
+### Using CDN
 [SolverJS jsDelivr CDN](https://www.jsdelivr.com/package/npm/solverjs)
+
 
 ## Contributing
 
@@ -61,7 +61,7 @@ Installation is done using the
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/suryapratapsinghsuryavanshi/solverjs)&nbsp;
 
-## Usage In NodeJs | JavaScript
+## Usage In JavaScript(CommonJs)
 ```javascript
 // Load the full solverjs.
 var solverjs = require('solverjs');
@@ -72,7 +72,7 @@ console.log(ans);
 // Output should be : 21
 ```
 
-## Usage In NodeJs | TypeScript
+## Usage In TypeScript
 ```typescript
 // Load the full solverjs.
 import * as solverjs from 'solverjs';
