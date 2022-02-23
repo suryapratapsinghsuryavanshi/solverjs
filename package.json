@@ -258,5 +258,7 @@
   "homepage": "https://github.com/suryapratapsinghsuryavanshi/solverjs#readme",
   "engines": {
     "node": ">=4.2.4"
-  }
+  },
+  "types": "./index.d.ts",
+  "module": "./index.js"
 }
