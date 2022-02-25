@@ -51,9 +51,11 @@ Installation is done using the
 ### Using yarn:
     yarn add solverjs
 
-### Using CDN
+### Using CDN:
 [SolverJS jsDelivr CDN](https://www.jsdelivr.com/package/npm/solverjs)
 
+### Using Skypack:
+[SolverJS Skypack CDN](https://www.skypack.dev/view/solverjs)
 
 ## Contributing
 
@@ -81,6 +83,18 @@ let ans: number = solverjs.getFib(8);
 console.log(ans);
 // The 8'th fibonacci number is 21.
 // Output should be : 21
+```
+
+## Usage In Deno with [Skypack](https://www.skypack.dev/)
+```js
+import solverjs from 'https://cdn.skypack.dev/solverjs?dts';
+```
+
+## Usage In Browser with [Skypack](https://www.skypack.dev/)
+```js
+<script type="module">
+  import solverjs from 'https://cdn.skypack.dev/solverjs?min';
+</script>
 ```
 
 ## All Commonly used Functions
