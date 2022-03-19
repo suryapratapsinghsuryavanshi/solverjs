@@ -375,7 +375,13 @@ The token method provides a unique token value for any kind of authentication in
 randomint function takes two argument as a range and generates a random integer between the given range.
     
     console.log(solverjs.randomInt(5, 9));
-    // The output is : 7
+    // The output is : any random value (6)
+
+### randomChoice
+Returns a 'random' value that will be presented in the given array.
+    
+    console.log(solverjs.randomChoice([1, 2, 3, 4, 5]));
+    // The Output : any random value (1)
 
 ### remainder
 remainder returns the remainder of a number divided by another number. 

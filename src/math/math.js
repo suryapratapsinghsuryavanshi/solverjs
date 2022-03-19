@@ -484,12 +484,19 @@ let token = () => {
 }
 
 /**
- * 
+ * Return a `random` value between min to max provided, both are inclusive.
  * @param {Number} min a minimum range
  * @param {Number} max a maximum range
- * @returns Return a `random` value between min to max provided, both are inclusive.
+ * @returns Return a `random` value.
  */
 let randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+
+/**
+ * Returns a 'random' value that will be presented in the given array.
+ * @param {Number[] | String[] | Boolean[]} arr 
+ * @returns Return a `random` array value, if the array is not valid, return 0.
+ */
+let randomChoice = (arr) => arr.length >= 1 ? arr[randomInt(0, arr.length - 1)] : 0;
 
 /**
  * Use to find the remainder or modulo division.
@@ -608,6 +615,7 @@ module.exports = {
     isTitle,
     token,
     randomInt,
+    randomChoice,
     remainder,
     isFibonacci,
     max,

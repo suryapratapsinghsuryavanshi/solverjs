@@ -312,12 +312,20 @@ export function token(): string;
 
 
  /**
-  *
+  * Return a `random` value between min to max provided, both are inclusive.
   * @param {Number} min a minimum range
   * @param {Number} max a maximum range
   * @returns return `random` value between min to max.
   */
 export function randomInt(min: number, max: number): number;
+
+
+/**
+ * Returns a 'random' value that will be presented in the given array.
+ * @param {Number[] | String[] | Boolean[]} arr 
+ * @returns Return a `random` array value, if the array is not valid, return 0.
+ */
+export function randomChoice(arr: number[] | string[] | boolean[]): string | number | boolean;
 
 
  /**
