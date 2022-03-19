@@ -487,7 +487,7 @@ let token = () => {
  * 
  * @param {Number} min a minimum range
  * @param {Number} max a maximum range
- * @returns return `random` vlaue between min to max.
+ * @returns Return a `random` value between min to max provided, both are inclusive.
  */
 let randomInt = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
