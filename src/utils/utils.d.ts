@@ -7,7 +7,7 @@ export function dateToDay(date: string): string;
 
 
  /**
-  * Take a date string and return a string withe year, month day vlaues.
+  * Take a date string and return a string withe year, month day values.
   * @param {String} date date string
   * @returns {String} a string with formte.
   */

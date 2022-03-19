@@ -10,7 +10,7 @@ export function getFib(arg_n: number): number;
   * getGcd return the gcd of two numbers.
   * @param {Number} arg1 first argument for gcd
   * @param {Number} arg2 second argument for gcd
-  * @returns return a `gcd` vlaue of both number.
+  * @returns return a `gcd` value of both number.
   */
 export function getGcd(arg1: number, arg2: number): number;
 
@@ -100,7 +100,7 @@ export function isCoPrime(x: number, y: number): boolean;
  /**
   * krishnamurthy number is a number the sum of the all fectorial of the all dights is equal to the number itself.
   * @param {Number} n a number for ching is krishnamurthy number or not.
-  * @returns return correspond boolean vlaue, if the number is krishnamurthy number return `true` else return `false`.
+  * @returns return correspond boolean value, if the number is krishnamurthy number return `true` else return `false`.
   * @example 145 => 1! + 4! + 5! = 1  + 24 + 120 = 145
   */
 export function isKishnamurthyNumber(n: number): boolean;
@@ -126,7 +126,7 @@ export function mod(n: number): number;
 
  /**
   * Count the number of work with the help of separetor.
-  * @param {String} str a string vlaue or paragraph.
+  * @param {String} str a string value or paragraph.
   * @param {String} separetor a value for separation.
   * @returns return a work count with the help of separetor.
   * @example workCount('This is normal string', ' ') => 4
@@ -137,7 +137,7 @@ export function wordCount(str: string, separetor: string): number;
  /**
   * A leap year is a calendar year that contains an additional day check the given year leap year or not.
   * @param {Number} year value for check leap year.
-  * @returns return boolean vlaue, if the year is leep-year return `true`, else `false`.
+  * @returns return boolean value, if the year is leep-year return `true`, else `false`.
   */
 export function isLeap(year: number): boolean;
 
@@ -171,7 +171,7 @@ export function ascii(ch: string | CharacterData): number;
 
  /**
   * Reverse the given string.
-  * @param {String} str a string vlaue.
+  * @param {String} str a string value.
   * @returns return the reverse of the given string.
   * @example reverse('ABC') => 'CBA'
   */
@@ -215,7 +215,7 @@ export function permutation(str: string): string[];
 
  /**
   * alternative string arrangement.
-  * @param {String} st1 first string vlaue
+  * @param {String} st1 first string value
   * @param {String} st2 second string value.
   * @returns return a `alternative arranged string`.
   * @example alternativeStringArrange('ABCD', 'XY') => 'AXBYCD'
@@ -298,7 +298,7 @@ export function isSpace(str: string): boolean;
 
  /**
   * This method is used for check the given string is in title form or not.
-  * @param {String} str string vlaue for checking.
+  * @param {String} str string value for checking.
   * @returns return true, if given string in title case, else return false.
   */
 export function isTitle(str: string): boolean;
@@ -315,7 +315,7 @@ export function token(): string;
   *
   * @param {Number} min a minimum range
   * @param {Number} max a maximum range
-  * @returns return `random` vlaue between min to max.
+  * @returns return `random` value between min to max.
   */
 export function randomInt(min: number, max: number): number;
 

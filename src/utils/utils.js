@@ -61,7 +61,7 @@ let dateToDay = (date) => {
 // date formate : dd/mm/yyyy
 // dobToAge() : 1/1/2015 -> calculat the age is on current : 6 years 5 months 24 days
 /**
- * Take a date string and return a string withe year, month day vlaues.
+ * Take a date string and return a string withe year, month day values.
  * @param {String} date date string
  * @returns {String} a string with formte.
  */

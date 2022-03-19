@@ -10,7 +10,7 @@ let matUtil = (mat1, mat2, opr) => {
         // create a row for every new row.
         let row = new Array();
         for(let j = 0; j < mat2[0].length; j++){
-            // push the column vlaue from it.
+            // push the column value from it.
             if(opr == '+'){
                 row.push(mat1[i][j] + mat2[i][j]);
             }else if(opr == '-'){

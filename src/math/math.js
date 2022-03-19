@@ -3,7 +3,7 @@
  * getGcd return the gcd of two numbers.
  * @param {Number} arg1 first argument for gcd
  * @param {Number} arg2 second argument for gcd
- * @returns return a `gcd` vlaue of both number.
+ * @returns return a `gcd` value of both number.
  */
 let getGcd = (arg1, arg2) => {
     let less = arg1 > arg2 ? arg2 : arg1;
@@ -170,7 +170,7 @@ let isCoPrime = (x, y) => {
 /**
  * krishnamurthy number is a number the sum of the all fectorial of the all dights is equal to the number itself.
  * @param {Number} n a number for ching is krishnamurthy number or not.
- * @returns return correspond boolean vlaue, if the number is krishnamurthy number return `true` else return `false`.
+ * @returns return correspond boolean value, if the number is krishnamurthy number return `true` else return `false`.
  * @example 145 => 1! + 4! + 5! = 1  + 24 + 120 = 145
  */
 let isKishnamurthyNumber = (n) => {
@@ -210,7 +210,7 @@ let mod = (n) => {
 /**
  * A leap year is a calendar year that contains an additional day check the given year leap year or not.
  * @param {Number} year value for check leap year.
- * @returns return boolean vlaue, if the year is leep-year return `true`, else `false`.
+ * @returns return boolean value, if the year is leep-year return `true`, else `false`.
  */
 let isLeap = (year) => {
     if(year % 400 == 0) return true;
@@ -261,7 +261,7 @@ let numToAscii = (num) => String.fromCharCode(num);
 // Reverse - read backword
 /**
  * Reverse the given string.
- * @param {String} str a string vlaue.
+ * @param {String} str a string value.
  * @returns return the reverse of the given string.
  * @example reverse('ABC') => 'CBA'
  */
@@ -310,7 +310,7 @@ let isPalindrome = (str) => {
 // Word count
 /**
  * Count the number of work with the help of separetor.
- * @param {String} str a string vlaue or paragraph.
+ * @param {String} str a string value or paragraph.
  * @param {String} separetor a value for separation.
  * @returns return a work count with the help of separetor.
  * @example workCount('This is normal string', ' ') => 4
@@ -346,7 +346,7 @@ let permutation = (str) => {
 // alternative string arrangement.
 /**
  * alternative string arrangement.
- * @param {String} st1 first string vlaue
+ * @param {String} st1 first string value
  * @param {String} st2 second string value.
  * @returns return a `alternative arranged string`.
  * @example alternativeStringArrange('ABCD', 'XY') => 'AXBYCD'
@@ -449,7 +449,7 @@ let isSpace = (str) => /^(\s+)$/.test(str);
 // this method is used for the given string is in title form or not.
 /**
  * This method is used for check the given string is in title form or not.
- * @param {String} str string vlaue for checking.
+ * @param {String} str string value for checking.
  * @returns return true, if given string in title case, else return false.
  */
 let isTitle = (str) => /^([A-Z][a-z]+)$/.test(str);

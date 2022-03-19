@@ -10,7 +10,7 @@ let fahToCel = (f) => (f - 32) * 5/9;
 // the fahToKel function are convert the fahrenheit value to kelvin.
 let fahToKel = (f) => (f - 32) * 5/9 +  273.15;
 
-// the kelToCel function are convert the kelvin vlaue to celsius.
+// the kelToCel function are convert the kelvin value to celsius.
 let kelToCel = (k) => (k - 273.15);
 
 // the kelToFah function are convert the kelvin value to fahrenheit.
