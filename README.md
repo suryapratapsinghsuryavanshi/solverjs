@@ -1,6 +1,6 @@
 <div align="center">
 
-[![SolverJs Logo](https://localprofiler.tk/uploads/file_1622214512395.png)](https://www.npmjs.com/package/solverjs/)
+[![SolverJs Logo](./assets/logo.svg)](https://www.npmjs.com/package/solverjs/)
 </div>
 <div align="center">
 

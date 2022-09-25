@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="296" height="79" viewBox="0 0 296 79">
+  <defs>
+    <clipPath id="clip-logo2">
+      <rect width="296" height="79"/>
+    </clipPath>
+  </defs>
+  <g id="logo2" clip-path="url(#clip-logo2)">
+    <text id="SolverJs" transform="translate(0 64)" fill="#3a3a3a" font-size="71" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="0">Solver</tspan><tspan y="0" fill="#009688">Js</tspan></text>
+  </g>
+</svg>
