@@ -368,6 +368,22 @@ let title = (lower) => {
     return lower.substr(0, 1).toUpperCase() + lower.substr(1, lower.length).toLowerCase()
 }
 
+ /**
+  * email validator.
+  * @param {String} email lower or upper case string
+  * @returns return true if the email is a correct email else return false
+  * @example emailValidator('xyz@abc.com') => true
+  */
+let emailValidator = (email) => {
+    let emailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+    if(email.match(emailformat)){
+        return true
+    }else{
+        return false
+    }
+} 
+
 module.exports = {
     dateToDay,
     dobToAge,
@@ -384,5 +400,6 @@ module.exports = {
     sort,
     ext,
     title,
-    dateDelta
+    dateDelta,
+    emailValidator
 }
