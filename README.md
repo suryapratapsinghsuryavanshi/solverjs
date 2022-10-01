@@ -191,7 +191,7 @@ Prime numbers are the positive integers having only two factors, 1 and the integ
 A Co-prime number is a set of numbers or integers which have only 1 as their common factor i.e.
 their highest common factor (HCF) will be 1.
 
-    // The isCoPrime function are return the boolean value
+    // The isCoPrime function are return the true/false
     // acording the both number are co-prime or not.
     console.log(solverjs.isCoPrime(13, 34));
     // The output is : true
@@ -199,7 +199,7 @@ their highest common factor (HCF) will be 1.
 ### isKishnamurthyNumber
 A Krishnamurthy number is a number whose sum of the factorial of digits is equal to the number itself. 
 For example 145, sum of factorial of each digits: 1! + 4! + 5! = 1 + 24 + 120 = 145
-isKishnamurthyNumbrer is a boolean function that take number as agrument and return boolean value.
+isKishnamurthyNumbrer is a boolean function that take number as agrument and return true/false.
 
     console.log(solverjs.isKishnamurthyNumber(145));
     // The output is : true
@@ -227,7 +227,7 @@ This method relies on the number of words present in the input string to count t
 
 ### isLeap
 A leap year is a year with 366 days instead of 365; every 4 years in February one extra day is added.
-The isLeap year check the given year is leap or not and return boolean value.
+The isLeap year check the given year is leap or not and return true/false.
  
     console.log(solverjs.isLeap(2021));
     // The output is : false
@@ -299,7 +299,7 @@ The alternativeStringArrange takes two string argument alternative merge  the ch
     // Time Complexity O(n)
 
 ### phoneValidator 
-The phoneValidator takes number as argument and check the numebr is a valid or not , return boolean value.
+The phoneValidator takes number as argument and check the numebr is a valid or not , return true/false.
 
     console.log(solverjs.phoneValidator('+910011223344'));
     // The output is : true
@@ -394,7 +394,7 @@ remember second number can't be 0,function  returns an error as you cannot divid
 
 ### isFibonacci
 The Fibonacci numbers form a sequence such that each number is the sum of the two preceding numbers, starting from 0 and 1.
-isFibonacci is a boolean function that take one number as argument , checks the number is a fibonacci number or not  and return boolean value;
+isFibonacci is a boolean function that take one number as argument , checks the number is a fibonacci number or not  and return true/false;
     
     console.log(solverjs.isFibonacci(5));
     // The output is : true
@@ -1324,6 +1324,7 @@ Defined method.
 - railwayTimeConversion
 - sort
 - ext
+- Percentage
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1410,6 +1411,10 @@ The ext method returns the extension of the given file name.
 
     console.log(solverjs.ext("mypic.jpg"));
     // The output is : .jpg
+###Percentage
+Through this function you can see your percentage
+    console.log(solverjs.percentage(TakeMarks,OutOff));
+    //The output is : N%
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
