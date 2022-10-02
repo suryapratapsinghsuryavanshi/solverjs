@@ -137,3 +137,11 @@ export function dateDelta(data1: string, data2: string): false | {
     minutes: number;
     seconds: number;
 };
+
+ /**
+  * email validator.
+  * @param {String} email lower or upper case string
+  * @returns return true if the email is a correct email else return false
+  * @example emailValidator('xyz@abc.com') => true
+  */
+  export function emailValidator(email: string): boolean;
