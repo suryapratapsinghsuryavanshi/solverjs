@@ -168,7 +168,8 @@ let {
     sort,
     ext,
     title,
-    dateDelta
+    dateDelta,
+    emailValidator
 } = require('./src/utils/utils');
 
 // matrix 
@@ -759,6 +760,7 @@ module.exports = {
     ext,
     title,
     dateDelta,
+    emailValidator,
     // matrix
     matAdd,
     matSub,

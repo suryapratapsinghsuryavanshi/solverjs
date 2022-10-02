@@ -375,7 +375,7 @@ let title = (lower) => {
   * @example emailValidator('xyz@abc.com') => true
   */
 let emailValidator = (email) => {
-    let emailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let emailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if(email.match(emailformat)){
         return true
