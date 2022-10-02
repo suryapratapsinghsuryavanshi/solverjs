@@ -169,7 +169,8 @@ let {
     ext,
     title,
     dateDelta,
-    emailValidator
+    emailValidator,
+    strongPasswordGenerator
 } = require('./src/utils/utils');
 
 // matrix 
@@ -761,6 +762,7 @@ module.exports = {
     title,
     dateDelta,
     emailValidator,
+    strongPasswordGenerator,
     // matrix
     matAdd,
     matSub,

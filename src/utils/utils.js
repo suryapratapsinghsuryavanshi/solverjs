@@ -382,6 +382,26 @@ let emailValidator = (email) => {
     }else{
         return false
     }
+}
+
+ /**
+  * strong password generator.
+  * @param {Number} length 
+  * @returns returns the strong passeword based on the length given
+  * @example strongPasswordGenerator(12) => 2!$ytv6UJxZ7
+  */
+  let strongPasswordGenerator = (length) => {
+    let characters = '0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+
+    let password = '';
+
+    for(let i = 0;i<length;i++){
+        let randomNumber = Math.floor(Math.random() * characters.length);
+
+        password += characters.substring(randomNumber, randomNumber +1);
+    }
+
+    return password
 } 
 
 module.exports = {
@@ -401,5 +421,6 @@ module.exports = {
     ext,
     title,
     dateDelta,
-    emailValidator
+    emailValidator,
+    strongPasswordGenerator
 }
