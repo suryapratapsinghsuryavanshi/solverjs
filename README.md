@@ -1324,6 +1324,8 @@ Defined method.
 - railwayTimeConversion
 - sort
 - ext
+- emailValidator
+- strongPasswordGenerator
 
 #### Date to Week-day => dateToDay('dd/mm/yyyy')
     // The dateToDay method takes a string date and returns the 
@@ -1410,6 +1412,16 @@ The ext method returns the extension of the given file name.
 
     console.log(solverjs.ext("mypic.jpg"));
     // The output is : .jpg
+
+#### Check Whether the string is an valid email or not => emailValidator
+    // emailValidator function check whether the string passed is a valid email or not and return boolean values accordingly.
+    console.log(solverjs.emailValidator("myemail@gmail.com"));
+    // The output is : true
+
+#### strongPasswordGenerator
+    // strongPasswordGenerator function return a strong password of the length that is being passed.
+    console.log(solverjs.strongPasswordGenerator(12));
+    // The output is : 2!$ytv6UJxZ7
 
 ## Matrix Operations
     // The matrix mathod are highly optimized.
