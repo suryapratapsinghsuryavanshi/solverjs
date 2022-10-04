@@ -145,3 +145,11 @@ export function dateDelta(data1: string, data2: string): false | {
   * @example emailValidator('xyz@abc.com') => true
   */
   export function emailValidator(email: string): boolean;
+
+  /**
+  * strong password generator.
+  * @param {Number} length 
+  * @returns returns the strong password based on the length given
+  * @example strongPasswordGenerator(12) => 2!$ytv6UJxZ7
+  */
+   export function strongPasswordGenerator(length: number): string;
